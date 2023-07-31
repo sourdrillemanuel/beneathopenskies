@@ -2,10 +2,9 @@
 layout: post
 title: "Along the Atlantic Coast"
 date: 2023-07-30 22:25:23 +0200
-permalink: "/:categories/along-the-atlantic-coast.html"
-categories: bikepacking-northern-spain
-
-article_collection: "Bikepacking Northern Spain"
+permalink: "along-the-atlantic-coast.html"
+link_collection: bikepacking-northern-spain
+active_collection: "Bikepacking Northern Spain"
 article: "1"
 day_start: "1"
 day_end: "7"
