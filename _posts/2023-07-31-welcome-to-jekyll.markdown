@@ -4,27 +4,21 @@ title: "Along the Atlantic Coast"
 date: 2023-07-30 22:25:23 +0200
 permalink: "/:categories/along-the-atlantic-coast.html"
 categories: bikepacking-northern-spain
+
+article_collection: "Bikepacking Northern Spain"
+article: "1"
+day_start: "1"
+day_end: "7"
+intro: "In 2020, I had done several short bikepacking trips. But in March 2021, I left home with a longer bikepacking trip in mind. And so, during 3 months, I explored Northern Spain, from it easternmost to its westernmost point. I discovered an outstanding variety of landscapes. It was always mountainous, often tough, but never boring."
+statistics_duration: "7 days"
+statistics_distance: "350 km"
+statistics_ascent: "920 m"
+statistics_surface: "24% unpaved"
+statistics_highest_elevation: "40 m"
+statistics_lowest_elevation: "0 m"
+highlights_1_title: "Bourgneuf-en-Retz's marsh"
+highlights_1_description: "Bourgneuf-en-Retz is located in the Marais breton, a lowland area of marshes and salterns, dotted with lovely fishing villages and farms."
+highlights_2_title: "Pine forests between La Barre-de-Mont and La Tranche-sur-Mer"
+highlights_2_description: "The Marais breton is protected by sand dunes and pines forest on the coast. The voie verte often goes through them. There are perfect for wild camping but be aware that it might be illegal."
+img_map: /assets/img/collection-01_article-01_map.jpg
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
-
-Jekyll requires blog post files to be named according to the following format:
-
-`YEAR-MONTH-DAY-title.MARKUP`
-
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
-
-Jekyll also offers powerful support for code snippets:
-
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
