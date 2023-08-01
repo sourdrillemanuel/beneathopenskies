@@ -3,7 +3,7 @@ layout: post
 title: "Along the Atlantic Coast"
 date: 2023-07-30 22:25:23 +0200
 permalink: "along-the-atlantic-coast.html"
-link_collection: bikepacking-northern-spain
+link_collection: bikepacking-northern-spain.html
 active_collection: "Bikepacking Northern Spain"
 article: "1"
 day_start: "1"
