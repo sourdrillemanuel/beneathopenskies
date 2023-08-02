@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Along the Atlantic Coast"
-date: 2023-07-30 22:25:23 +0200
+date: 2021-03-22 12:00:00 +0200
 permalink: "along-the-atlantic-coast.html"
 link_collection: bikepacking-northern-spain.html
 active_collection: "Bikepacking Northern Spain"
@@ -19,6 +19,7 @@ highlights_1_title: "Bourgneuf-en-Retz's marsh"
 highlights_1_description: "Bourgneuf-en-Retz is located in the Marais breton, a lowland area of marshes and salterns, dotted with lovely fishing villages and farms."
 highlights_2_title: "Pine forests between La Barre-de-Mont and La Tranche-sur-Mer"
 highlights_2_description: "The Marais breton is protected by sand dunes and pines forest on the coast. The voie verte often goes through them. There are perfect for wild camping but be aware that it might be illegal."
+img_thumbnail: /assets/img/collection-02_article-01_thumbnail.jpg
 img_map: /assets/img/collection-01_article-01_map.jpg
-bg_img: "article-002"
+img_bg: "article-2021-03-22"
 ---

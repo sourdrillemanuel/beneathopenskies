@@ -1,0 +1,20 @@
+<section class="flex justify-center s-mt-64 m-mt-96 l-mt-128">
+    <div class="container grid s-px-16 m-px-24 l-px-0 border-b gray-32">
+        <div class="s-col-span-6 m-col-span-12 l-col-span-12 s-py-8 l-py-16">
+            <p class="text-lg gray-96">Articles <span class="badge relative s-top--16 text-xs font-semibold bg-primary-88 gray-16">1</span></p>
+        </div>
+    </div>
+</section>
+<section class="flex justify-center s-mt-16 m-mt-24 l-mt-32">
+    <div class="container grid s-px-16 m-px-24 l-px-0">
+        {% for post in site.posts %}
+            {% if post.active_collection == "Bikepacking Northern Spain" %}
+            <a href="{{post.url}}" class="card s-col-span-3 m-col-span-4 l-col-span-3 s-mt-16 m-mt-24 l-mt-0">
+                <img class="rounded" src="{{post.img_thumbnail}}">
+                <p class="s-mt-8 m-mt-12 l-mt-16 text-sm text-center font-semibold gray-72">Article {{post.article}}</p>
+                <h4 class="s-mt-8 m-mt-12 l-mt-16 text-lg text-center font-medium gray-96">{{ post.title }}</h4>
+            </a>
+            {% endif %}
+        {% endfor %}
+    </div>
+</section>
