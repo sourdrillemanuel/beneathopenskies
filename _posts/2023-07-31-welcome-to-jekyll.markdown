@@ -20,4 +20,5 @@ highlights_1_description: "Bourgneuf-en-Retz is located in the Marais breton, a 
 highlights_2_title: "Pine forests between La Barre-de-Mont and La Tranche-sur-Mer"
 highlights_2_description: "The Marais breton is protected by sand dunes and pines forest on the coast. The voie verte often goes through them. There are perfect for wild camping but be aware that it might be illegal."
 img_map: /assets/img/collection-01_article-01_map.jpg
+bg_img: "article-002"
 ---

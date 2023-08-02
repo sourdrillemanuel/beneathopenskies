@@ -1,6 +1,16 @@
 <!doctype html>
 <html lang="en">
-    {% include head.html %}
+    <head>
+        <meta charset="utf-8">
+        <title>{{ page.title }} - {{ site.title }}</title>
+        <link rel="stylesheet" href="{{ "/styles/main.css" | relative_url }}">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,600;1,400;1,600&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+        <link href="/styles/flickity.css" rel="stylesheet">
+        <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    </head>
     <body class="bg-gray-12">
         <ul class="grid s-p-12 m-p-16 l-p-24 border-b gray-32">
             <li class="s-col-span-3 m-col-span-3 l-col-span-4 text-sm font-semibold gray-96">Manu's Travel</li>
@@ -10,6 +20,168 @@
                 </ul>
             </li>
         </ul>
+
+        <!-- HEADER -->
+        
+        <header class="flex justify-center s-mt-96 m-mt-128 l-mt-192">
+            <div class="container grid s-px-16 m-px-24 l-px-0">
+                <div class="flex flex-col s-col-span-6 m-col-span-12 l-col-span-12">
+                    <img class="self-center w-96px" src="assets/img/portrait.png">
+                    <h1 class="s-mt-8 m-mt-12 l-mt-16 text-3xl text-center primary-88">I write stories about <span class="italic">bikepacking</span> trips to lesser-known regions since<sup class="text-xl italic">‘19</sup></h1>
+                </div>
+            </div>
+        </header>
+        
+        <!-- COLLECTIONS -->
+        
+        <div class="carousel s-mt-64 m-mt-96 l-mt-192 s-px-16 m-px-24 l-px-32" data-flickity='{ "freeScroll": true, "prevNextButtons": false, "cellAlign": "left", "pageDots": false }'>
+            <a href="#" id="collection-01" class="card carousel-cell flex s-mr-16 m-mr-24 l-mr-32 items-center justify-center card rounded">
+                <div class="flex flex-col items-center">
+                    <ul class="flex gap-8">
+                        <li class="tag text-xs font-semibold gray-96">Europe</li>
+                        <li class="tag text-xs font-semibold gray-96">Africa</li>
+                    </ul>
+                    <h2 class="s-mt-16 s-px-16 m-px-24 l-px-32 text-2xl text-center primary-88">Bikepacking toward the Sahara</h2>
+                    <p class="s-mt-16 s-px-16 m-px-24 l-px-32 text-sm text-center text-center font-semibold gray-96">20 articles</p>
+                </div>
+            </a>
+            <a href="bikepacking-northern-spain.html" id="collection-02" class="carousel-cell flex items-center justify-center card rounded">
+                <div class="flex flex-col items-center">
+                    <ul class="flex gap-8">
+                        <li class="tag text-xs font-semibold gray-96">Europe</li>
+                    </ul>
+                    <h2 class="s-mt-16 s-px-16 m-px-24 l-px-32 text-center text-2xl primary-88">Bikepacking in Northern Spain</h2>
+                    <p class="s-mt-16 s-px-16 m-px-24 l-px-32 text-center text-sm text-center font-semibold gray-96">13 articles</p>
+                </div>
+            </a>
+        </div>
         {% include footer.html %}
     </body>
 </html>
+<script>
+    
+    var $imagesCarousel = jQuery('.carouselOfImages').flickity({
+      /* options, defaults listed */
+
+      accessibility: false,
+      /* enable keyboard navigation, pressing left & right keys */
+
+      autoPlay: false,
+      pauseAutoPlayOnHover: false,
+      /* advances to the next cell
+      if true, default is 3 seconds
+      or set time between advances in milliseconds
+      i.e. `autoPlay: 1000` will advance every 1 second */
+
+      cellAlign: 'center',
+      /* alignment of cells, 'center', 'left', or 'right'
+      or a decimal 0-1, 0 is beginning (left) of container, 1 is end (right) */
+
+      // cellSelector: '.topic-switcher__item',
+      /* specify selector for cell elements */
+
+      contain: false,
+      /* will contain cells to container
+      so no excess scroll at beginning or end
+      has no effect if wrapAround is enabled */
+
+      draggable: true,
+      /* enables dragging & flickin
+      freeScroll: false,
+      enables content to be freely scrolled and flicked
+      without aligning cells */
+
+      friction: 0.2,
+      /* smaller number = easier to flick farther */
+
+      initialIndex: 0,
+      /* zero-based index of the initial selected cell */
+
+      lazyLoad: false,
+      /* enable lazy-loading images
+      set img data-flickity-lazyload="src.jpg"
+      set to number to load images adjacent cells */
+
+      percentPosition: true,
+      /* sets positioning in percent values, rather than pixels
+      Enable if items have percent widths
+      Disable if items have pixel widths, like images */
+
+      prevNextButtons: false,
+      /* creates and enables buttons to click to previous & next cells */
+
+      pageDots: false,
+      /* create and enable page dots */
+
+      resize: true,
+      /* listens to window resize events to adjust size & positions */
+
+      rightToLeft: false,
+      /* enables right-to-left layout */
+
+      setGallerySize: true,
+      /* sets the height of gallery
+      disable if gallery already has height set with CSS */
+
+      watchCSS: false,
+      /* watches the content of :after of the element
+      activates if #element:after { content: 'flickity' }
+      IE8 and Android 2.3 do not support watching :after
+      set watch: 'fallbackOn' to enable for these browsers */
+
+      wrapAround: true
+        /* at end of cells, wraps-around to first for infinite scrolling */
+    });
+
+    function resizeCells() {
+      var flkty = $imagesCarousel.data('flickity');
+      var $current = flkty.selectedIndex;
+      var $length = flkty.cells.length;
+      var $imageNumLimit = 5;
+      if ($length < $imageNumLimit) {
+        $imagesCarousel.flickity('destroy');
+      }
+      jQuery('.carouselOfImages .carouselImage').removeClass("nextToSelectedLeft");
+      jQuery('.carouselOfImages .carouselImage').removeClass("nextToSelectedRight");
+      jQuery('.carouselOfImages .carouselImage').removeClass("nextToSelectedLeft2");
+      jQuery('.carouselOfImages .carouselImage').removeClass("nextToSelectedRight2");
+      jQuery('.carouselOfImages .carouselImage').eq($current - 1).addClass("nextToSelectedLeft");
+      jQuery('.carouselOfImages .carouselImage').eq($current - 2).addClass("nextToSelectedLeft2");
+      var $endCell;
+      if ($current + 1 == $length) {
+        $endCell = "0";
+      } else {
+        $endCell = $current + 1;
+      }
+      jQuery('.carouselOfImages .carouselImage').eq($endCell).addClass("nextToSelectedRight");
+      if($endCell + 1 < $imageNumLimit){
+        jQuery('.carouselOfImages .carouselImage').eq($endCell + 1).addClass("nextToSelectedRight2"); 
+      } else {
+        jQuery('.carouselOfImages .carouselImage').eq(0).addClass("nextToSelectedRight2");
+      }
+    }
+    resizeCells();
+
+    $imagesCarousel.on('scroll.flickity', function() {
+      resizeCells();
+    });
+
+
+    //HOVER FUNCTIONS
+    $('.carouselImage').bind("mouseover", function(){
+      if (this.className === 'carouselImage nextToSelectedLeft') {
+        $imagesCarousel.flickity('playLeftSlowPlayer');
+      } else if (this.className === 'carouselImage nextToSelectedLeft2') {
+        $imagesCarousel.flickity('playLeftFastPlayer');
+      } else if (this.className === 'carouselImage nextToSelectedRight') {
+        $imagesCarousel.flickity('playRightSlowPlayer');
+      } else if (this.className === 'carouselImage nextToSelectedRight2') {
+        $imagesCarousel.flickity('playRightFastPlayer');
+      }
+    });
+
+    $('.carouselImage').bind("mouseout", function(){
+      $imagesCarousel.flickity('pausePlayer');
+    });
+    
+</script>
