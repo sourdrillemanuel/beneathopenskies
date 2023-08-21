@@ -10,7 +10,11 @@
                 {% include highlights.html %}
             </div>
         </section>
-        {% include article-story-2021-03-22.html %}
+        {% if page.permalink == "along-the-atlantic-coast.html" %}
+            {% include article-story-2021-03-22.html %}
+        {% elsif page.permalink == "riding-along-canals.html" %}
+            {% include article-story-2021-03-31.html %}
+        {% endif %}
         {% include footer.html %}
     </body>
 </html>
