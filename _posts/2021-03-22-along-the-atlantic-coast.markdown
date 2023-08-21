@@ -4,7 +4,7 @@ title: "Along the Atlantic Coast"
 date: 2021-03-22 12:00:00 +0200
 permalink: "along-the-atlantic-coast.html"
 
-link_collection: bikepacking-northern-spain.html
+link_collection: /beneathopenskies/bikepacking-northern-spain.html
 active_collection: "Bikepacking Northern Spain"
 article: "1"
 day_start: "1"
