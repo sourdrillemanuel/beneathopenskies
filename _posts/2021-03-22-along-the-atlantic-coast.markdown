@@ -23,18 +23,18 @@ highlights_1_description: "Nestled between land and sea, the Bay of Bourgneuf is
 highlights_2_title: "Sandy dunes and pine forests"
 highlights_2_description: "Despite being urbanized, while cycling along the EV1 between La-Barre-de-Monts and La-Faute-sur-Mer, you'll come across beautiful patches of sandy dunes and pine forests. Moreover, you'll be treated to the gentle and constant embrace of the ocean breeze."
 
-img_thumbnail: /assets/img/col_northern-spain_article-2021-03-22_thumbnail.jpg
-img_map: /assets/img/col_northern-spain_article-2021-03-22_map.jpg
+img_thumbnail: /beneathopenskies/assets/img/col_northern-spain_article-2021-03-22_thumbnail.jpg
+img_map: /beneathopenskies/assets/img/col_northern-spain_article-2021-03-22_map.jpg
 img_bg: "article-2021-03-22"
 
-imgcomp-4-land-port_img-1: /assets/img/20210318-121619.jpg
-imgcomp-4-land-port_img-2: /assets/img/20210318-121512.jpg
-imgcomp-4-land-port_img-3: /assets/img/20210318-150830.jpg
-imgcomp-4-land-port_img-4: /assets/img/20210318-151908.jpg
+imgcomp-4-land-port_img-1: /beneathopenskies/assets/img/20210318-121619.jpg
+imgcomp-4-land-port_img-2: /beneathopenskies/assets/img/20210318-121512.jpg
+imgcomp-4-land-port_img-3: /beneathopenskies/assets/img/20210318-150830.jpg
+imgcomp-4-land-port_img-4: /beneathopenskies/assets/img/20210318-151908.jpg
 
-imgcomp-2-land-n1_1: /assets/img/20210318-151833.jpg
-imgcomp-2-land-n1_2: /assets/img/20210318-155321.jpg
+imgcomp-2-land-n1_1: /beneathopenskies/assets/img/20210318-151833.jpg
+imgcomp-2-land-n1_2: /beneathopenskies/assets/img/20210318-155321.jpg
 
-imgcomp-2-land-n2_1: /assets/img/20210319-093811.jpg
-imgcomp-2-land-n2_2: /assets/img/20210319-120618.jpg
+imgcomp-2-land-n2_1: /beneathopenskies/assets/img/20210319-093811.jpg
+imgcomp-2-land-n2_2: /beneathopenskies/assets/img/20210319-120618.jpg
 ---

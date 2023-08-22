@@ -23,15 +23,15 @@ highlights_1_description: "Originally named the Canal Royal en Languedoc, this c
 highlights_2_title: "Parc naturel régional Corbières-Fenouillèdes"
 highlights_2_description: "Stretching between the l’Orbieu and La Têt rivers, you'll find 75 km of dirt paths and charming country roads that treat you to some stunning views. Head North, and you've got the Montagne Noire, showing off its highest peak – the Pic de Nore. Look to the South, and you'll catch sight of the Canigou, standing tall at 2,784 m. The flora here showcases Mediterranean characteristics – think garrigue, pine forests, and evergreen oaks."
 
-img_thumbnail: /assets/img/col_northern-spain_article-2021-03-31_thumbnail.jpg
-img_map: /assets/img/col_northern-spain_article-2021-03-31_map.jpg
+img_thumbnail: /beneathopenskies/assets/img/col_northern-spain_article-2021-03-31_thumbnail.jpg
+img_map: /beneathopenskies/assets/img/col_northern-spain_article-2021-03-31_map.jpg
 img_bg: "article-2021-03-31"
 
-imgcomp-4-land-port_img-1: /assets/img/20210323-130242.jpg
-imgcomp-4-land-port_img-2: /assets/img/20210323-123030.jpg
-imgcomp-4-land-port_img-3: /assets/img/20210323-160023.jpg
-imgcomp-4-land-port_img-4: /assets/img/20210323-150631.jpg
+imgcomp-4-land-port_img-1: /beneathopenskies/assets/img/20210323-130242.jpg
+imgcomp-4-land-port_img-2: /beneathopenskies/assets/img/20210323-123030.jpg
+imgcomp-4-land-port_img-3: /beneathopenskies/assets/img/20210323-160023.jpg
+imgcomp-4-land-port_img-4: /beneathopenskies/assets/img/20210323-150631.jpg
 
-imgcomp-2-land-n1_1: /assets/img/20210324-134323.jpg
-imgcomp-2-land-n1_2: /assets/img/20210324-170545.jpg
+imgcomp-2-land-n1_1: /beneathopenskies/assets/img/20210324-134323.jpg
+imgcomp-2-land-n1_2: /beneathopenskies/assets/img/20210324-170545.jpg
 ---
