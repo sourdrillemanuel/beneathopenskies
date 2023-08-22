@@ -2,9 +2,9 @@
 layout: post
 title: "From the Atlantic to the Mediterranean"
 date: 2021-03-31 12:00:00 +0200
-permalink: "riding-along-canals.html"
+permalink: "/beneathopenskies/riding-along-canals.html"
 
-link_collection: bikepacking-northern-spain.html
+link_collection: /beneathopenskies/bikepacking-northern-spain.html
 active_collection: "Bikepacking Northern Spain"
 article: "2"
 day_start: "7"

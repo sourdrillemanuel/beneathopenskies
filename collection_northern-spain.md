@@ -21,5 +21,5 @@ must-knows_climate: "Around the Mediterranean basin, summer is generally too hot
 must-knows_camping: "I'm not familiar with the specific regulations in each country, but generally, wild camping is quite feasible, except in Sicily where preserved natural areas are scarce, and cultivated lands numerous. In Tunisia, you can explore the various mountain ranges for camping, steering clear of cultivated lands. Camping in Southern Tunisia is particularly enchanting, offering expansive open spaces, solitude, and a captivating night sky."
 must-knows_nutrition: "Access to water and food hasn't posed an issue in any of the locations I've visited. In Tunisia, you'll find grocery stores and fast-food options in even the smallest villages, along with bustling markets with fruits and vegetables in larger ones. However, it's important to note that relying on rivers may not be viable during autumn, as they tend to run dry."
 
-img_map: beneathopenskies/assets/img/col_northern-spain_map.jpg
+img_map: /beneathopenskies/assets/img/col_northern-spain_map.jpg
 ---
