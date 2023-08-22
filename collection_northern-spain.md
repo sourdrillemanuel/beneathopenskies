@@ -1,8 +1,7 @@
 ---
 layout: page
-title: Bikepacking Northern Spain
-tags: "Europe"
-permalink: "bikepacking-northern-spain.html"
+title: "Bikepacking Northern Spain"
+permalink: "beneathopenskies/bikepacking-northern-spain.html"
 
 article_total: "13"
 active_collection: "Bikepacking Northern Spain"
