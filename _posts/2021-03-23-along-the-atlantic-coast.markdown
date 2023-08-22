@@ -2,7 +2,7 @@
 layout: post
 title: "Along the Atlantic Coast"
 date: 2021-03-22 12:00:00 +0200
-permalink: "along-the-atlantic-coast.html"
+permalink: "/:title.html"
 
 link_collection: bikepacking-northern-spain.html
 active_collection: "Bikepacking Northern Spain"
@@ -25,7 +25,7 @@ highlights_2_description: "Despite being urbanized, while cycling along the EV1 
 
 img_thumbnail: /beneathopenskies/assets/img/col_northern-spain_article-2021-03-22_thumbnail.jpg
 img_map: /beneathopenskies/assets/img/col_northern-spain_article-2021-03-22_map.jpg
-img_bg: "article-2021-03-22"
+img_bg: "article_2021-03-22"
 
 imgcomp-4-land-port_img-1: /beneathopenskies/assets/img/20210318-121619.jpg
 imgcomp-4-land-port_img-2: /beneathopenskies/assets/img/20210318-121512.jpg

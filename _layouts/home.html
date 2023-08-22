@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>{{ page.title }} - {{ site.title }}</title>
+        <title>{{ site.title }}</title>
         <link rel="stylesheet" href="{{ site.baseurl }}/styles/main.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -26,7 +26,7 @@
         <header class="flex justify-center s-mt-96 m-mt-128 l-mt-192">
             <div class="container grid s-px-16 m-px-24 l-px-0">
                 <div class="flex flex-col s-col-span-6 m-col-span-12 l-col-span-12">
-                    <img class="self-center w-96px" src="assets/img/portrait.png">
+                    <img class="self-center w-96px" src="{{ 'assets/img/portrait.png' | relative_url }}">
                     <h1 class="s-mt-8 m-mt-12 l-mt-16 text-3xl text-center primary-88">I write stories about <span class="italic">bikepacking</span> trips to lesser-known regions since<sup class="text-xl italic">‘19</sup></h1>
                 </div>
             </div>
@@ -35,7 +35,7 @@
         <!-- COLLECTIONS -->
         
         <div class="carousel s-mt-64 m-mt-96 l-mt-192 s-px-16 m-px-24 l-px-32" data-flickity='{ "freeScroll": true, "prevNextButtons": false, "cellAlign": "left", "pageDots": false }'>
-            <a href="bikepacking-northern-spain.html" id="col_northern-spain" class="card carousel-cell flex s-mr-16 m-mr-24 l-mr-32 items-center justify-center card rounded">
+            <a href="{{ '/bikepacking-northern-spain.html' | relative_url }}" id="col_northern-spain" class="card carousel-cell flex s-mr-16 m-mr-24 l-mr-32 items-center justify-center card rounded">
                 <div class="flex flex-col items-center">
                     <ul class="flex gap-8">
                         <li class="tag text-xs font-semibold gray-96">Europe</li>

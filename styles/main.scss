@@ -440,9 +440,9 @@ UNIQUE STYLING
 
 /* Unique backgrounds for articles' header */
 
-#article-2021-03-31, #article-2021-03-22, #col_northern-spain, #col_sahara, #col_morvan, #col_brittany, #col_french-overnighters {height: 100%; background-blend-mode: multiply;}
-#article-2021-03-31 {background: center center url({{ '/assets/img/20210330-155746.jpg' | relative_url }}) rgba(0, 0, 0, .4); background-size: cover;}
-#article-2021-03-22 {background: center center url({{ '/assets/img/20210318-194905.jpg' | relative_url }}) rgba(0, 0, 0, .4); background-size: cover;}
+#article_2021-03-31, #article_2021-03-22, #col_northern-spain, #col_sahara, #col_morvan, #col_brittany, #col_french-overnighters {height: 100%; background-blend-mode: multiply;}
+#article_2021-03-31 {background: center center url({{ '/assets/img/20210330-155746.jpg' | relative_url }}) rgba(0, 0, 0, .4); background-size: cover;}
+#article_2021-03-22 {background: center center url({{ '/assets/img/20210318-194905.jpg' | relative_url }}) rgba(0, 0, 0, .4); background-size: cover;}
 #col_northern-spain {background: center center url({{ '/assets/img/20210605-193727.jpg' | relative_url }}) rgba(0, 0, 0, .4); background-size: cover;}
 #col_sahara {background: center center url({{ '/assets/img/20220125-131059.jpg' | relative_url }}) rgba(0, 0, 0, .4); background-size: cover;} 
 #col_morvan {background: center center url({{ '/assets/img/20100113-185215.jpg' | relative_url }}) rgba(0, 0, 0, .4); background-size: cover;}
