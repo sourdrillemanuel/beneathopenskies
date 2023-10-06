@@ -1,18 +1,10 @@
-<header class="flex justify-center s-mt-96 m-mt-192 l-mt-192">
+<header class="flex justify-center l-py-64">
     <div class="container grid items-center s-px-16 m-px-24 l-px-0">
-        <div class="flex flex-col s-col-span-6 m-col-span-12 l-col-3-11 items-center">
-            <ul class="flex gap-8">
-                <li class="tag text-xs font-semibold gray-96">{{ page.tags }}</li>
-            </ul>
-            <h2 class="s-mt-16 text-2xl text-center primary-88">{{ page.title }}</h2>
-            <p class="s-mt-16 text-sm text-center text-center font-semibold gray-96">{{ page.article_total }} articles</p>
-            <p class="s-mt-16 m-mt-24 l-mt-32 text-md text-center gray-72">{{ page.intro }}</p>
-            <ul class="s-mt-16 m-mt-24 l-mt-32 flex gap-8">
-                <li><a class="flex items-center btn-secondary text-sm font-semibold secondary-88" href="https://www.komoot.com/fr-fr/collection/1877170/-bikepacking-toward-the-sahara-desert" target="blank">Komoot</a></li>
-                <li><a class="flex items-center btn-secondary text-sm font-semibold secondary-88" href="https://umap.openstreetmap.fr/en/map/mighty-travels_640943" target="blank">uMap</a></li>
-                <li><a class="flex items-center btn-secondary text-sm font-semibold secondary-88" href="https://www.polarsteps.com/seekout/4365113-bikepacking-toward-the-sahara-desert" target="blank">Polarsteps</a></li>
-                <li><a class="flex items-center btn-secondary text-sm font-semibold secondary-88" href="https://lighterpack.com/r/ruee03" target="blank">Lighterpack</a></li>
-            </ul>
+        <img class="s-col-span-6 m-col-span-12 l-col-span-12 border-1 rounded-8" src="{{ page.img_header }}">
+        <div class="flex flex-col s-col-span-6 m-col-span-12 l-col-3-11 l-py-64 items-center">
+            <p class="s-mt-16 text-sm text-center text-center font-500 gray-12">Collection</p>
+            <h1 class="s-mt-16 text-4xl text-center gray-12">{{ page.title }}</h2>
+            <p class="s-mt-16 m-mt-24 l-mt-32 text-md font-700 text-center gray-12">{{ page.intro }}</p>
         </div>
     </div>
 </header>
