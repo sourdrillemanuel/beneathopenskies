@@ -2,85 +2,68 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>{{ page.title }} - {{ site.title }}</title>
+        <title>{{ site.title }}</title>
         <link rel="stylesheet" href="{{ site.baseurl }}/styles/main.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,600;1,400;1,600&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,600;1,400;1,600&family=Inter:wght@500;700&display=swap" rel="stylesheet">
         <link href="{{ '/styles/flickity.css' | relative_url }}" rel="stylesheet">
         <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
     </head>
-    <body class="bg-gray-12">
-        <ul class="grid s-p-12 m-p-16 l-p-24 border-b gray-32">
-            <li class="s-col-span-3 m-col-span-3 l-col-span-4 text-sm font-semibold gray-96">{{ site.title }}</li>
-                <li class="s-col-span-3 m-col-span-9 l-col-span-8 flex justify-self-end">
-                <ul class="flex gap-8">
-                    <li class="s-hidden m-block text-sm font-semibold gray-96">All collections</li>
-                </ul>
-            </li>
-        </ul>
+    <body class="bg-primary-88">
+        <nav class="grid s-p-8 m-p-12 l-p-16 border-1-b gray-12">
+          <p class="s-col-span-3 m-col-span-3 l-col-span-4 text-sm font-700">{{ site.title }}</p>
+        </nav>
 
         <!-- HEADER -->
         
-        <header class="flex justify-center s-mt-96 m-mt-128 l-mt-192">
+        <header class="flex justify-center l-py-128">
             <div class="container grid s-px-16 m-px-24 l-px-0">
                 <div class="flex flex-col s-col-span-6 m-col-span-12 l-col-span-12">
-                    <img class="self-center w-96px" src="assets/img/portrait.png">
-                    <h1 class="s-mt-8 m-mt-12 l-mt-16 text-3xl text-center primary-88">I write stories about <span class="italic">bikepacking</span> trips to lesser-known regions since<sup class="text-xl italic">‘19</sup></h1>
+                    <img class="self-center w-8rem border-2 rounded-64" src="{{ 'assets/img/portrait.png' | relative_url }}">
+                    <h1 class="s-mt-8 m-mt-12 l-mt-16 text-5xl text-center gray-12">I write stories about <span class="italic">bikepacking</span> trips to lesser-known regions since<sup class="text-xl italic">‘19</sup></h1>
                 </div>
             </div>
         </header>
         
         <!-- COLLECTIONS -->
         
-        <div class="carousel s-mt-64 m-mt-96 l-mt-192 s-px-16 m-px-24 l-px-32" data-flickity='{ "freeScroll": true, "prevNextButtons": false, "cellAlign": "left", "pageDots": false }'>
-            <a href="bikepacking-northern-spain.html" id="col_northern-spain" class="card carousel-cell flex s-mr-16 m-mr-24 l-mr-32 items-center justify-center card rounded">
-                <div class="flex flex-col items-center">
-                    <ul class="flex gap-8">
-                        <li class="tag text-xs font-semibold gray-96">Europe</li>
-                    </ul>
-                    <h2 class="s-mt-16 s-px-16 m-px-24 l-px-32 text-2xl text-center primary-88">Bikepacking Northern Spain</h2>
-                    <p class="s-mt-16 s-px-16 m-px-24 l-px-32 text-sm text-center text-center font-semibold gray-96">13 articles</p>
-                </div>
-            </a>
-            <a href="#" id="col_sahara" class="card carousel-cell flex s-mr-16 m-mr-24 l-mr-32 items-center justify-center card rounded">
-              <div class="flex flex-col items-center">
-                  <ul class="flex gap-8">
-                      <li class="tag text-xs font-semibold gray-96">Upcoming</li>
-                  </ul>
-                  <h2 class="s-mt-16 s-px-16 m-px-24 l-px-32 text-2xl text-center primary-88">Bikepacking toward the Sahara</h2>
-                  <p class="s-mt-16 s-px-16 m-px-24 l-px-32 text-sm text-center text-center font-semibold gray-96">20 articles</p>
+        <section class="flex justify-center l-pt-64 bg-tertiary-88 border-1-t">
+          <div class="container s-px-16 m-px-24">
+              <p class="text-xl gray-12">Collections <span class="badge relative s-top--16 text-xs font-700 bg-gray-12 gray-96">6</span></p>
+          </div>
+        </section>
+        <div class="carousel l-pt-32 l-pb-64 bg-tertiary-88" data-flickity='{ "freeScroll": true, "prevNextButtons": false, "cellAlign": "left", "pageDots": false }'>
+            <a href="{{ '/bikepacking-bourges-agde.html' | relative_url }}" class="carousel-cell flex flex-col s-mr-16 m-mr-24 l-mr-32 gray-12 border-1 rounded-8 shadow">
+              <div id="col_northern-spain" class="l-p-16 rounded-8-t">
+                <p class="badge w-fit text-xs font-700 bg-gray-12 gray-96">new</p>
+              </div>
+              <div class="l-p-32">
+                <p class="text-sm italic gray-12">6 articles</p>
+                <h3 class="s-mt-8 m-mt-12 l-mt-16 text-2xl gray-12">Bikepacking from Bourges to Agde</h3>
               </div>
             </a>
-            <a href="#" id="col_morvan" class="card carousel-cell flex s-mr-16 m-mr-24 l-mr-32 items-center justify-center card rounded">
-              <div class="flex flex-col items-center">
-                  <ul class="flex gap-8">
-                      <li class="tag text-xs font-semibold gray-96">Upcoming</li>
-                  </ul>
-                  <h2 class="s-mt-16 s-px-16 m-px-24 l-px-32 text-2xl text-center primary-88">Bikepacking le Morvan and la Chaîne des Puys</h2>
-                  <p class="s-mt-16 s-px-16 m-px-24 l-px-32 text-sm text-center text-center font-semibold gray-96">4 articles</p>
+            <a href="#" class="carousel-cell flex flex-col s-mr-16 m-mr-24 l-mr-32 gray-12 border-1 rounded-8 shadow">
+              <div id="col_northern-spain" class="l-p-16 rounded-8-t">
+                <p class="badge w-fit text-xs font-700 bg-gray-12 gray-96">upcoming</p>
+              </div>
+              <div class="l-p-32">
+                <p class="text-sm italic gray-12">13 articles</p>
+                <h3 class="s-mt-8 m-mt-12 l-mt-16 text-2xl gray-12">Bikepacking Northern Spain</h3>
               </div>
             </a>
-            <a href="#" id="col_brittany" class="card carousel-cell flex s-mr-16 m-mr-24 l-mr-32 items-center justify-center card rounded">
-              <div class="flex flex-col items-center">
-                  <ul class="flex gap-8">
-                      <li class="tag text-xs font-semibold gray-96">Upcoming</li>
-                  </ul>
-                  <h2 class="s-mt-16 s-px-16 m-px-24 l-px-32 text-2xl text-center primary-88">Bikepacking Brittany's Coastline</h2>
-                  <p class="s-mt-16 s-px-16 m-px-24 l-px-32 text-sm text-center text-center font-semibold gray-96">4 articles</p>
-              </div>
-            </a>
-            <a href="#" id="col_french-overnighters" class="card carousel-cell flex s-mr-16 m-mr-24 l-mr-32 items-center justify-center card rounded">
-              <div class="flex flex-col items-center">
-                  <ul class="flex gap-8">
-                      <li class="tag text-xs font-semibold gray-96">Upcoming</li>
-                  </ul>
-                  <h2 class="s-mt-16 s-px-16 m-px-24 l-px-32 text-2xl text-center primary-88">French Overnighters</h2>
-                  <p class="s-mt-16 s-px-16 m-px-24 l-px-32 text-sm text-center text-center font-semibold gray-96">7 articles</p>
-              </div>
-            </a>
-        </div>
+          </div>
+          <section class="flex justify-center l-py-64 bg-secondary-88 border-1-t">
+            <div class="container grid s-px-16 m-px-24 l-px-0">
+              <p class="l-col-span-12 l-pb-32 text-xl gray-12">Latest articles</p>
+              {% for post in site.posts %}
+                  {% if post.featured == "yes" %}
+                  {% include article-card.html %}
+                  {% endif %}
+              {% endfor %}
+            </div>
+        </section>
         {% include footer.html %}
     </body>
 </html>

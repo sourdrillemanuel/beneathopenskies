@@ -2,8 +2,10 @@
 layout: post
 title: "From the Atlantic to the Mediterranean"
 date: 2021-03-31 12:00:00 +0200
-permalink: "riding-along-canals.html"
+permalink: ":title.html"
 
+featured: "yes"
+tags: "new"
 link_collection: bikepacking-northern-spain.html
 active_collection: "Bikepacking Northern Spain"
 article: "2"
@@ -25,7 +27,7 @@ highlights_2_description: "Stretching between the l’Orbieu and La Têt rivers,
 
 img_thumbnail: /beneathopenskies/assets/img/col_northern-spain_article-2021-03-31_thumbnail.jpg
 img_map: /beneathopenskies/assets/img/col_northern-spain_article-2021-03-31_map.jpg
-img_bg: "article-2021-03-31"
+img_bg: "article_2021-03-31"
 
 imgcomp-4-land-port_img-1: /beneathopenskies/assets/img/20210323-130242.jpg
 imgcomp-4-land-port_img-2: /beneathopenskies/assets/img/20210323-123030.jpg

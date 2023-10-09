@@ -21,48 +21,70 @@ a {text-decoration: none;}
 
 /*
 
+FONT-FACE
+
+*/
+
+@font-face {
+    font-family: 'P22 Mackinac';
+    src: url('/beneathopenskies/assets/fonts/P22Mackinac-Bold.woff2') format('woff2'), ( '/beneathopenskies/assets/fonts/P22Mackinac-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'P22 Mackinac';
+    src: url('/beneathopenskies/assets/fonts/P22Mackinac-Medium.woff2') format('woff2'), url('/beneathopenskies/assets/fonts/P22Mackinac-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'P22 Mackinac';
+    src: url('/beneathopenskies/assets/fonts/P22Mackinac-MediumItalic.woff2') format('woff2'), url('/beneathopenskies/assets/fonts/P22Mackinac-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'P22 Mackinac';
+    src: url('/beneathopenskies/assets/fonts/P22Mackinac-BoldItalic.woff2') format('woff2'), url('/beneathopenskies/assets/fonts/P22Mackinac-BoldItalic.woff') format('woff');
+    font-weight: 700;
+    font-style: italic;
+    font-display: swap;
+}
+
+/*
+
 DESIGN TOKENS
 
 */
 
-/* Colors */
-
-:root {
-    --primary-88: #E0A52D;
-    --secondary-72: #4271B8;
-    --secondary-88: #75A0E0;
-    --gray-96: #F5F2EB;
-    --gray-72: #B8AE9A;
-    --gray-32: #524E45;
-    --gray-16: #292722;
-    --gray-12: #1F1E1B;
-}
-
-.primary-88 {color: var(--primary-88);}
-.secondary-72 {color: var(--secondary-72);}
-.secondary-88 {color: var(--secondary-88);}
-.gray-96 {color: var(--gray-96);}
-.gray-72 {color: var(--gray-72);}
-.gray-32 {color: var(--gray-32);}
-.gray-16 {color: var(--gray-16);}
-.gray-12 {color: var(--gray-12);}
-.bg-gray-16 {background-color: var(--gray-16);}
-.bg-gray-12 {background-color: var(--gray-12);}
-.bg-primary-88 {background-color: var(--primary-88);}
-
 /* Fonts */
 
-.text-3xl, .text-2xl, .text-xl, .text-lg, .text-md{
-    font-family: 'EB Garamond', serif;
-}
-.text-3xl, .text-2xl, .text-xl, .text-lg {
-    line-height: 100%;
-}
-.text-md, .text-sm, .text-xs  {
-    line-height: 150%;
+.text-5xl, .text-4xl, .text-3xl, .text-2xl, .text-xl, .text-lg, .text-md {
+    font-family: 'P22 Mackinac', serif;
 }
 .text-sm, .text-xs {
     font-family: 'Inter', sans-serif;
+}
+.text-5xl {
+    line-height: 100%; font-weight: 500;
+}
+.text-4xl, .text-3xl, .text-2xl, .text-xl {
+    line-height: 125%;
+}
+.text-4xl, .text-3xl, .text-2xl {
+    text-transform: uppercase; letter-spacing: 1rem;
+}
+.text-md {
+    line-height: 175%;
+}
+.text-sm, .text-xs {
+    line-height: 150%;
+}
+.text-xs {
+    font-weight: bold;
 }
 
 /* Text style */
@@ -71,11 +93,31 @@ DESIGN TOKENS
 
 /* Font weight */
 
-.font-normal {font-weight: 400;} .font-semibold {font-weight: 600;}
+.font-500 {font-weight: 500;} .font-700 {font-weight: 700;}
 
 /* Font variant */
 
 .italic {font-style: italic; }
+
+/* Colors */
+
+:root {
+    --primary-88: #DBE099;
+    --secondary-88: #ABE098;
+    --tertiary-88: #C5C5E0;
+    --gray-96: #F5F2EB;
+    --gray-12: #1F1E1B;
+}
+
+.primary-88 {color: var(--primary-88);}
+.secondary-72 {color: var(--secondary-72);}
+.secondary-88 {color: var(--secondary-88);}
+.gray-96 {color: var(--gray-96);}
+.gray-12 {color: var(--gray-12);}
+.bg-primary-88 {background-color: var(--primary-88);}
+.bg-secondary-88 {background-color: var(--secondary-88);}
+.bg-tertiary-88 {background-color: var(--tertiary-88);}
+.bg-gray-12 {background-color: var(--gray-12);}
 
 /*
 
@@ -255,13 +297,15 @@ LARGE DEVICES
     
     /* Typescale */
 
-    .text-3xl {font-size: 6rem; /* 96px */}
-    .text-2xl {font-size: 4rem; /* 64px */}
-    .text-xl {font-size: 3rem; /* 48px */}
-    .text-lg {font-size: 2rem; /* 32px */}
-    .text-md {font-size: 1.375rem; /* 22px */}
+    .text-5xl {font-size: 6rem; /* 96px */}
+    .text-4xl {font-size: 4rem; /* 64px */ text-transform: uppercase; letter-spacing: 1rem;}
+    .text-3xl {font-size: 3rem; /* 48px */ text-transform: uppercase; letter-spacing: .75rem;}
+    .text-2xl {font-size: 2rem; /* 32px */ text-transform: uppercase; letter-spacing: .5rem;}
+    .text-xl {font-size: 2rem; /* 32px */}
+    .text-lg {font-size: 1.5rem; /* 24px */}
+    .text-md {font-size: 1.25rem; /* 20px */}
     .text-sm {font-size: 1rem; /* 16px */}
-    .text-xs {font-size: .875rem; /* 14px */}
+    .text-xs {font-size: .75rem; /* 12px */}
     
     /* Container */
     
@@ -350,10 +394,14 @@ LARGE DEVICES
     .l-py-16 {padding-top: 1rem; padding-bottom: 1rem;} /* 16px */
     .l-py-24 {padding-top: 1.5rem; padding-bottom: 1.5rem;} /* 24px */
     .l-py-32 {padding-top: 2rem; padding-bottom: 2rem;} /* 32px */
+    .l-py-64 {padding-top: 4rem; padding-bottom: 4rem;} /* 64px */
     .l-py-128 {padding-top: 8rem; padding-bottom: 8rem;} /* 128px */
     
     .l-px-0 {padding-left: 0rem; padding-right: 0rem;} /* 0px */
+    .l-px-16 {padding-left: 1rem; padding-right: 1rem;} /* 32px */
     .l-px-32 {padding-left: 2rem; padding-right: 2rem;} /* 32px */
+    .l-pt-32 {padding-top: 2rem;} /* 32px */
+    .l-pt-64 {padding-top: 4rem;} /* 64px */
     .l-pt-96 {padding-top: 6rem;} /* 96px */
     
     .l-pb-8 {padding-bottom: 0.5rem;} /* 8px */
@@ -361,7 +409,8 @@ LARGE DEVICES
     .l-pb-64 {padding-bottom: 4rem;} /* 64px */
     .l-pb-128 {padding-bottom: 8rem;} /* 64px */
     
-    .l-p-24 {padding: 1.5rem;} /* 24px */
+    .l-p-16 {padding: 1rem;} /* 16px */
+    .l-p-32 {padding: 2rem;} /* 32px */
     
     .l-justify-self-end {justify-self: end;}
     
@@ -381,13 +430,14 @@ img {max-width: 100%;}
 
 .w-100vw {width: 100vw;}
 .w-96px {width: 96px;}
+.w-8rem {width: 8rem;} /* 128px */
 .h-100 {height: 100%;}
 .content-w {max-width: 40rem;}
 .container-80h {height: 80%;}
 .w-auto {width: auto;}
 .h-inherit {height: inherit;}
 
-.top-0 {top: 0;}
+.top-0 {top: 0;} .top-8 {top: .5rem;} .left-8 {left: .5rem;}
 
 .flex {display: flex;}
 .inline-block {display: inline-block;}
@@ -403,16 +453,19 @@ img {max-width: 100%;}
 
 /* Buttons */
 
-.link {font-weight: 400;}
-.link:hover {text-decoration: underline;}
+.link {text-decoration: underline;}
+.link:hover {text-decoration: none;}
 .btn-secondary {padding: 0.5rem 1rem;}
 .btn-secondary:hover {border-bottom: 1px solid var(--secondary-88);}
 .card h2:hover, .card h4:hover {text-decoration: underline;}
 
 /* Borders */
 
-.border-t {border-top: 1px solid} .border-b {border-bottom: 1px solid;} .border {border: 1px solid;} .border-x {border-left: 1px solid; border-right: 1px solid;} .border-y {border-top: 1px solid; border-bottom: 1px solid;}
-.rounded {border-radius: 0.5rem;}
+.border-1-t {border-top: 1px solid} .border-1-b {border-bottom: 1px solid;} .border-1 {border: 1px solid;} .border-2 {border: 2px solid;} .border-x {border-left: 1px solid; border-right: 1px solid;} .border-y {border-top: 1px solid; border-bottom: 1px solid;} .rounded-8 {border-radius: .5rem;} .rounded-64 {border-radius: 4rem;} .rounded-8-t {border-radius: .5rem .5rem 0rem 0rem;}
+
+/* Shadows */
+
+.shadow {box-shadow: 4px 4px 0px 0px #000;}
 
 /* Components */
 
@@ -440,9 +493,9 @@ UNIQUE STYLING
 
 /* Unique backgrounds for articles' header */
 
-#article-2021-03-31, #article-2021-03-22, #col_northern-spain, #col_sahara, #col_morvan, #col_brittany, #col_french-overnighters {height: 100%; background-blend-mode: multiply;}
-#article-2021-03-31 {background: center center url({{ '/assets/img/20210330-155746.jpg' | relative_url }}) rgba(0, 0, 0, .4); background-size: cover;}
-#article-2021-03-22 {background: center center url({{ '/assets/img/20210318-194905.jpg' | relative_url }}) rgba(0, 0, 0, .4); background-size: cover;}
+#article_2021-03-31, #article_2021-03-22, #col_northern-spain, #col_sahara, #col_morvan, #col_brittany, #col_french-overnighters {height: 100%; background-blend-mode: multiply;}
+#article_2021-03-31 {background: center center url({{ '/assets/img/20210330-155746.jpg' | relative_url }}) rgba(0, 0, 0, .4); background-size: cover;}
+#article_2021-03-22 {background: center center url({{ '/assets/img/20210318-194905.jpg' | relative_url }}) rgba(0, 0, 0, .4); background-size: cover;}
 #col_northern-spain {background: center center url({{ '/assets/img/20210605-193727.jpg' | relative_url }}) rgba(0, 0, 0, .4); background-size: cover;}
 #col_sahara {background: center center url({{ '/assets/img/20220125-131059.jpg' | relative_url }}) rgba(0, 0, 0, .4); background-size: cover;} 
 #col_morvan {background: center center url({{ '/assets/img/20100113-185215.jpg' | relative_url }}) rgba(0, 0, 0, .4); background-size: cover;}
@@ -452,11 +505,11 @@ UNIQUE STYLING
 /* */
 
 .carousel {
-    height: 60vh;
+    height: 70vh;
 }
 
 .carousel-cell {
-    width: 80vw;
+    width: 60vw;
     height: inherit;
     counter-increment: gallery-cell;
 }

@@ -1,20 +1,20 @@
 ---
 layout: page
-title: "Bikepacking Northern Spain"
-tags: Europe
-permalink: "bikepacking-northern-spain.html"
+title: "Bikepacking from Bourges to Agde"
+tags: "new"
+permalink: "bikepacking-bourges-agde.html"
 
-article_total: "13"
-active_collection: "Bikepacking Northern Spain"
-collection_id: "col_northern-spain"
+article_total: "6"
+active_collection: "Bikepacking from Bourges to Agde"
+collection_id: "collection_bourges-agde"
 
-intro: "In 2020, I embarked on several short bikepacking trips. However, come March 2021, I set out from home with the intention of a more extensive bikepacking adventure. For the next three months, I traversed Northern Spain, spanning from its easternmost to its westernmost point. Along this journey, I encountered an incredible array of landscapes, each characterized by its unique beauty. The terrain was consistently mountainous and frequently challenging, yet never boring."
+intro: "In summer 2023, I embarked on a short journey from Bourges to Agde. I witnessed the changing landscapes, from lush forests to arid plateaus, from the familiar Chaîne des Puys to the stunning Cévennes. Along the way, I reflected on the joys of the road, all while inching closer to my destination and a heartwarming reunion with loved ones."
 
-statistics_duration: "89 days"
-statistics_distance: "4,757 km"
-statistics_ascent: "66,890 m"
-statistics_surface: "28% unpaved"
-statistics_highest_elevation: "1,740 m"
+statistics_duration: "15 days"
+statistics_distance: "924 km"
+statistics_ascent: "12,920 m"
+statistics_surface: "29% unpaved"
+statistics_highest_elevation: "1,560 m"
 statistics_lowest_elevation: "0 m"
 
 must-knows_climate: "Around the Mediterranean basin, summer is generally too hot for cycling. Cycling during autumn in Southern France is pleasant, but be cautious of the orages cévénols, a period of intense thunderstorms in the Cévennes. Corsica is a fantastic destination in the autumn: the sea remains comfortably warm for swimming, and the highest routes are not yet blanketed in snow. Moving south from Corsica, both Sardinia and Sicily offer favorable weather during the fall season. Southern Sicily, in particular, enjoys pleasant conditions, while the mountainous regions in the north could experience snowfall. During wintertime, I discovered Tunisia to be an ideal destination. In the southern part, daytime temperatures hover between 15°C and 20°C, dropping to around 0°C at night. The northern coast experiences milder temperatures but is also prone to higher levels of precipitation and wind. It's advisable to steer clear of Tunisia during the summer months."
