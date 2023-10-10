@@ -65,7 +65,7 @@ DESIGN TOKENS
 .text-5xl, .text-4xl, .text-3xl, .text-2xl, .text-xl, .text-lg, .text-md {
     font-family: 'P22 Mackinac', serif;
 }
-.text-sm, .text-xs {
+.text-sm, .text-s, .text-xs {
     font-family: 'Inter', sans-serif;
 }
 .text-5xl {
@@ -80,7 +80,7 @@ DESIGN TOKENS
 .text-md {
     line-height: 175%;
 }
-.text-sm, .text-xs {
+.text-sm, .text-s, .text-xs {
     line-height: 150%;
 }
 .text-xs {
@@ -93,11 +93,11 @@ DESIGN TOKENS
 
 /* Font weight */
 
-.font-500 {font-weight: 500;} .font-700 {font-weight: 700;}
+.font-500 {font-weight: 500;}
 
 /* Font variant */
 
-.italic {font-style: italic; }
+.italic {font-style: italic; } .bold {font-weight: 700;}
 
 /* Colors */
 
@@ -118,6 +118,7 @@ DESIGN TOKENS
 .bg-secondary-88 {background-color: var(--secondary-88);}
 .bg-tertiary-88 {background-color: var(--tertiary-88);}
 .bg-gray-12 {background-color: var(--gray-12);}
+.bg-gray-96 {background-color: var(--gray-96);}
 
 /*
 
@@ -149,7 +150,6 @@ SMALL DEVICES
 .grid-cols-2 {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
-    column-gap: 1rem; /* 16px */
 }
 
 /* Columns */
@@ -232,7 +232,6 @@ MEDIUM DEVICES
     .grid-cols-2 {
         display: grid;
         grid-template-columns: repeat(2, minmax(0, 1fr));
-        column-gap: 1.5rem; /* 24px */
     }
     
     
@@ -305,6 +304,7 @@ LARGE DEVICES
     .text-lg {font-size: 1.5rem; /* 24px */}
     .text-md {font-size: 1.25rem; /* 20px */}
     .text-sm {font-size: 1rem; /* 16px */}
+    .text-s {font-size: .875rem; /* 14px */}
     .text-xs {font-size: .75rem; /* 12px */}
     
     /* Container */
@@ -323,12 +323,10 @@ LARGE DEVICES
     .grid-cols-2 {
         display: grid;
         grid-template-columns: repeat(2, minmax(0, 1fr));
-        column-gap: 2rem; /* 32px */
     }
     .grid-cols-3 {
         display: grid;
         grid-template-columns: repeat(3, minmax(0, 1fr));
-        column-gap: 2rem; /* 32px */
     }
 
     /* Columns */
@@ -429,6 +427,7 @@ header, section, footer {width: 100%;}
 img {max-width: 100%;}
 
 .w-100vw {width: 100vw;}
+.w-50vw {width: 50vw;}
 .w-96px {width: 96px;}
 .w-8rem {width: 8rem;} /* 128px */
 .h-100 {height: 100%;}
@@ -461,7 +460,7 @@ img {max-width: 100%;}
 
 /* Borders */
 
-.border-1-t {border-top: 1px solid} .border-1-b {border-bottom: 1px solid;} .border-1 {border: 1px solid;} .border-2 {border: 2px solid;} .border-x {border-left: 1px solid; border-right: 1px solid;} .border-y {border-top: 1px solid; border-bottom: 1px solid;} .rounded-8 {border-radius: .5rem;} .rounded-64 {border-radius: 4rem;} .rounded-8-t {border-radius: .5rem .5rem 0rem 0rem;}
+.border-1-t {border-top: 1px solid} .border-1-l {border-left: 1px solid} .border-1-b {border-bottom: 1px solid;} .border-1 {border: 1px solid;} .border-2 {border: 2px solid;} .border-x {border-left: 1px solid; border-right: 1px solid;} .border-y {border-top: 1px solid; border-bottom: 1px solid;} .rounded-8 {border-radius: .5rem;} .rounded-64 {border-radius: 4rem;} .rounded-8-t {border-radius: .5rem .5rem 0rem 0rem;}
 
 /* Shadows */
 
@@ -475,7 +474,7 @@ img {max-width: 100%;}
 /* Modifiers */
 
 .items-center {align-items: center;} .items-start {align-items: flex-start;}
-.justify-center {justify-content: center;} .justify-between {justify-content: space-between;}
+.justify-center {justify-content: center;} .justify-end {justify-content: end;} .justify-between {justify-content: space-between;}
 .justify-items-center {justify-items: center;}
 .justify-self-center {justify-self: center;} .justify-self-end {justify-self: end;}
 .flex-row {flex-direction: row;} .flex-col {flex-direction: column;} .flex-wrap {flex-flow: wrap;}
@@ -493,7 +492,8 @@ UNIQUE STYLING
 
 /* Unique backgrounds for articles' header */
 
-#article_2021-03-31, #article_2021-03-22, #col_northern-spain, #col_sahara, #col_morvan, #col_brittany, #col_french-overnighters {height: 100%; background-blend-mode: multiply;}
+#article_2021-03-31, #article_2021-03-22, #article_2023-09-09, #col_northern-spain, #col_sahara, #col_morvan, #col_brittany, #col_french-overnighters {height: 100%;}
+#article_2023-09-09 {background: center center url({{ '/assets/img/20230906-160415.jpg' | relative_url }}) rgba(0, 0, 0, .4); background-size: cover;}
 #article_2021-03-31 {background: center center url({{ '/assets/img/20210330-155746.jpg' | relative_url }}) rgba(0, 0, 0, .4); background-size: cover;}
 #article_2021-03-22 {background: center center url({{ '/assets/img/20210318-194905.jpg' | relative_url }}) rgba(0, 0, 0, .4); background-size: cover;}
 #col_northern-spain {background: center center url({{ '/assets/img/20210605-193727.jpg' | relative_url }}) rgba(0, 0, 0, .4); background-size: cover;}

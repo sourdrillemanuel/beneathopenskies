@@ -7,7 +7,9 @@
     <div class="container grid s-px-16 m-px-24 l-px-0">
         {% for post in site.posts reversed %}
             {% if post.active_collection == "Bikepacking Northern Spain" %}
-            {% include article-card.html %}
+                {% include article-card.html collection_id="collection_bourges-agde" %}
+            {% elsif post.active_collection == "Bikepacking from Bourges to Agde" %}
+                {% include article-card.html collection_id="collection_bourges-agde" %}
             {% endif %}
         {% endfor %}
     </div>
