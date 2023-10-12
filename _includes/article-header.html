@@ -1,23 +1,18 @@
-<header class="flex h-80vh">
-    <div id="{{ page.img_bg }}" class="flex flex-col w-100vw justify-items-center">
-        <ul class="grid s-p-12 m-p-16 l-p-24 border-b gray-96">
-            <li class="s-col-span-3 m-col-span-3 l-col-span-4 text-sm font-semibold gray-96">{{ site.title }}</li>
-            <li class="s-col-span-3 m-col-span-9 l-col-span-8 flex justify-self-end">
-                <ul class="flex gap-8">
-                    <li><a href="{{ site.baseurl }}" class="link text-sm gray-96">All collections</a></li>
-                    <li class="s-hidden m-block text-sm gray-96">/</li>
-                    <li class="s-hidden m-block"><a href="{{ page.link_collection }}" class="link text-sm gray-96">{{ page.active_collection }}</a></li>
-                    <li class="s-hidden m-block text-sm gray-96">/</li>
-                    <li class="s-hidden m-block text-sm font-semibold gray-96">{{ page.title }}</li>
-                </ul>
-            </li>
-        </ul>
-        <div class="container grid s-col-span-2 w-auto h-inherit items-center s-px-16 m-px-24 l-px-0">
-            <div class="flex flex-col s-col-span-6 m-col-span-12 l-col-span-12">
-                <p class="text-sm text-center font-semibold gray-96">Article {{ page.article }}</p>
-                <h1 class="s-mt-16 m-mt-24 text-2xl font-medium text-center primary-88">{{ page.title }}</h1>
-                <p class="s-mt-16 m-mt-24 l-mt-32 text-sm text-center font-semibold gray-96">Day {{ page.day_start }} <span class="italic">to</span> {{ page.day_end }}</p>
-            </div>
+<header class="grid-cols-2 h-80vh border-1-b">
+    <div id="{{ page.img_bg }}" class="s-hidden l-block s-col-span-2 l-col-span-1"></div>
+    <div class="flex flex-col s-col-span-2 l-col-span-1 border-1-l">
+        <nav class="flex s-p-8 m-p-12 l-p-16 justify-between border-1-b">
+            <p class="text-md bold gray-12">{{ site.title }}</p>
+            <ul class="flex gap-8 items-center">
+                <li class="s-hidden m-block"><a href="{{ page.link_collection }}" class="tag text-sm bold gray-12">{{ page.active_collection }}</a></li>
+                <li class="text-md italic gray-12">in</li>
+                <li><a href="{{ site.baseurl }}" class="tag text-sm bold gray-12">All collections</a></li>
+            </ul>
+        </nav>
+        <div class="flex flex-col h-100 s-p-16 m-p-24 l-p-32 justify-center">
+            <p class="text-center text-md italic gray-12">Post</p>
+            <h1 class="s-mt-16 m-mt-24 text-center text-3xl uppercase primary-12">{{ page.title }}</h1>
+            <p class="s-mt-16 m-mt-24 l-mt-32 text-center text-md gray-12"><span class="italic">by </span><span class="bold">{{ page.author }}</span><br>{{ page.displayed_date }}</p>
         </div>
     </div>
 </header>

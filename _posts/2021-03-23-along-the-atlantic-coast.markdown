@@ -2,6 +2,7 @@
 layout: post
 title: "Along the Atlantic Coast"
 date: 2021-03-22 12:00:00 +0200
+author: "Manuel Sourdrille"
 permalink: ":title.html"
 
 featured: "yes"
