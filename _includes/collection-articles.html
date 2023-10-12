@@ -1,15 +1,13 @@
-<section class="flex justify-center l-pt-64 bg-secondary-88 border-1-t">
+<section class="flex justify-center s-pt-32 m-pt-48 l-pt-64 bg-secondary-88 border-1-t">
     <div class="container s-px-16 m-px-24">
-        <p class="text-xl gray-12">Articles</p>
+        <p class="text-2xl gray-12">Articles</p>
     </div>
   </section>
-<section class="flex justify-center l-pt-32 l-pb-64 bg-secondary-88">
+<section class="flex justify-center s-pb-32 m-pb-48 l-pb-64 bg-secondary-88">
     <div class="container grid s-px-16 m-px-24 l-px-0">
         {% for post in site.posts reversed %}
-            {% if post.active_collection == "Bikepacking Northern Spain" %}
-                {% include article-card.html collection_id="collection_bourges-agde" %}
-            {% elsif post.active_collection == "Bikepacking from Bourges to Agde" %}
-                {% include article-card.html collection_id="collection_bourges-agde" %}
+            {% if post.collection_id == "collection_bourges-agde" %}
+                {% include article-card.html %}
             {% endif %}
         {% endfor %}
     </div>
