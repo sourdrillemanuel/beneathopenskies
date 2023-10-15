@@ -1,0 +1,71 @@
+<section class="grid border-b gray-12">
+    <div id="collection_bourges-agde_map" class="flex justify-center s-col-span-6 m-col-span-12 l-col-span-4 s-py-16 m-py-24 l-py-64 s-px-16 m-px-24 l-px-32">
+        <div class="flex flex-col justify-center">
+            <h3 class="text-center text-xl bold gray-12">Itinerary</h3>
+            <ul class="flex s-gap-16 s-mt-8 m-mt-12 l-mt-16">
+                <li><a href="{{ page.link_komoot }}" class="button text-md gray-12 bold">Komoot</a></li>
+                <li><a href="{{ page.link_umap }}" class="button text-md gray-12 bold">uMap</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="s-col-span-6 m-col-span-12 l-col-span-4 s-py-16 m-py-24 l-py-64 s-px-16 m-px-24 l-px-32 border-1-l gray-12">
+        <h3 class="text-xl bold gray-12">Statistics</h3>
+        <ul class="s-mt-8 m-mt-16 l-mt-32">
+            <li class="s-py-16 l-py-24 border-1-b gray-12">
+                <ul class="grid-cols-2">
+                    <li class="s-col-span-1 text-md gray-12">Duration</li>
+                    <li class="s-col-span-1 text-md gray-12 text-right">{{ page.statistics_duration }}</li>
+                </ul>
+            </li>
+            <li class="s-py-16 l-py-24 border-1-b gray-12">
+                <ul class="grid-cols-2">
+                    <li class="s-col-span-1 text-md gray-12">Distance</li>
+                    <li class="s-col-span-1 text-md gray-12 text-right">{{ page.statistics_distance }}</li>
+                </ul>
+            </li>
+            <li class="s-py-16 l-py-24 border-1-b gray-12">
+                <ul class="grid-cols-2">
+                    <li class="s-col-span-1 text-md gray-12">Total ascent</li>
+                    <li class="s-col-span-1 text-md gray-12 text-right">{{ page.statistics_ascent }}</li>
+                </ul>
+            </li>
+            <li class="s-py-16 l-py-24 border-1-b gray-12">
+                <ul class="grid-cols-2">
+                    <li class="s-col-span-1 text-md gray-12">Highest elevation</li>
+                    <li class="s-col-span-1 text-md gray-12 text-right">{{ page.statistics_highest_elevation }}</li>
+                </ul>
+            </li>
+            <li class="s-py-16 l-py-24 border-1-b gray-12">
+                <ul class="grid-cols-2">
+                    <li class="s-col-span-1 text-md gray-12">Lowest elevation</li>
+                    <li class="s-col-span-1 text-md gray-12 text-right">{{ page.statistics_lowest_elevation }}</li>
+                </ul>
+            </li>
+            <li class="s-py-16 l-py-24">
+                <ul class="grid-cols-2">
+                    <li class="s-col-span-1 text-md gray-12">Surface</li>
+                    <li class="s-col-span-1 text-md gray-12 text-right">{{ page.statistics_surface }}</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <div class="s-col-span-6 m-col-span-12 l-col-span-4 s-py-16 m-py-24 l-py-64 s-px-16 m-px-24 l-px-32 border-1-l gray-12">
+        <h3 class="text-xl bold gray-12">Highlights</h3>
+        <ul class="grid-cols-2 s-mt-16 l-mt-24">
+            <li class="l-col-span-2">
+                <ul>
+                    <li class="text-sm"><span class="badge bold bg-primary-88 gray-12">1</span></li>
+                    <li class="s-mt-8 text-md bold gray-12">{{ page.highlights_1_title }}</li>
+                    <li class="s-mt-8 text-md gray-12">{{ page.highlights_1_description }}</li>
+                </ul>
+            </li>
+            <li class="l-col-span-2 s-mt-16 m-mt-24 l-mt-32">
+                <ul>
+                    <li class="text-sm"><span class="badge bold bg-primary-88 gray-12">2</span></li>
+                    <li class="s-mt-8 text-md bold gray-12">{{ page.highlights_2_title }}</li>
+                    <li class="s-mt-8 text-md gray-12">{{ page.highlights_2_description }}</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</section>

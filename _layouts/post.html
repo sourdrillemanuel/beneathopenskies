@@ -3,18 +3,12 @@
     {% include head.html %}
     <body class="bg-gray-96">
         {% include article-header.html %}
-        <section class="flex justify-center s-mt-64 m-mt-96 l-mt-128">
-            <div class="container grid s-px-16 m-px-24 l-px-0 border-b s-pb-32 m-pb-48 l-pb-64 gray-32">
-                {% include article-intro.html %}
-                {% include stats.html %}
-                {% include highlights.html %}
-            </div>
-        </section>
         {% if page.title == "Along the Atlantic Coast" %}
             {% include article-story-2021-03-22.html %}
         {% elsif page.title == "From the Atlantic to the Mediterranean" %}
             {% include article-story-2021-03-31.html %}
         {% endif %}
+        {% include article-bits.html %}
         {% include footer.html %}
     </body>
 </html>
