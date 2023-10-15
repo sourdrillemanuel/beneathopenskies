@@ -1,10 +1,10 @@
 <section class="flex justify-center s-pt-32 m-pt-48 l-pt-64 bg-secondary-88 border-1-t">
-    <div class="container s-px-16 m-px-24">
+    <div class="container s-px-16 m-px-24 l-px-32">
         <p class="text-2xl gray-12">Articles</p>
     </div>
   </section>
 <section class="flex justify-center s-pb-32 m-pb-48 l-pb-64 bg-secondary-88">
-    <div class="container grid s-px-16 m-px-24 l-px-0">
+    <div class="container grid s-gap-16 m-gap-24 l-gap-32 s-px-16 m-px-24 l-px-0">
         {% for post in site.posts reversed %}
             {% if post.collection_id == "collection_bourges-agde" %}
                 {% include article-card.html %}

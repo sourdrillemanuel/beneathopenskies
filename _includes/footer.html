@@ -3,29 +3,29 @@
         <ul class="grid s-px-16 m-px-24 l-px-0">
             <li class="s-col-span-6 m-col-span-4 l-col-span-4">
             <ul>
-                <li class="s-mt-8 l-mt-0 text-sm font-700 gray-12">Links</li>
-                <li class="s-mt-8 l-mt-16"><a class="link text-sm gray-12" href="https://www.komoot.com/fr-fr/collection/1877170/-bikepacking-toward-the-sahara-desert" target="blank">Komoot</a></li>
-                <li class="s-mt-8 l-mt-16"><a class="link text-sm gray-12" href="https://umap.openstreetmap.fr/en/map/mighty-travels_640943" target="blank">uMap</a></li>
-                <li class="s-mt-8 l-mt-16"><a class="link text-sm gray-12" href="https://www.polarsteps.com/seekout/4365113-bikepacking-toward-the-sahara-desert" target="blank">Polarsteps</a></li>
-                <li class="s-mt-8 l-mt-16"><a class="link text-sm gray-12" href="https://lighterpack.com/r/ruee03" target="blank">Lighterpack</a></li>
+                <li class="s-mt-8 l-mt-0 text-md bold gray-12">Links</li>
+                <li class="s-mt-8 l-mt-16"><a class="link text-md gray-12" href="https://www.komoot.com/fr-fr/collection/1877170/-bikepacking-toward-the-sahara-desert" target="blank">Komoot</a></li>
+                <li class="s-mt-8 l-mt-16"><a class="link text-md gray-12" href="https://umap.openstreetmap.fr/en/map/mighty-travels_640943" target="blank">uMap</a></li>
+                <li class="s-mt-8 l-mt-16"><a class="link text-md gray-12" href="https://www.polarsteps.com/seekout/4365113-bikepacking-toward-the-sahara-desert" target="blank">Polarsteps</a></li>
+                <li class="s-mt-8 l-mt-16"><a class="link text-md gray-12" href="https://lighterpack.com/r/ruee03" target="blank">Lighterpack</a></li>
             </ul>
         </li>
         <li class="s-col-span-6 m-col-span-4 l-col-span-4 s-mt-16 m-mt-0">
             <ul>
-                <li class="s-mt-8 l-mt-0 text-sm font-700 gray-12">Collections</li>
-                <li class="s-mt-8 l-mt-16"><a href="{{ site.baseurl }}" class="link text-sm font-500 gray-12">All collections</a></li>
-                <li class="s-mt-8 l-mt-16"><a class="link text-sm font-500 gray-12" href="{{ '/bikepacking-bourges-agde.html' | relative_url }}">Bikepacking from Bourges to Agde</a></li>
-                <li class="s-mt-8 l-mt-16"><a class="link text-sm font-500 gray-12" href="{{ '/bikepacking-northern-spain.html' | relative_url }}">Bikepacking Northern Spain</a></li>
+                <li class="s-mt-8 l-mt-0 text-md bold gray-12">Collections</li>
+                <li class="s-mt-8 l-mt-16"><a href="{{ site.baseurl }}" class="link text-md gray-12">All collections</a></li>
+                <li class="s-mt-8 l-mt-16"><a class="link text-md gray-12" href="{{ '/bikepacking-bourges-agde.html' | relative_url }}">Bikepacking from Bourges to Agde</a></li>
+                <li class="s-mt-8 l-mt-16"><a class="link text-md gray-12" href="{{ '/bikepacking-northern-spain.html' | relative_url }}">Bikepacking Northern Spain</a></li>
             </ul>
         </li>
         <li class="s-col-span-6 m-col-span-4 l-col-span-4 s-mt-16 m-mt-0">
-            <p class="s-mt-8 l-mt-0 text-sm font-700 gray-12">Articles</p>
+            <p class="s-mt-8 l-mt-0 text-md bold gray-12">Articles</p>
             <ul>
                 {% for post in site.posts %}
-                <li class="s-mt-8 l-mt-16"><a class="link text-sm font-500 gray-12" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+                <li class="s-mt-8 l-mt-16"><a class="link text-md gray-12" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
                 {% endfor %}
             </ul>
         </ul>
-        <p class="s-mt-16 m-mt-24 l-mt-32 text-xs gray-12 text-center">© 2023 Manuel Sourdrille / Release 1.4</p>
+        <p class="s-mt-16 m-mt-24 l-mt-32 text-sm bold gray-12 text-center">© 2023 Manuel Sourdrille / Release 1.4</p>
     </div>
 </footer>
