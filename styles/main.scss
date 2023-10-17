@@ -205,6 +205,12 @@ SMALL DEVICES
 
 .s-hidden {display: none;}
 
+/* Borders */
+
+.s-border-1-l {border-left: 1px solid;} .s-border-1-t {border-top: 1px solid;} .s-border-1-b {border-bottom: 1px solid;}
+.s-border-none-l {border-left: 1px none;} .s-border-none-t {border-top: 1px none;} .s-border-none-b {border-bottom: 1px none;}
+
+
 /*
 
 MEDIUM DEVICES
@@ -293,6 +299,10 @@ MEDIUM DEVICES
     .m-pb-48 {padding-bottom: 6rem;} /* 96px */
     
     .m-block {display: block;}
+
+    /* Borders */
+
+    .m-border-1-l {border-left: 1px solid} .m-border-1-t {border-top: 1px solid} .m-border-1-b {border-bottom: 1px solid;}
 }
 
 /*
@@ -421,6 +431,11 @@ LARGE DEVICES
     .l-justify-self-end {justify-self: end;}
     
     .l-block {display: block;}
+
+    /* Borders */
+
+    .l-border-1-l {border-left: 1px solid;} .l-border-1-t {border-top: 1px solid;} .l-border-1-b {border-bottom: 1px solid;}
+    .l-border-none-l {border-left: 1px none;} .l-border-none-t {border-top: 1px none;} .l-border-none-b {border-bottom: 1px none;}
 }
 
 /*
@@ -469,7 +484,8 @@ img {max-width: 100%;}
 
 /* Borders */
 
-.border-1-t {border-top: 1px solid} .border-1-l {border-left: 1px solid} .border-1-b {border-bottom: 1px solid;} .border-1 {border: 1px solid;} .border-2 {border: 2px solid;} .border-x {border-left: 1px solid; border-right: 1px solid;} .border-y {border-top: 1px solid; border-bottom: 1px solid;} .rounded-8 {border-radius: .5rem;} .rounded-64 {border-radius: 4rem;} .rounded-8-t {border-radius: .5rem .5rem 0rem 0rem;}
+.border-1 {border: 1px solid;} .border-2 {border: 2px solid;} .border-1-x {border-left: 1px solid; border-right: 1px solid;} .border-1-y {border-top: 1px solid; border-bottom: 1px solid;}
+.rounded-8 {border-radius: .5rem;} .rounded-64 {border-radius: 4rem;} .rounded-8-t {border-radius: .5rem .5rem 0rem 0rem;}
 
 /* Shadows */
 
@@ -506,12 +522,12 @@ UNIQUE STYLING
 #collection_bourges-agde_map {background: center center url({{ '/assets/img/collection_bourges-agde_map.jpg' | relative_url }});  background-size: cover;}
 #article_2021-03-31 {background: center center url({{ '/assets/img/20210330-155746.jpg' | relative_url }}) rgba(0, 0, 0, .4); background-size: cover;}
 #article_2021-03-22 {background: center center url({{ '/assets/img/20210318-194905.jpg' | relative_url }}) rgba(0, 0, 0, .4); background-size: cover;}
-#article_2023-09-09 {background: center center url({{ '/assets/img/20230906-160415.jpg' | relative_url }}) rgba(0, 0, 0, .4); background-size: cover;}
+#article_2023-09-09 {background: center center url({{ '/assets/img/20230907-193622.jpg' | relative_url }}) rgba(0, 0, 0, .4); background-size: cover;}
 #article_2023-09-12 {background: center center url({{ '/assets/img/20230910-155134.jpg' | relative_url }}) rgba(0, 0, 0, .4); background-size: cover;}
 #article_2023-09-15 {background: center center url({{ '/assets/img/20230912-092040.jpg' | relative_url }}) rgba(0, 0, 0, .4); background-size: cover;}
-#article_2023-09-17 {background: center center url({{ '/assets/img/20230916-133738.jpg' | relative_url }}) rgba(0, 0, 0, .4); background-size: cover;}
+#article_2023-09-17 {background: center center url({{ '/assets/img/20230916-100755.jpg' | relative_url }}) rgba(0, 0, 0, .4); background-size: cover;}
 #article_2023-09-19 {background: center center url({{ '/assets/img/20230917-113037.jpg' | relative_url }}) rgba(0, 0, 0, .4); background-size: cover;}
-#article_2023-09-21 {background: center center url({{ '/assets/img/20230919-193704.jpg' | relative_url }}) rgba(0, 0, 0, .4); background-size: cover;}
+#article_2023-09-21 {background: center center url({{ '/assets/img/20230919-164204.jpg' | relative_url }}) rgba(0, 0, 0, .4); background-size: cover;}
 #col_northern-spain {background: center center url({{ '/assets/img/20210605-193727.jpg' | relative_url }}) rgba(0, 0, 0, .4); background-size: cover;}
 #col_sahara {background: center center url({{ '/assets/img/20220125-131059.jpg' | relative_url }}) rgba(0, 0, 0, .4); background-size: cover;} 
 #col_morvan {background: center center url({{ '/assets/img/20100113-185215.jpg' | relative_url }}) rgba(0, 0, 0, .4); background-size: cover;}
