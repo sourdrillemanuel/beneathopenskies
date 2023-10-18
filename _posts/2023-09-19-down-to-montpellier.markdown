@@ -13,15 +13,13 @@ collection_id: "collection_bourges-agde"
 
 link_collection: bikepacking-bourges-agde.html
 active_collection: "Bikepacking from Bourges to Agde"
-day_start: "1"
-day_end: "3"
 intro: "The journey kicks off in Nantes and heads towards the charming Bay of Bourgneuf. Nowadays, the area is all about oyster and salt farming, giving the scenery a unique touch. Once you move past the bay and cruise from La-Barre-de-Monts to La-Faute-sur-Mer, you'll notice the coastline is mostly urbanized, though its inhabitants remain sparse during the winter months. Scattered along the shoreline are pockets of dunes and pine forests, standing guard over the wetlands nestled farther inland. Moving on from La Faute-sur-Mer, you'll discover the Baie de l'Aiguillon, where the river La Sèvre Nortaise joins the Atlantic Ocean – a bustling hub for bird migrations. Following a pause in La Rochelle, I decided to switch from the EV1 to the V92, also known as La Flow Vélo, which led me towards Saintes. As I made my way to Saintes, a subtle transformation began to unfold, altering the landscape, vegetation, and architectural character that surrounded me."
 
-statistics_duration: "6 days"
-statistics_distance: "350 km"
-statistics_ascent: "920 m"
-statistics_surface: "24% unpaved"
-statistics_highest_elevation: "40 m"
+statistics_duration: "2 days"
+statistics_distance: "132 km"
+statistics_ascent: "1,290 m"
+statistics_surface: "6% unpaved"
+statistics_highest_elevation: "1,220 m"
 statistics_lowest_elevation: "0 m"
 
 highlights_1_title: "Bay of Bourgneuf"
