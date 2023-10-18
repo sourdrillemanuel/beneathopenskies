@@ -24,9 +24,9 @@ statistics_surface: "25% unpaved"
 statistics_highest_elevation: "1,460 m"
 statistics_lowest_elevation: "630 m"
 
-highlights_1_title: "Bay of Bourgneuf"
+highlights_1_title: "The Cézallier"
 highlights_1_description: "Nestled between land and sea, the Bay of Bourgneuf is a charming and picturesque bay where oyster and salt farming create a harmonious landscape."
-highlights_2_title: "Sandy dunes and pine forests"
+highlights_2_title: "The last camp spot, facing L'Aubrac"
 highlights_2_description: "Despite being urbanized, while cycling along the EV1 between La-Barre-de-Monts and La-Faute-sur-Mer, you'll come across beautiful patches of sandy dunes and pine forests. Moreover, you'll be treated to the gentle and constant embrace of the ocean breeze."
 
 img_thumbnail: assets/img/collection_bourges-agde_article_2023-09-12_thumbnail.jpg
