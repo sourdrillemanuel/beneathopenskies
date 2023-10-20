@@ -13,7 +13,7 @@ collection_id: "collection_bourges-agde"
 
 link_collection: bikepacking-bourges-agde.html
 active_collection: "Bikepacking from Bourges to Agde"
-intro: "The journey kicks off in Nantes and heads towards the charming Bay of Bourgneuf. Nowadays, the area is all about oyster and salt farming, giving the scenery a unique touch. Once you move past the bay and cruise from La-Barre-de-Monts to La-Faute-sur-Mer, you'll notice the coastline is mostly urbanized, though its inhabitants remain sparse during the winter months. Scattered along the shoreline are pockets of dunes and pine forests, standing guard over the wetlands nestled farther inland. Moving on from La Faute-sur-Mer, you'll discover the Baie de l'Aiguillon, where the river La Sèvre Nortaise joins the Atlantic Ocean – a bustling hub for bird migrations. Following a pause in La Rochelle, I decided to switch from the EV1 to the V92, also known as La Flow Vélo, which led me towards Saintes. As I made my way to Saintes, a subtle transformation began to unfold, altering the landscape, vegetation, and architectural character that surrounded me."
+intro: "This bikepacking adventure began in the sweltering heat of Bourges. Initially, I followed the hiking trail GR 654, then continued along the Canal du Berry before eventually ascending to the Chaîne des Puys, where the temperature was more bearable. The journey provided opportunities to witness architectural beauty and breathtaking landscapes, with nights spent along riversides or in peaceful pine forests."
 
 statistics_duration: "2 days"
 statistics_distance: "222 km"
@@ -23,9 +23,9 @@ statistics_highest_elevation: "700 m"
 statistics_lowest_elevation: "120 m"
 
 highlights_1_title: "The lovely banks of the river Cher"
-highlights_1_description: "Nestled between land and sea, the Bay of Bourgneuf is a charming and picturesque bay where oyster and salt farming create a harmonious landscape."
-highlights_2_title: "The view on the Chaîne des Puys past Ebreuil"
-highlights_2_description: "Despite being urbanized, while cycling along the EV1 between La-Barre-de-Monts and La-Faute-sur-Mer, you'll come across beautiful patches of sandy dunes and pine forests. Moreover, you'll be treated to the gentle and constant embrace of the ocean breeze."
+highlights_1_description: "Between Saint-Florent-sur-Cher and Saint-Amand-Montron, I followed the GR 654. Although primarily a hiking route, it mostly consists of small roads and dirt paths that are easily rideable on a gravel bike. The route frequently switches sides along the river Cher, providing beautiful tracks and scenery"
+highlights_2_title: "The view of the Chaîne des Puys"
+highlights_2_description: "At Echassières, the route ascends, revealing the striking Chaîne des Puys for the first time. Furthermore, the D50 between Sauterre and Pulvérières provides a beautiful view of the extinct volcanoes."
 
 img_thumbnail: "assets/img/collection_bourges-agde_article_2023-09-09_thumbnail.jpg"
 img_bg: "article_2023-09-09"

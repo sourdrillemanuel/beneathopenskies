@@ -13,9 +13,7 @@ collection_id: "collection_bourges-agde"
 
 link_collection: bikepacking-bourges-agde.html
 active_collection: "Bikepacking from Bourges to Agde"
-day_start: "1"
-day_end: "3"
-intro: "The journey kicks off in Nantes and heads towards the charming Bay of Bourgneuf. Nowadays, the area is all about oyster and salt farming, giving the scenery a unique touch. Once you move past the bay and cruise from La-Barre-de-Monts to La-Faute-sur-Mer, you'll notice the coastline is mostly urbanized, though its inhabitants remain sparse during the winter months. Scattered along the shoreline are pockets of dunes and pine forests, standing guard over the wetlands nestled farther inland. Moving on from La Faute-sur-Mer, you'll discover the Baie de l'Aiguillon, where the river La Sèvre Nortaise joins the Atlantic Ocean – a bustling hub for bird migrations. Following a pause in La Rochelle, I decided to switch from the EV1 to the V92, also known as La Flow Vélo, which led me towards Saintes. As I made my way to Saintes, a subtle transformation began to unfold, altering the landscape, vegetation, and architectural character that surrounded me."
+intro: "These two days, I ventured through lush valleys, unique limestone plateaus, and picturesque villages with distinct rock-topped roofs. The rugged Causse Méjean plateau, a UNESCO World Heritage Site, unfolded breathtaking vistas, creating an otherworldly atmosphere heightened by dramatic storm clouds and occasional patches of blue sky. My journey led me along dirt tracks and single trails along the edge of the incredible Gorges du Tarn, where these remote landscapes not only offered solitude but also introduced me to a fellow traveler with a unique story."
 
 statistics_duration: "2 days"
 statistics_distance: "154 km"
@@ -24,10 +22,10 @@ statistics_surface: "43% unpaved"
 statistics_highest_elevation: "1,560 m"
 statistics_lowest_elevation: "540 m"
 
-highlights_1_title: "Bay of Bourgneuf"
-highlights_1_description: "Nestled between land and sea, the Bay of Bourgneuf is a charming and picturesque bay where oyster and salt farming create a harmonious landscape."
-highlights_2_title: "Sandy dunes and pine forests"
-highlights_2_description: "Despite being urbanized, while cycling along the EV1 between La-Barre-de-Monts and La-Faute-sur-Mer, you'll come across beautiful patches of sandy dunes and pine forests. Moreover, you'll be treated to the gentle and constant embrace of the ocean breeze."
+highlights_1_title: "The descent to Le Pont-de-Montvert"
+highlights_1_description: "The D20, from the Finiels pass to the Tarn River, is a fast-flowing paved road that provides breathtaking vistas and enjoyable switchbacks with minimal traffic, at least from my experience."
+highlights_2_title: "Causse Méjean"
+highlights_2_description: "Causse Méjean is a limestone plateau located in the Lozère department of southern France. It is a part of The Causses and the Cévennes, designated as a UNESCO World Heritage Site. An enjoyable mountain bike track encircles the entire plateau, offering occasional views of the deep gorge below. The eastern part presents a different landscape from its western counterpart, with a greater prevalence of forests. As you approach the Perjuret pass, you can catch a glimpse of Mont Aigoual."
 
 img_thumbnail: assets/img/collection_bourges-agde_article_2023-09-17_thumbnail.jpg
 img_bg: "article_2023-09-17"

@@ -13,9 +13,7 @@ collection_id: "collection_bourges-agde"
 
 link_collection: bikepacking-bourges-agde.html
 active_collection: "Bikepacking from Bourges to Agde"
-day_start: "1"
-day_end: "3"
-intro: "The journey kicks off in Nantes and heads towards the charming Bay of Bourgneuf. Nowadays, the area is all about oyster and salt farming, giving the scenery a unique touch. Once you move past the bay and cruise from La-Barre-de-Monts to La-Faute-sur-Mer, you'll notice the coastline is mostly urbanized, though its inhabitants remain sparse during the winter months. Scattered along the shoreline are pockets of dunes and pine forests, standing guard over the wetlands nestled farther inland. Moving on from La Faute-sur-Mer, you'll discover the Baie de l'Aiguillon, where the river La Sèvre Nortaise joins the Atlantic Ocean – a bustling hub for bird migrations. Following a pause in La Rochelle, I decided to switch from the EV1 to the V92, also known as La Flow Vélo, which led me towards Saintes. As I made my way to Saintes, a subtle transformation began to unfold, altering the landscape, vegetation, and architectural character that surrounded me."
+intro: "As I ascended to higher altitudes, the mornings grew colder. Each day presented challenging climbs and the occasional encounter with fellow bikepackers. The Cézallier region stood out as the true highlight of this route. At the summit of the pass, the vista of the Sancy Massif and Monts du Cantal was truly breathtaking. The dirt tracks and small paved roads descending from Cezallier were mesmerizing. The final campsite, overlooking the Gorges de la Truyère, was undoubtedly one of the best of the entire journey."
 
 statistics_duration: "3 days"
 statistics_distance: "183 km"
@@ -24,10 +22,10 @@ statistics_surface: "25% unpaved"
 statistics_highest_elevation: "1,460 m"
 statistics_lowest_elevation: "630 m"
 
-highlights_1_title: "The Cézallier"
-highlights_1_description: "Nestled between land and sea, the Bay of Bourgneuf is a charming and picturesque bay where oyster and salt farming create a harmonious landscape."
-highlights_2_title: "The last camp spot, facing L'Aubrac"
-highlights_2_description: "Despite being urbanized, while cycling along the EV1 between La-Barre-de-Monts and La-Faute-sur-Mer, you'll come across beautiful patches of sandy dunes and pine forests. Moreover, you'll be treated to the gentle and constant embrace of the ocean breeze."
+highlights_1_title: "The Cézallier Massif"
+highlights_1_description: "It's a volcanic plateau located in the Massif Central, between the Monts Dore and the Monts du Cantal. It is one of the five natural regions that make up the Regional Natural Park of the Volcanoes of Auvergne. The average elevation of the massif ranges from 1,200 to 1,500 meters. The highest point in the massif is the Signal du Luguet at 1,547 meters. Up there, the view is incredible."
+highlights_2_title: "The last camp spot, overlooking the Gorges de la Truyère."
+highlights_2_description: "South of the Monts du Cantal, between Gourdièges and Sainte-Marie, you'll find beautiful dirt paths leading to an open area overlooking the gorges below and the Aubrac further south. It's a perfect place to camp."
 
 img_thumbnail: assets/img/collection_bourges-agde_article_2023-09-12_thumbnail.jpg
 img_bg: "article_2023-09-12"
