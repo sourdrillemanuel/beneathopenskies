@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Aubrac and Beyond"
+title: "Monts d'Aubrac and Beyond"
 date: 2023-09-15 12:00:00 +0200
 permalink: "monts-du-cantal-and-aubrac.html"
 
@@ -13,19 +13,19 @@ collection_id: "collection_bourges-agde"
 
 link_collection: bikepacking-bourges-agde.html
 active_collection: "Bikepacking from Bourges to Agde"
-intro: "The journey kicks off in Nantes and heads towards the charming Bay of Bourgneuf. Nowadays, the area is all about oyster and salt farming, giving the scenery a unique touch. Once you move past the bay and cruise from La-Barre-de-Monts to La-Faute-sur-Mer, you'll notice the coastline is mostly urbanized, though its inhabitants remain sparse during the winter months. Scattered along the shoreline are pockets of dunes and pine forests, standing guard over the wetlands nestled farther inland. Moving on from La Faute-sur-Mer, you'll discover the Baie de l'Aiguillon, where the river La Sèvre Nortaise joins the Atlantic Ocean – a bustling hub for bird migrations. Following a pause in La Rochelle, I decided to switch from the EV1 to the V92, also known as La Flow Vélo, which led me towards Saintes. As I made my way to Saintes, a subtle transformation began to unfold, altering the landscape, vegetation, and architectural character that surrounded me."
+intro: "The route took me through the beautiful Gorges de la Truyere and onto the striking Aubrac plateau. This plateau featured a rugged, yellowish-burned landscape. The ride to Saint-Chély d’Apcher was fantastic, including some lovely forested sections and perfect dirt paths. As I approached the Mont Lozère, a couple warned me about wolves, but I remained undeterred."
 
 statistics_duration: "3 days"
-statistics_distance: "183 km"
-statistics_ascent: "3,360 m"
+statistics_distance: "145 km"
+statistics_ascent: "2,240 m"
 statistics_surface: "25% unpaved"
-statistics_highest_elevation: "1,460 m"
-statistics_lowest_elevation: "630 m"
+statistics_highest_elevation: "1,490 m"
+statistics_lowest_elevation: "650 m"
 
-highlights_1_title: "Bay of Bourgneuf"
-highlights_1_description: "Nestled between land and sea, the Bay of Bourgneuf is a charming and picturesque bay where oyster and salt farming create a harmonious landscape."
-highlights_2_title: "Sandy dunes and pine forests"
-highlights_2_description: "Despite being urbanized, while cycling along the EV1 between La-Barre-de-Monts and La-Faute-sur-Mer, you'll come across beautiful patches of sandy dunes and pine forests. Moreover, you'll be treated to the gentle and constant embrace of the ocean breeze."
+highlights_1_title: "The GR Tour des Monts d’Aubrac"
+highlights_1_description: "From Saint-Urcize to Malbouzon, the scenery feels otherworldly, characterized by a lack of flora, the predominance of rocks and grass, and a yellowish, burned appearance. A mix of the official hiking trail and alternative small paved roads adds an element of enjoyment to the journey."
+highlights_2_title: "The fast-flowing tracks around Charpal lake"
+highlights_2_description: "From Sainte-Eulalie to the Charpal lake, the trails are fast-flowing, often winding through coniferous forests. The lake itself offers a pleasant setting, creating a sense of seclusion despite its actual accessibility."
 
 img_thumbnail: assets/img/collection_bourges-agde_article_2023-09-15_thumbnail.jpg
 img_bg: "article_2023-09-15"
