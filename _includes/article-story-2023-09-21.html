@@ -1,6 +1,10 @@
 <section class="grid s-px-16 m-px-24 l-px-0 s-mt-64 m-mt-96 l-mt-128">
-    <p class="s-col-span-6 m-col-span-12 l-col-3-11 s-mt-16 content-w justify-self-center text-lg bold gray-12">I arrived at Mathilda's empty but unlocked flat right before the thunderstorms. It felt so good to wear clean clothes after a good shower. I was indeed covered with dust. Unlike last night where I was anxious about thunderstorms, I welcomed them once in the house, and watched in awe as the sky tore itself apart and rain fell down violently all evening.</p>
-    <p class="s-col-span-6 m-col-span-12 l-col-3-11 s-mt-16 content-w justify-self-center text-lg gray-12">After a great time in Lattes and Montpellier, I left after lunch, a bit sad but happy to know that I'll be with my parents the next day at that time.</p>
+    <p class="s-col-span-6 m-col-span-12 l-col-3-11 s-mt-16 content-w justify-self-center text-lg bold gray-12">
+      {{include.intro_highlight}}
+    </p>
+    <p class="s-col-span-6 m-col-span-12 l-col-3-11 s-mt-16 content-w justify-self-center text-lg gray-12">
+      {{include.intro_p}}
+    </p>
 </section>
 <section class="flex justify-center">
     <div class="container grid gap-8">
@@ -15,7 +19,9 @@
     </div>
 </section>
 <section class="grid s-px-16 m-px-24 l-px-0">
-    <p class="s-col-span-6 m-col-span-12 l-col-3-11 s-mt-32 m-mt-64 l-mt-96 content-w justify-self-center text-lg gray-12">The ride through the forest park of La Guardiole was fine, apart from the dangerous stretch between Vic and Cournonterral. The view up there was indeed nice. The road became nicer and quieter the further inland I got.</p>
+    <p class="s-col-span-6 m-col-span-12 l-col-3-11 s-mt-32 m-mt-64 l-mt-96 content-w justify-self-center text-lg gray-12">
+      {{ include.middle_p}}
+    </p>
 </section>
 <div class="grid-cols-2 gap-8 s-mt-32 m-mt-64 l-mt-96">
     <img class="s-col-span-2 m-col-span-1" src="{{ '/assets/img/20230919-161044.jpg' | relative_url }}">
@@ -23,8 +29,13 @@
 </div>
 <section class="flex justify-center">
     <div class="container grid s-px-16 m-px-24 l-px-0">
-        <p class="s-col-span-6 m-col-span-12 l-col-1-3 s-mt-16 m-mt-24 l-mt-96 text-md gray-12"><span class="bold gray-12">Fig.1 </span>Palavas is a seaside resort, south of Montpellier. It lies between the Étang de l'Arnel, the Étang du Méjean, and the sea.</p>
-        <p class="s-col-span-6 m-col-span-12 l-col-3-11 s-mt-32 m-mt-64 l-mt-96 content-w justify-self-center text-lg gray-12">Eventually, I reached the natural area I wanted to see, and the golden hour made it look really nice. Some of the single tracks were challenging, but the last part was spent on dirt tracks and small roads. I found a spot below pines right next to a small paved road, between vineyards. It's hot today. Forty kilometers to go tomorrow. Excited!</p>
+        <p class="s-col-span-6 m-col-span-12 l-col-1-3 s-mt-16 m-mt-24 l-mt-96 text-md gray-12">
+          <span class="bold gray-12">Fig.1 </span>
+          {{ include.img_legend }}
+        </p>
+        <p class="s-col-span-6 m-col-span-12 l-col-3-11 s-mt-32 m-mt-64 l-mt-96 content-w justify-self-center text-lg gray-12">
+          {{ include.conclusion }}
+        </p>
     </div>
 </section>
 <div class="flex justify-center">
