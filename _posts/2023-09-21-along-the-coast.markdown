@@ -34,3 +34,31 @@ img_map: "collection_bourges-agde_map"
 link_umap: "https://umap.openstreetmap.fr/en/map/mighty-travels_640943"
 link_komoot: "https://www.komoot.com/fr-fr/collection/2333829/-from-bourges-to-agde"
 ---
+
+{% capture intro_highlight %}
+I arrived at Mathilda's empty but unlocked flat right before the thunderstorms. It felt so good to wear clean clothes after a good shower. I was indeed covered with dust. Unlike last night where I was anxious about thunderstorms, I welcomed them once in the house, and watched in awe as the sky tore itself apart and rain fell down violently all evening.
+{% endcapture %}
+
+{% capture intro_p %}
+After a great time in Lattes and Montpellier, I left after lunch, a bit sad but happy to know that I'll be with my parents the next day at that time.
+{% endcapture %}
+
+{% capture middle_p %}
+The ride through the forest park of La Guardiole was fine, apart from the dangerous stretch between Vic and Cournonterral. The view up there was indeed nice. The road became nicer and quieter the further inland I got.
+{% endcapture %}
+
+{% capture img_legend %}
+Palavas is a seaside resort, south of Montpellier. It lies between the Étang de l'Arnel, the Étang du Méjean, and the sea.
+{% endcapture %}
+
+{% capture conclusion %}
+Eventually, I reached the natural area I wanted to see, and the golden hour made it look really nice. Some of the single tracks were challenging, but the last part was spent on dirt tracks and small roads. I found a spot below pines right next to a small paved road, between vineyards. It's hot today. Forty kilometers to go tomorrow. Excited!
+{% endcapture %}
+
+{% include article-story-2023-09-21.html
+  intro_highlight=intro_highlight
+  intro_p=intro_p
+  middle_p=middle_p
+  img_legend=img_legend
+  conclusion=conclusion
+%}

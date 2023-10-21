@@ -3,23 +3,7 @@
     {% include head.html %}
     <body class="bg-gray-96">
         {% include article-header.html %}
-        {% if page.title == "Along the Atlantic Coast" %}
-            {% include article-story-2021-03-22.html %}
-        {% elsif page.title == "From the Atlantic to the Mediterranean" %}
-            {% include article-story-2021-03-31.html %}
-        {% elsif page.article_id == "article_2023-09-09" %}
-            {% include article-story-2023-09-09.html %}
-        {% elsif page.article_id == "article_2023-09-12" %}
-            {% include article-story-2023-09-12.html %}
-        {% elsif page.article_id == "article_2023-09-15" %}
-            {% include article-story-2023-09-15.html %}
-        {% elsif page.article_id == "article_2023-09-17" %}
-            {% include article-story-2023-09-17.html %}
-        {% elsif page.article_id == "article_2023-09-19" %}
-            {% include article-story-2023-09-19.html %}
-        {% elsif page.article_id == "article_2023-09-21" %}
-            {% include article-story-2023-09-21.html %}
-        {% endif %}
+        {{ page.content }}
         {% include article-bits.html %}
         {% include footer.html %}
     </body>
