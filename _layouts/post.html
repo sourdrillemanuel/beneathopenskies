@@ -3,18 +3,24 @@
     {% include head.html %}
     <body class="bg-gray-96">
         {% include article-header.html %}
-        <section class="flex justify-center s-mt-64 m-mt-96 l-mt-128">
-            <div class="container grid s-px-16 m-px-24 l-px-0 border-b s-pb-32 m-pb-48 l-pb-64 gray-32">
-                {% include article-intro.html %}
-                {% include stats.html %}
-                {% include highlights.html %}
-            </div>
-        </section>
         {% if page.title == "Along the Atlantic Coast" %}
             {% include article-story-2021-03-22.html %}
         {% elsif page.title == "From the Atlantic to the Mediterranean" %}
             {% include article-story-2021-03-31.html %}
+        {% elsif page.article_id == "article_2023-09-09" %}
+            {% include article-story-2023-09-09.html %}
+        {% elsif page.article_id == "article_2023-09-12" %}
+            {% include article-story-2023-09-12.html %}
+        {% elsif page.article_id == "article_2023-09-15" %}
+            {% include article-story-2023-09-15.html %}
+        {% elsif page.article_id == "article_2023-09-17" %}
+            {% include article-story-2023-09-17.html %}
+        {% elsif page.article_id == "article_2023-09-19" %}
+            {% include article-story-2023-09-19.html %}
+        {% elsif page.article_id == "article_2023-09-21" %}
+            {% include article-story-2023-09-21.html %}
         {% endif %}
+        {% include article-bits.html %}
         {% include footer.html %}
     </body>
 </html>
