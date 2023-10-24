@@ -32,5 +32,5 @@ img_bg: "article_2023-09-15"
 img_map: "collection_bourges-agde_map"
 
 link_umap: "https://umap.openstreetmap.fr/en/map/mighty-travels_640943"
-link_komoot: "https://www.komoot.com/fr-fr/collection/1877170/-bikepacking-toward-the-sahara-desert"
+link_komoot: "https://www.komoot.com/fr-fr/collection/2333829/-from-bourges-to-agde"
 ---
