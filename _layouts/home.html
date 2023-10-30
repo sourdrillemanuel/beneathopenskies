@@ -21,7 +21,7 @@
 
   <!-- HEADER -->
 
-  <header class="flex justify-center l-py-128">
+  <header class="flex justify-center s-py-32 m-py-64 l-py-128">
     <div class="container grid s-px-16 m-px-24 l-px-0">
       <div class="flex flex-col s-col-span-6 m-col-span-12 l-col-span-12">
         <img class="self-center w-8rem border-2 rounded-64" src="{{ 'assets/img/portrait.png' | relative_url }}">
@@ -34,16 +34,15 @@
 
   <!-- COLLECTIONS -->
 
-  <section class="flex justify-center s-pt-32 m-pt-48 l-pt-64 bg-tertiary-88 border-1-t">
+  <section class="flex justify-center s-pt-32 m-pt-48 l-pt-64 bg-tertiary-88 s-border-1-t">
     <div class="container s-px-16 m-px-24 l-px-32">
       <p class="text-2xl gray-12">Collections <span class="badge relative s-top--16 text-xs font-700 bg-gray-12 gray-96">6</span></p>
     </div>
   </section>
-  <div class="carousel l-pt-32 l-pb-64 bg-tertiary-88" data-flickity='{ "freeScroll": true, "prevNextButtons": false, "cellAlign": "left", "pageDots": false }'>
+  <div class="carousel s-pt-16 m-pt-24 l-pt-32 s-pb-32 m-pb-48 l-pb-64 bg-tertiary-88" data-flickity='{ "freeScroll": true, "prevNextButtons": true, "cellAlign": "left", "pageDots": false }'>
     <a href="{{ '/bikepacking-bourges-agde.html' | relative_url }}"
       class="carousel-cell flex flex-col s-mr-16 m-mr-24 l-mr-32 gray-12 border-1 rounded-8 shadow">
-      <div id="collection_bourges-agde" class="l-p-16 rounded-8-t">
-        <p class="badge w-fit text-xs font-700 bg-gray-12 gray-96">new</p>
+      <div id="collection_bourges-agde" class="s-p-8 m-p-12 l-p-16 rounded-8-t">
       </div>
       <div class="s-px-8 m-px-12 l-px-16 s-py-16 m-py-24 l-py-32">
         <h4 class="text-2xl link">Bikepacking from Bourges to Agde</h4>
@@ -51,7 +50,25 @@
       </div>
     </a>
     <a href="#" class="carousel-cell flex flex-col s-mr-16 m-mr-24 l-mr-32 gray-12 border-1 rounded-8 shadow">
-      <div id="col_northern-spain" class="l-p-16 rounded-8-t">
+      <div id="collection_morvan" class="s-p-8 m-p-12 l-p-16 rounded-8-t">
+        <p class="badge w-fit text-xs font-700 bg-gray-12 gray-96">upcoming</p>
+      </div>
+      <div class="s-px-8 m-px-12 l-px-16 s-py-16 m-py-24 l-py-32">
+        <h4 class="text-2xl link">Bikepacking the Morvan and the Chaîne des Puys</h4>
+        <p class="s-mt-8 m-mt-12 l-mt-16 text-md">4 articles</p>
+      </div>
+    </a>
+    <a href="#" class="carousel-cell flex flex-col s-mr-16 m-mr-24 l-mr-32 gray-12 border-1 rounded-8 shadow">
+      <div id="collection_sahara" class="s-p-8 m-p-12 l-p-16 rounded-8-t">
+        <p class="badge w-fit text-xs font-700 bg-gray-12 gray-96">upcoming</p>
+      </div>
+      <div class="s-px-8 m-px-12 l-px-16 s-py-16 m-py-24 l-py-32">
+        <h4 class="text-2xl link">Bikepacking towards the Sahara Desert</h4>
+        <p class="s-mt-8 m-mt-12 l-mt-16 text-md">21 articles</p>
+      </div>
+    </a>
+    <a href="#" class="carousel-cell flex flex-col s-mr-16 m-mr-24 l-mr-32 gray-12 border-1 rounded-8 shadow">
+      <div id="collection_northern-spain" class="s-p-8 m-p-12 l-p-16 rounded-8-t">
         <p class="badge w-fit text-xs font-700 bg-gray-12 gray-96">upcoming</p>
       </div>
       <div class="s-px-8 m-px-12 l-px-16 s-py-16 m-py-24 l-py-32">
@@ -59,11 +76,38 @@
         <p class="s-mt-8 m-mt-12 l-mt-16 text-md">13 articles</p>
       </div>
     </a>
+    <a href="#" class="carousel-cell flex flex-col s-mr-16 m-mr-24 l-mr-32 gray-12 border-1 rounded-8 shadow">
+      <div id="collection_brittany" class="s-p-8 m-p-12 l-p-16 rounded-8-t">
+        <p class="badge w-fit text-xs font-700 bg-gray-12 gray-96">upcoming</p>
+      </div>
+      <div class="s-px-8 m-px-12 l-px-16 s-py-16 m-py-24 l-py-32">
+        <h4 class="text-2xl link">Bikepacking Brittany's Coastline</h4>
+        <p class="s-mt-8 m-mt-12 l-mt-16 text-md">4 articles</p>
+      </div>
+    </a>
+    <a href="#" class="carousel-cell flex flex-col s-mr-16 m-mr-24 l-mr-32 gray-12 border-1 rounded-8 shadow">
+      <div id="collection_silk-road" class="s-p-8 m-p-12 l-p-16 rounded-8-t">
+        <p class="badge w-fit text-xs font-700 bg-gray-12 gray-96">upcoming</p>
+      </div>
+      <div class="s-px-8 m-px-12 l-px-16 s-py-16 m-py-24 l-py-32">
+        <h4 class="text-2xl link">Hitchhiking the Silk Road</h4>
+        <p class="s-mt-8 m-mt-12 l-mt-16 text-md">8 articles</p>
+      </div>
+    </a>
+    <a href="#" class="carousel-cell flex flex-col s-mr-16 m-mr-24 l-mr-32 gray-12 border-1 rounded-8 shadow">
+      <div id="collection_overnighters" class="s-p-8 m-p-12 l-p-16 rounded-8-t">
+        <p class="badge w-fit text-xs font-700 bg-gray-12 gray-96">upcoming</p>
+      </div>
+      <div class="s-px-8 m-px-12 l-px-16 s-py-16 m-py-24 l-py-32">
+        <h4 class="text-2xl link">Overnighters</h4>
+        <p class="s-mt-8 m-mt-12 l-mt-16 text-md">4 articles</p>
+      </div>
+    </a>
   </div>
 
   <!-- ARTICLES -->
 
-  <section class="flex justify-center s-pt-32 m-pt-48 l-pt-64 bg-secondary-88 border-1-t">
+  <section class="flex justify-center s-pt-32 m-pt-48 l-pt-64 bg-secondary-88 s-border-1-t">
     <div class="container s-px-16 m-px-24 l-px-32">
       <p class="text-2xl gray-12">Latest articles</p>
     </div>
@@ -77,6 +121,9 @@
       {% endfor %}
     </div>
   </section>
+
+  <!-- FOOTER -->
+  
   {% include footer.html %}
 </body>
 </html>

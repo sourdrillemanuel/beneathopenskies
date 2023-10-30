@@ -29,4 +29,8 @@ highlights_2_description: "Causse Méjean is a limestone plateau located in the 
 
 img_thumbnail: assets/img/collection_bourges-agde_article_2023-09-17_thumbnail.jpg
 img_bg: "article_2023-09-17"
+img_map: "collection_bourges-agde_map"
+
+link_umap: "https://umap.openstreetmap.fr/en/map/mighty-travels_640943"
+link_komoot: "https://www.komoot.com/fr-fr/collection/2333829/-from-bourges-to-agde"
 ---
