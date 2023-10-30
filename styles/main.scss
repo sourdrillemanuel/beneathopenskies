@@ -189,6 +189,7 @@ SMALL DEVICES
 .s-py-32 {padding-top: 2rem; padding-bottom: 2rem;} /* 16px */
 .s-py-64 {padding-top: 4rem; padding-bottom: 4rem;} /* 64px */
 
+.s-pt-16 {padding-top: 1rem;} /* 16px */
 .s-pt-32 {padding-top: 2rem;} /* 32px */
 .s-pt-64 {padding-top: 4rem;} /* 64px */
 
@@ -196,6 +197,7 @@ SMALL DEVICES
 .s-pb-16 {padding-bottom: 1rem;} /* 8px */
 .s-pb-32 {padding-bottom: 2rem;} /* 32px */
 .s-pb-64 {padding-bottom: 4rem;} /* 64px */
+.s-pb-96 {padding-bottom: 6rem;} /* 96px */
 
 .s-p-8 {padding: .5rem;} /* 8px */
 .s-p-12 {padding: .75rem;} /* 12px */
@@ -293,6 +295,7 @@ MEDIUM DEVICES
     .m-p-16 {padding: 1rem;} /* 16px */
     .m-p-24 {padding: 1.5rem;} /* 24px */
 
+    .m-pt-24 {padding-top: 1.5rem;} /* 24px */
     .m-pt-48 {padding-top: 3rem;} /* 48px */
     
     .m-pb-48 {padding-bottom: 3rem;} /* 48px */
@@ -518,8 +521,15 @@ UNIQUE STYLING
 
 /* Unique backgrounds for articles' header */
 
-#col_northern-spain, #col_sahara, #col_morvan, #col_brittany, #col_french-overnighters, #collection_bourges-agde {height: 100%;}
+#collection_northern-spain, #collection_sahara, #collection_morvan, #collection_brittany, #collection_overnighters, #collection_silk-road, #collection_bourges-agde {height: 100%;}
 #collection_bourges-agde_map {background: center center url({{ '/assets/img/collection_bourges-agde_map.jpg' | relative_url }});  background-size: cover;}
+#collection_northern-spain {background: center center url({{ '/assets/img/20210605-193727.jpg' | relative_url }}) rgba(0, 0, 0, .4); background-size: cover;}
+#collection_sahara {background: center center url({{ '/assets/img/20220125-131059.jpg' | relative_url }}) rgba(0, 0, 0, .4); background-size: cover;} 
+#collection_morvan {background: center center url({{ '/assets/img/20100113-185215.jpg' | relative_url }}) rgba(0, 0, 0, .4); background-size: cover;}
+#collection_brittany {background: center center url({{ '/assets/img/20200810-214258.jpg' | relative_url }}) rgba(0, 0, 0, .4); background-size: cover;}
+#collection_overnighters {background: center center url({{ '/assets/img/20230725-202335.jpg' | relative_url }}) rgba(0, 0, 0, .4); background-size: cover;}
+#collection_bourges-agde {background: center center url({{ '/assets/img/20230909-184927.jpg' | relative_url }}) rgba(0, 0, 0, .4); background-size: cover;}
+#collection_silk-road {background: center center url({{ '/assets/img/20160629-040648.jpg' | relative_url }}) rgba(0, 0, 0, .4); background-size: cover;}
 #article_2021-03-31 {background: center center url({{ '/assets/img/20210330-155746.jpg' | relative_url }}) rgba(0, 0, 0, .4); background-size: cover;}
 #article_2021-03-22 {background: center center url({{ '/assets/img/20210318-194905.jpg' | relative_url }}) rgba(0, 0, 0, .4); background-size: cover;}
 #article_2023-09-09 {background: center center url({{ '/assets/img/20230907-193622.jpg' | relative_url }}) rgba(0, 0, 0, .4); background-size: cover;}
@@ -528,12 +538,6 @@ UNIQUE STYLING
 #article_2023-09-17 {background: center center url({{ '/assets/img/20230916-100755.jpg' | relative_url }}) rgba(0, 0, 0, .4); background-size: cover;}
 #article_2023-09-19 {background: center center url({{ '/assets/img/20230917-113037.jpg' | relative_url }}) rgba(0, 0, 0, .4); background-size: cover;}
 #article_2023-09-21 {background: center center url({{ '/assets/img/20230919-164204.jpg' | relative_url }}) rgba(0, 0, 0, .4); background-size: cover;}
-#col_northern-spain {background: center center url({{ '/assets/img/20210605-193727.jpg' | relative_url }}) rgba(0, 0, 0, .4); background-size: cover;}
-#col_sahara {background: center center url({{ '/assets/img/20220125-131059.jpg' | relative_url }}) rgba(0, 0, 0, .4); background-size: cover;} 
-#col_morvan {background: center center url({{ '/assets/img/20100113-185215.jpg' | relative_url }}) rgba(0, 0, 0, .4); background-size: cover;}
-#col_brittany {background: center center url({{ '/assets/img/20200810-214258.jpg' | relative_url }}) rgba(0, 0, 0, .4); background-size: cover;}
-#col_french-overnighters {background: center center url({{ '/assets/img/20230725-202335.jpg' | relative_url }}) rgba(0, 0, 0, .4); background-size: cover;}
-#collection_bourges-agde {background: center center url({{ '/assets/img/20230909-184927.jpg' | relative_url }}) rgba(0, 0, 0, .4); background-size: cover;}
 
 /* */
 
@@ -543,6 +547,6 @@ UNIQUE STYLING
 
 .carousel-cell {
     width: 60vw;
-    height: inherit;
+    height: calc(100% - 4px);
     counter-increment: gallery-cell;
 }

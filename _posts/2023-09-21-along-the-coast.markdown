@@ -13,9 +13,7 @@ collection_id: "collection_bourges-agde"
 
 link_collection: bikepacking-bourges-agde.html
 active_collection: "Bikepacking from Bourges to Agde"
-day_start: "1"
-day_end: "3"
-intro: "The journey kicks off in Nantes and heads towards the charming Bay of Bourgneuf. Nowadays, the area is all about oyster and salt farming, giving the scenery a unique touch. Once you move past the bay and cruise from La-Barre-de-Monts to La-Faute-sur-Mer, you'll notice the coastline is mostly urbanized, though its inhabitants remain sparse during the winter months. Scattered along the shoreline are pockets of dunes and pine forests, standing guard over the wetlands nestled farther inland. Moving on from La Faute-sur-Mer, you'll discover the Baie de l'Aiguillon, where the river La Sèvre Nortaise joins the Atlantic Ocean – a bustling hub for bird migrations. Following a pause in La Rochelle, I decided to switch from the EV1 to the V92, also known as La Flow Vélo, which led me towards Saintes. As I made my way to Saintes, a subtle transformation began to unfold, altering the landscape, vegetation, and architectural character that surrounded me."
+intro: "Leaving Montpellier behind and heading inland, my journey took me through forested paths and sometimes challenging roads. Yet, the promise of a pristine natural area and the allure of the golden hour kept me going. As I settled for the day under pine trees, the excitement for the final leg of my adventure loomed."
 
 statistics_duration: "2 days"
 statistics_distance: "88 km"
@@ -24,11 +22,15 @@ statistics_surface: "33% unpaved"
 statistics_highest_elevation: "230 m"
 statistics_lowest_elevation: "0 m"
 
-highlights_1_title: "The view at the top of Laguardiole"
-highlights_1_description: "Nestled between land and sea, the Bay of Bourgneuf is a charming and picturesque bay where oyster and salt farming create a harmonious landscape."
-highlights_2_title: "Sandy dunes and pine forests"
-highlights_2_description: "Despite being urbanized, while cycling along the EV1 between La-Barre-de-Monts and La-Faute-sur-Mer, you'll come across beautiful patches of sandy dunes and pine forests. Moreover, you'll be treated to the gentle and constant embrace of the ocean breeze."
+highlights_1_title: "The Gardiole Massif"
+highlights_1_description: "Nestled between Montpellier and Sète, the massif overlooks the Mediterranean Sea, offering delightful tracks with rewarding vistas."
+highlights_2_title: "From the Abbaye Sainte-Marie de Valmagne to Castelnau-de-Guers"
+highlights_2_description: "I couldn't find a name for this area, but between the two locations, you'll discover fantastic dirt paths, mountain bike tracks, and winding paved roads set amidst a picturesque landscape of vineyards, pine trees, and meadows."
 
 img_thumbnail: assets/img/collection_bourges-agde_article_2023-09-21_thumbnail.jpg
 img_bg: "article_2023-09-21"
+img_map: "collection_bourges-agde_map"
+
+link_umap: "https://umap.openstreetmap.fr/en/map/mighty-travels_640943"
+link_komoot: "https://www.komoot.com/fr-fr/collection/2333829/-from-bourges-to-agde"
 ---

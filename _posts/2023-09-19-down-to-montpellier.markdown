@@ -13,7 +13,7 @@ collection_id: "collection_bourges-agde"
 
 link_collection: bikepacking-bourges-agde.html
 active_collection: "Bikepacking from Bourges to Agde"
-intro: "The journey kicks off in Nantes and heads towards the charming Bay of Bourgneuf. Nowadays, the area is all about oyster and salt farming, giving the scenery a unique touch. Once you move past the bay and cruise from La-Barre-de-Monts to La-Faute-sur-Mer, you'll notice the coastline is mostly urbanized, though its inhabitants remain sparse during the winter months. Scattered along the shoreline are pockets of dunes and pine forests, standing guard over the wetlands nestled farther inland. Moving on from La Faute-sur-Mer, you'll discover the Baie de l'Aiguillon, where the river La Sèvre Nortaise joins the Atlantic Ocean – a bustling hub for bird migrations. Following a pause in La Rochelle, I decided to switch from the EV1 to the V92, also known as La Flow Vélo, which led me towards Saintes. As I made my way to Saintes, a subtle transformation began to unfold, altering the landscape, vegetation, and architectural character that surrounded me."
+intro: "In this two-day journey, I encountered ever-changing landscapes, from the dramatic Causse Méjean plateau to the lush valleys where the river Gardon flows . These remote regions provided solitude and striking vistas. The weather played tricks on me, yet the experiences were unforgettable, and I finally arrived in Montpellier, greeted by modern architecture and a warm welcome from Brune."
 
 statistics_duration: "2 days"
 statistics_distance: "132 km"
@@ -22,11 +22,15 @@ statistics_surface: "6% unpaved"
 statistics_highest_elevation: "1,220 m"
 statistics_lowest_elevation: "0 m"
 
-highlights_1_title: "Bay of Bourgneuf"
-highlights_1_description: "Nestled between land and sea, the Bay of Bourgneuf is a charming and picturesque bay where oyster and salt farming create a harmonious landscape."
-highlights_2_title: "Sandy dunes and pine forests"
-highlights_2_description: "Despite being urbanized, while cycling along the EV1 between La-Barre-de-Monts and La-Faute-sur-Mer, you'll come across beautiful patches of sandy dunes and pine forests. Moreover, you'll be treated to the gentle and constant embrace of the ocean breeze."
+highlights_1_title: "Stunning ride on the D18, overlooking La Jonte"
+highlights_1_description: "The D18 road, stretching from La Parade to the Perjuret Pass, treats travelers to magnificent vistas overlooking the Jonte River and the distant Mount Aigoual to the south."
+highlights_2_title: "The D907, from Col Salidès to Saint-André-de-Valborgne"
+highlights_2_description: "Riding down the valley where the river Gardon flows is one of the highlights of the entire trip. The scenery is fantastic and unfamiliar. As you descend, the temperature rises, along with the humidity. The wind subsides, and both the vegetation and architecture undergo drastic changes."
 
 img_thumbnail: assets/img/collection_bourges-agde_article_2023-09-19_thumbnail.jpg
 img_bg: "article_2023-09-19"
+img_map: "collection_bourges-agde_map"
+
+link_umap: "https://umap.openstreetmap.fr/en/map/mighty-travels_640943"
+link_komoot: "https://www.komoot.com/fr-fr/collection/2333829/-from-bourges-to-agde"
 ---
