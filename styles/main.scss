@@ -521,14 +521,14 @@ UNIQUE STYLING
 
 /* Unique backgrounds for articles' header */
 
-#collection_northern-spain, #collection_sahara, #collection_morvan, #collection_brittany, #collection_overnighters, #collection_silk-road, #collection_bourges-agde {height: 100%;}
-#collection_bourges-agde_map {background: center center url({{ '/assets/img/collection_bourges-agde_map.jpg' | relative_url }});  background-size: cover;}
-#collection_northern-spain {background: center center url({{ '/assets/img/20210605-193727.jpg' | relative_url }}) rgba(0, 0, 0, .4); background-size: cover;}
+#collection_northern_spain, #collection_sahara, #collection_morvan, #collection_brittany, #collection_overnighters, #collection_silk-road, #collection_bourges_agde {height: 100%;}
+#collection_bourges_agde_map {background: center center url({{ '/assets/img/collection_bourges-agde_map.jpg' | relative_url }});  background-size: cover;}
+#collection_northern_spain {background: center center url({{ '/assets/img/20210605-193727.jpg' | relative_url }}) rgba(0, 0, 0, .4); background-size: cover;}
 #collection_sahara {background: center center url({{ '/assets/img/20220125-131059.jpg' | relative_url }}) rgba(0, 0, 0, .4); background-size: cover;} 
 #collection_morvan {background: center center url({{ '/assets/img/20100113-185215.jpg' | relative_url }}) rgba(0, 0, 0, .4); background-size: cover;}
 #collection_brittany {background: center center url({{ '/assets/img/20200810-214258.jpg' | relative_url }}) rgba(0, 0, 0, .4); background-size: cover;}
 #collection_overnighters {background: center center url({{ '/assets/img/20230725-202335.jpg' | relative_url }}) rgba(0, 0, 0, .4); background-size: cover;}
-#collection_bourges-agde {background: center center url({{ '/assets/img/20230909-184927.jpg' | relative_url }}) rgba(0, 0, 0, .4); background-size: cover;}
+#collection_bourges_agde {background: center center url({{ '/assets/img/20230909-184927.jpg' | relative_url }}) rgba(0, 0, 0, .4); background-size: cover;}
 #collection_silk-road {background: center center url({{ '/assets/img/20160629-040648.jpg' | relative_url }}) rgba(0, 0, 0, .4); background-size: cover;}
 #article_2021-03-31 {background: center center url({{ '/assets/img/20210330-155746.jpg' | relative_url }}) rgba(0, 0, 0, .4); background-size: cover;}
 #article_2021-03-22 {background: center center url({{ '/assets/img/20210318-194905.jpg' | relative_url }}) rgba(0, 0, 0, .4); background-size: cover;}
