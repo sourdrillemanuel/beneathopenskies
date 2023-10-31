@@ -4,7 +4,7 @@ title: "Les Cévennes"
 date: 2023-09-17 12:00:00 +0200
 permalink: "les-cévennes.html"
 
-featured: "yes"
+featured: true
 tags: "new"
 author: "Manuel Sourdrille"
 displayed_date: "September 17, 2023"

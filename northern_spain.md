@@ -4,6 +4,7 @@ title: "Bikepacking Northern Spain"
 tags: Europe
 permalink: "bikepacking-northern-spain.html"
 
+featured: false
 article_total: "13"
 active_collection: "Bikepacking Northern Spain"
 collection_id: "northern_spain"

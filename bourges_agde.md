@@ -4,6 +4,7 @@ title: "Bikepacking from Bourges to Agde"
 tags: "new"
 permalink: "bikepacking-bourges-agde.html"
 
+featured: true
 article_total: "6"
 active_collection: "Bikepacking from Bourges to Agde"
 collection_id: "bourges_agde"

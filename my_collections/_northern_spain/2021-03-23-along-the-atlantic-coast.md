@@ -8,7 +8,7 @@ permalink: ":title.html"
 article_id: 1000
 collection_id: "northern_spain"
 
-featured: "no"
+featured: false
 link_collection: bikepacking-northern-spain.html
 active_collection: "Bikepacking Northern Spain"
 article: "1"

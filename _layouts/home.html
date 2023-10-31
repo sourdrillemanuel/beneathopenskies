@@ -40,7 +40,7 @@
     </div>
   </section>
   <div class="carousel s-pt-16 m-pt-24 l-pt-32 s-pb-32 m-pb-48 l-pb-64 bg-tertiary-88" data-flickity='{ "freeScroll": true, "prevNextButtons": true, "cellAlign": "left", "pageDots": false }'> 
-    {% assign collection_pages = site.pages | where_exp: "page", "page.article_total" %}
+    {% assign collection_pages = site.pages | where_exp: "page", "page.featured" %}
     {% for page in collection_pages %}
       <a href="{{ page.permalink | relative_url }}"
         class="carousel-cell flex flex-col s-mr-16 m-mr-24 l-mr-32 gray-12 border-1 rounded-8 shadow">
@@ -63,10 +63,14 @@
   </section>
   <section class="flex justify-center s-pb-32 m-pb-48 l-pb-64 bg-secondary-88">
     <div class="container grid s-gap-16 m-gap-24 l-gap-32 s-px-16 m-px-24 l-px-0">
-      {% for post in site.posts %}
-        {% if post.featured == "yes" %}
+      {% for page in collection_pages %}
+        {% assign featured_articles = site[page.collection_id]
+          | where_exp: "article", "article.featured"
+          | reverse
+        %}
+        {% for post in featured_articles %}
           {% include article-card.html %}
-        {% endif %}
+        {% endfor %}
       {% endfor %}
     </div>
   </section>
