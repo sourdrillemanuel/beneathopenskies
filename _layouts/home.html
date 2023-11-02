@@ -39,70 +39,19 @@
       <p class="text-2xl gray-12">Collections <span class="badge relative s-top--16 text-xs font-700 bg-gray-12 gray-96">6</span></p>
     </div>
   </section>
-  <div class="carousel s-pt-16 m-pt-24 l-pt-32 s-pb-32 m-pb-48 l-pb-64 bg-tertiary-88" data-flickity='{ "freeScroll": true, "prevNextButtons": true, "cellAlign": "left", "pageDots": false }'>
-    <a href="{{ '/bikepacking-bourges-agde.html' | relative_url }}"
-      class="carousel-cell flex flex-col s-mr-16 m-mr-24 l-mr-32 gray-12 border-1 rounded-8 shadow">
-      <div id="collection_bourges-agde" class="s-p-8 m-p-12 l-p-16 rounded-8-t">
-      </div>
-      <div class="s-px-8 m-px-12 l-px-16 s-py-16 m-py-24 l-py-32">
-        <h4 class="text-2xl link">Bikepacking from Bourges to Agde</h4>
-        <p class="s-mt-8 m-mt-12 l-mt-16 text-md">6 articles</p>
-      </div>
-    </a>
-    <a href="#" class="carousel-cell flex flex-col s-mr-16 m-mr-24 l-mr-32 gray-12 border-1 rounded-8 shadow">
-      <div id="collection_morvan" class="s-p-8 m-p-12 l-p-16 rounded-8-t">
-        <p class="badge w-fit text-xs font-700 bg-gray-12 gray-96">upcoming</p>
-      </div>
-      <div class="s-px-8 m-px-12 l-px-16 s-py-16 m-py-24 l-py-32">
-        <h4 class="text-2xl link">Bikepacking the Morvan and the Chaîne des Puys</h4>
-        <p class="s-mt-8 m-mt-12 l-mt-16 text-md">4 articles</p>
-      </div>
-    </a>
-    <a href="#" class="carousel-cell flex flex-col s-mr-16 m-mr-24 l-mr-32 gray-12 border-1 rounded-8 shadow">
-      <div id="collection_sahara" class="s-p-8 m-p-12 l-p-16 rounded-8-t">
-        <p class="badge w-fit text-xs font-700 bg-gray-12 gray-96">upcoming</p>
-      </div>
-      <div class="s-px-8 m-px-12 l-px-16 s-py-16 m-py-24 l-py-32">
-        <h4 class="text-2xl link">Bikepacking towards the Sahara Desert</h4>
-        <p class="s-mt-8 m-mt-12 l-mt-16 text-md">21 articles</p>
-      </div>
-    </a>
-    <a href="#" class="carousel-cell flex flex-col s-mr-16 m-mr-24 l-mr-32 gray-12 border-1 rounded-8 shadow">
-      <div id="collection_northern-spain" class="s-p-8 m-p-12 l-p-16 rounded-8-t">
-        <p class="badge w-fit text-xs font-700 bg-gray-12 gray-96">upcoming</p>
-      </div>
-      <div class="s-px-8 m-px-12 l-px-16 s-py-16 m-py-24 l-py-32">
-        <h4 class="text-2xl link">Bikepacking Northern Spain</h4>
-        <p class="s-mt-8 m-mt-12 l-mt-16 text-md">13 articles</p>
-      </div>
-    </a>
-    <a href="#" class="carousel-cell flex flex-col s-mr-16 m-mr-24 l-mr-32 gray-12 border-1 rounded-8 shadow">
-      <div id="collection_brittany" class="s-p-8 m-p-12 l-p-16 rounded-8-t">
-        <p class="badge w-fit text-xs font-700 bg-gray-12 gray-96">upcoming</p>
-      </div>
-      <div class="s-px-8 m-px-12 l-px-16 s-py-16 m-py-24 l-py-32">
-        <h4 class="text-2xl link">Bikepacking Brittany's Coastline</h4>
-        <p class="s-mt-8 m-mt-12 l-mt-16 text-md">4 articles</p>
-      </div>
-    </a>
-    <a href="#" class="carousel-cell flex flex-col s-mr-16 m-mr-24 l-mr-32 gray-12 border-1 rounded-8 shadow">
-      <div id="collection_silk-road" class="s-p-8 m-p-12 l-p-16 rounded-8-t">
-        <p class="badge w-fit text-xs font-700 bg-gray-12 gray-96">upcoming</p>
-      </div>
-      <div class="s-px-8 m-px-12 l-px-16 s-py-16 m-py-24 l-py-32">
-        <h4 class="text-2xl link">Hitchhiking the Silk Road</h4>
-        <p class="s-mt-8 m-mt-12 l-mt-16 text-md">8 articles</p>
-      </div>
-    </a>
-    <a href="#" class="carousel-cell flex flex-col s-mr-16 m-mr-24 l-mr-32 gray-12 border-1 rounded-8 shadow">
-      <div id="collection_overnighters" class="s-p-8 m-p-12 l-p-16 rounded-8-t">
-        <p class="badge w-fit text-xs font-700 bg-gray-12 gray-96">upcoming</p>
-      </div>
-      <div class="s-px-8 m-px-12 l-px-16 s-py-16 m-py-24 l-py-32">
-        <h4 class="text-2xl link">Overnighters</h4>
-        <p class="s-mt-8 m-mt-12 l-mt-16 text-md">4 articles</p>
-      </div>
-    </a>
+  <div class="carousel s-pt-16 m-pt-24 l-pt-32 s-pb-32 m-pb-48 l-pb-64 bg-tertiary-88" data-flickity='{ "freeScroll": true, "prevNextButtons": true, "cellAlign": "left", "pageDots": false }'> 
+    {% assign collection_pages = site.pages | where_exp: "page", "page.featured" %}
+    {% for page in collection_pages %}
+      <a href="{{ page.permalink | relative_url }}"
+        class="carousel-cell flex flex-col s-mr-16 m-mr-24 l-mr-32 gray-12 border-1 rounded-8 shadow">
+        <div id="{{ 'collection_' | append: page.collection_id }}" class="s-p-8 m-p-12 l-p-16 rounded-8-t">
+        </div>
+        <div class="s-px-8 m-px-12 l-px-16 s-py-16 m-py-24 l-py-32">
+          <h4 class="text-2xl link">{{ page.title }}</h4>
+          <p class="s-mt-8 m-mt-12 l-mt-16 text-md">{{ page.article_total }} articles</p>
+        </div>
+      </a>
+    {% endfor %}
   </div>
 
   <!-- ARTICLES -->
@@ -114,10 +63,14 @@
   </section>
   <section class="flex justify-center s-pb-32 m-pb-48 l-pb-64 bg-secondary-88">
     <div class="container grid s-gap-16 m-gap-24 l-gap-32 s-px-16 m-px-24 l-px-0">
-      {% for post in site.posts %}
-        {% if post.featured == "yes" %}
+      {% for page in collection_pages %}
+        {% assign featured_articles = site[page.collection_id]
+          | where_exp: "article", "article.featured"
+          | reverse
+        %}
+        {% for post in featured_articles %}
           {% include article-card.html %}
-        {% endif %}
+        {% endfor %}
       {% endfor %}
     </div>
   </section>

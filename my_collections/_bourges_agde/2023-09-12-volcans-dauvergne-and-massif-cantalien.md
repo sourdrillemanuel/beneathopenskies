@@ -4,7 +4,7 @@ title: "Volcans d'Auvergne and Massif Cantalien"
 date: 2023-09-12 12:00:00 +0200
 permalink: "volcans-dauvergne-and-massif-cantalien.html"
 
-featured: "no"
+featured: false
 tags: "new"
 author: "Manuel Sourdrille"
 displayed_date: "September 12, 2023"

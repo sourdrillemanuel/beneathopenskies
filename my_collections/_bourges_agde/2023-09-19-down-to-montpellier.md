@@ -4,7 +4,7 @@ title: "Down to Montpellier"
 date: 2023-09-19 12:00:00 +0200
 permalink: "down-to-montpellier.html"
 
-featured: "yes"
+featured: true
 tags: "new"
 author: "Manuel Sourdrille"
 displayed_date: "September 19, 2023"

@@ -4,7 +4,7 @@ title: "Catalunya"
 date: 2021-04-07 12:00:00 +0200
 permalink: ":title.html"
 
-featured: "no"
+featured: false
 tags: "upcoming"
 link_collection: bikepacking-northern-spain.html
 active_collection: "Bikepacking Northern Spain"

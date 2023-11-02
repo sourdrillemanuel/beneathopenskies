@@ -5,7 +5,10 @@ date: 2021-03-22 12:00:00 +0200
 author: "Manuel Sourdrille"
 permalink: ":title.html"
 
-featured: "no"
+article_id: 1000
+collection_id: "northern_spain"
+
+featured: false
 link_collection: bikepacking-northern-spain.html
 active_collection: "Bikepacking Northern Spain"
 article: "1"

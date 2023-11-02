@@ -4,9 +4,10 @@ title: "Bikepacking Northern Spain"
 tags: Europe
 permalink: "bikepacking-northern-spain.html"
 
+featured: false
 article_total: "13"
 active_collection: "Bikepacking Northern Spain"
-collection_id: "col_northern-spain"
+collection_id: "northern_spain"
 
 intro: "In 2020, I embarked on several short bikepacking trips. However, come March 2021, I set out from home with the intention of a more extensive bikepacking adventure. For the next three months, I traversed Northern Spain, spanning from its easternmost to its westernmost point. Along this journey, I encountered an incredible array of landscapes, each characterized by its unique beauty. The terrain was consistently mountainous and frequently challenging, yet never boring."
 
