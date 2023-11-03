@@ -18,8 +18,8 @@
         {% else %}
             {% assign splitted_content = page.content | split: '</p>'%}
             {% assign date = page.date | date: "%Y-%m-%d" %}
-            {% assign filename = "article-story-" |  append: date %}
-            {% include {{ filename | append: ".html"}} %}
+            {% assign filename = "article-story-" | append: date | append: ".html" %}
+            {% include {{ filename }} %}
         {% endif %}
         {% include article-bits.html %}
         {% include footer.html %}
