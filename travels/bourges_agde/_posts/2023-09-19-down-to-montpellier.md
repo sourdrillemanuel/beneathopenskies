@@ -40,6 +40,8 @@ I slept well despite the wind whistling in the canopy and poking at the tent. I 
 
 Surprisingly, it hadn't rained during the night and the sky was only sparsely covered in clouds. Though, the closer I got to the pass leading down into the Cevennes, the cloudier and wetter it became. Behind, I could see the sun shining on the Causse Mejean. At the pass, the clouds rolling in a few meters above my head was stunning, like the dozens of vultures spinning above my head.
 
+The Causse Méjean is a limestone plateau part of The Causses and the Cévennes UNESCO World Heritage Site.
+
 After climbing half the road to the Mont Aigoual, in a beautiful lush forest lost in the clouds, I took a different road leading me down to the Mediterranean basin. The ride was fantastic, a true highlight of the trip. I couldn't see much because I was in the cloud but the "cinglante" rain and the strong wind made it quite the ride. Below the clouds, the scenery appeared as I remembered it: sharp mountains covered in pines and reddish soil and rocks, their peaks lost in the clouds. The vegetation changed, the temperature too.
 
 The ride to Montpellier was not as fun. The light was boring, the weather hot and humid, the traffic obnoxious and omnipresent. But, I knew I was going to get there so that was enough motivation. I was stunned when I arrived in the city: brand-new fantastic pieces of architecture along the concrete riverbank of Le Lez. Going to Lattes, it was already the blue hour but I was ecstatic, I had a lot of energy and was excited to arrive.
