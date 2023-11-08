@@ -1,7 +1,4 @@
-<section class="grid s-px-16 m-px-24 l-px-0 s-mt-64 m-mt-96 l-mt-128">
-    <p class="s-col-span-6 m-col-span-12 l-col-3-11 s-mt-16 content-w justify-self-center text-lg bold gray-12">{{ page.intro }}</p>
-    <p class="s-col-span-6 m-col-span-12 l-col-3-11 s-mt-16 content-w justify-self-center text-lg gray-12">I arrived at Mathilda's empty but unlocked flat right before the thunderstorms. It felt so good to wear clean clothes after a good shower. I was indeed covered with dust. Unlike last night where I was anxious about thunderstorms, I welcomed them once in the house, and watched in awe as the sky tore itself apart and rain fell down violently all evening.</p>
-</section>
+{% include post/post-intro.html %}
 <section class="flex justify-center">
     <div class="container grid gap-8">
         <img class="s-col-span-6 m-col-span-6 l-col-1-7 s-mt-32 m-mt-64 l-mt-96" src="{{ '/assets/img/20230912-094638.jpg' | relative_url }}">
@@ -9,34 +6,34 @@
     </div>
 </section>
 <section class="grid s-px-16 m-px-24 l-px-0">
-    <p class="s-col-span-6 m-col-span-12 l-col-3-11 s-mt-32 m-mt-64 l-mt-96 content-w justify-self-center text-lg gray-12">Today's ride was amazing, starting with the ride down to the Gorges de la Truyere and the beautiful and easy ascent to l'Aubrac. The plateau is crossed by the route to Santiago de Compostela, so there were a lot of hikers, but no cyclists.</p>
+    {% include post/post-default-paragraph.html content_index=2 %}
 </section>
 <div class="grid-cols-2 gap-8 s-mt-32 m-mt-64 l-mt-96">
     <img class="s-col-span-2 m-col-span-1" src="{{ '/assets/img/20230912-150403.jpg' | relative_url }}">
     <img class="s-col-span-2 m-col-span-1 s-mt-8 m-mt-0" src="{{ '/assets/img/20230912-162051.jpg' | relative_url }}">
 </div>
 <section class="grid s-px-16 m-px-24 l-px-0">
-    <p class="s-col-span-6 m-col-span-12 l-col-3-11 s-mt-32 m-mt-64 l-mt-96 content-w justify-self-center text-lg gray-12">I had never been on this plateau, but it's truly a sight to behold. It feels rough and hostile, with yellowish-burned colors and dark rocks. The dirt tracks were nice all along, especially the last fast-rolling stretch to Saint-Chély, which isn't a beautiful town.</p>
+    {% include post/post-default-paragraph.html content_index=3 %}
 </section>
 <div class="grid-cols-2 gap-8 s-mt-32 m-mt-64 l-mt-96">
     <img class="s-col-span-2 m-col-span-1" src="{{ '/assets/img/20230912-152928.jpg' | relative_url }}">
     <img class="s-col-span-2 m-col-span-1 s-mt-8 m-mt-0" src="{{ '/assets/img/20230912-114755.jpg' | relative_url }}">
 </div>
 <section class="grid s-px-16 m-px-24 l-px-0">
-    <p class="s-col-span-6 m-col-span-12 l-col-3-11 s-mt-32 m-mt-64 l-mt-96 content-w justify-self-center text-lg gray-12">After a day of rest at Mathilda's empty place, and an evening watching "The King," before realizing halfway through I had already watched it, I set off at 7:30.</p>
+    {% include post/post-default-paragraph.html content_index=4 %}
 </section>
 <div class="flex justify-center">
     <img class="container s-mt-32 m-mt-64 l-mt-96" src="{{ '/assets/img/20230913-121712.jpg' | relative_url }}">
 </div>
 <section class="grid s-px-16 m-px-24 l-px-0">
-    <p class="s-col-span-6 m-col-span-12 l-col-3-11 s-mt-32 m-mt-64 l-mt-96 content-w justify-self-center text-lg gray-12">The paved ride to Saint-Aman was cold and humid but fantastic thanks to patches of mist here and there. After pushing for some time, I eventually reached the plateau, and from there, the ride was easy.</p>
+    {% include post/post-default-paragraph.html content_index=5 %}
 </section>
 <div class="grid-cols-2 gap-8 s-mt-32 m-mt-64 l-mt-96">
     <img class="s-col-span-2 m-col-span-1" src="{{ '/assets/img/20230914-075258.jpg' | relative_url }}">
     <img class="s-col-span-2 m-col-span-1 s-mt-8 m-mt-0" src="{{ '/assets/img/20230914-075741.jpg' | relative_url }}">
 </div>
 <section class="grid s-px-16 m-px-24 l-px-0">
-    <p class="s-col-span-6 m-col-span-12 l-col-3-11 s-mt-32 m-mt-64 l-mt-96 content-w justify-self-center text-lg gray-12">The morning was cold, but after lunch, the clouds left way to a warm sun. The ride was mostly on great unpaved tracks with some single tracks. The views from up there were great even though I wasn't sure of the mountains I spotted in the background. The views from up there were great even though I wasn't sure of the mountains I spotted in the background. I set up camp on an open patch of grass, next to a track facing west and the sunset.</p>
+    {% include post/post-default-paragraph.html content_index=6 %}
 </section>
 <section class="flex justify-center">
     <div class="container grid gap-8">
@@ -51,7 +48,7 @@
     </div>
 </section>
 <section class="grid s-px-16 m-px-24 l-px-0">
-    <p class="s-col-span-6 m-col-span-12 l-col-3-11 s-mt-32 m-mt-64 l-mt-96 content-w justify-self-center text-lg gray-12">A couple warned me about wolves and told me about a cabin further up the peak. But having no idea of its precise location, I decided to stay here. As for the wolves, I don't care. Perhaps I should.</p>
+    {% include post/post-default-paragraph.html content_index=7 %}
 </section>
 <div class="flex justify-center">
     <img class="container s-mt-32 m-mt-64 l-mt-96" src="{{ '/assets/img/20230914-201440.jpg' | relative_url }}">

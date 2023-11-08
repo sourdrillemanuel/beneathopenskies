@@ -13,7 +13,6 @@ collection_id: "collection_bourges-agde"
 
 link_collection: bikepacking-bourges-agde.html
 active_collection: "Bikepacking from Bourges to Agde"
-intro: "The route took me through the beautiful Gorges de la Truyere and onto the striking Aubrac plateau. This plateau featured a rugged, yellowish-burned landscape. The ride to Saint-Chély d’Apcher was fantastic, including some lovely forested sections and perfect dirt paths. As I approached the Mont Lozère, a couple warned me about wolves, but I remained undeterred."
 
 statistics_duration: "3 days"
 statistics_distance: "145 km"
@@ -34,3 +33,19 @@ img_map: "collection_bourges-agde_map"
 link_umap: "https://umap.openstreetmap.fr/en/map/mighty-travels_640943"
 link_komoot: "https://www.komoot.com/fr-fr/collection/2333829/-from-bourges-to-agde"
 ---
+
+The route took me through the beautiful Gorges de la Truyere and onto the striking Aubrac plateau. This plateau featured a rugged, yellowish-burned landscape. The ride to Saint-Chély d’Apcher was fantastic, including some lovely forested sections and perfect dirt paths. As I approached the Mont Lozère, a couple warned me about wolves, but I remained undeterred.
+
+I arrived at Mathilda's empty but unlocked flat right before the thunderstorms. It felt so good to wear clean clothes after a good shower. I was indeed covered with dust. Unlike last night where I was anxious about thunderstorms, I welcomed them once in the house, and watched in awe as the sky tore itself apart and rain fell down violently all evening.
+
+Today's ride was amazing, starting with the ride down to the Gorges de la Truyere and the beautiful and easy ascent to l'Aubrac. The plateau is crossed by the route to Santiago de Compostela, so there were a lot of hikers, but no cyclists.
+
+I had never been on this plateau, but it's truly a sight to behold. It feels rough and hostile, with yellowish-burned colors and dark rocks. The dirt tracks were nice all along, especially the last fast-rolling stretch to Saint-Chély, which isn't a beautiful town.
+
+After a day of rest at Mathilda's empty place, and an evening watching "The King," before realizing halfway through I had already watched it, I set off at 7:30.
+
+The paved ride to Saint-Aman was cold and humid but fantastic thanks to patches of mist here and there. After pushing for some time, I eventually reached the plateau, and from there, the ride was easy.
+
+The morning was cold, but after lunch, the clouds left way to a warm sun. The ride was mostly on great unpaved tracks with some single tracks. The views from up there were great even though I wasn't sure of the mountains I spotted in the background. The views from up there were great even though I wasn't sure of the mountains I spotted in the background. I set up camp on an open patch of grass, next to a track facing west and the sunset.
+
+A couple warned me about wolves and told me about a cabin further up the peak. But having no idea of its precise location, I decided to stay here. As for the wolves, I don't care. Perhaps I should.

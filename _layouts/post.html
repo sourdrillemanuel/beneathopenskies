@@ -11,8 +11,6 @@
             {% include article-story-2023-09-09.html %}
         {% elsif page.article_id == "article_2023-09-12" %}
             {% include article-story-2023-09-12.html %}
-        {% elsif page.article_id == "article_2023-09-15" %}
-            {% include article-story-2023-09-15.html %}
         {% else %}
             {% assign splitted_content = page.content | split: '</p>'%}
             {% assign date = page.date | date: "%Y-%m-%d" %}
