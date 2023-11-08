@@ -5,7 +5,7 @@
 </section>
 <section class="flex justify-center s-pb-32 m-pb-48 l-pb-96 bg-secondary-88">
     <div class="container grid s-gap-16 m-gap-24 l-gap-32 s-px-16 m-px-24 l-px-0">
-        {% for post in site[page.collection_id] %}
+        {% for post in site.categories[page.collection_id] %}
           {% include article-card.html %}
         {% endfor %}
     </div>

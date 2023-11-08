@@ -5,11 +5,8 @@ tags: "new"
 permalink: "bikepacking-bourges-agde.html"
 
 featured: true
-article_total: "6"
 active_collection: "Bikepacking from Bourges to Agde"
 collection_id: "bourges_agde"
-
-intro: "In September 2023, at the end of summer, I embarked on a journey towards the Mediterranean Sea. I witnessed the changing landscapes, from lush valleys to arid plateaus, and eventually the unfamiliar scenery of Southern France. Along the way, I reflected on the joys of bikepacking and wild camping, all while inching closer to my destination and a heartwarming reunion with loved ones."
 
 statistics_duration: "15 days"
 statistics_distance: "924 km"
@@ -24,3 +21,5 @@ must-knows_nutrition: "Access to water and food hasn't posed an issue in any of 
 
 img_header: /beneathopenskies/assets/img/20230909-184927.jpg
 ---
+
+In September 2023, at the end of summer, I embarked on a journey towards the Mediterranean Sea. I witnessed the changing landscapes, from lush valleys to arid plateaus, and eventually the unfamiliar scenery of Southern France. Along the way, I reflected on the joys of bikepacking and wild camping, all while inching closer to my destination and a heartwarming reunion with loved ones.

@@ -13,15 +13,26 @@
         <li class="s-col-span-6 m-col-span-4 l-col-span-4 s-mt-16 m-mt-0">
             <ul>
                 <li class="s-mt-8 l-mt-0 text-md bold gray-12">Collections</li>
-                <li class="s-mt-8 l-mt-16"><a href="{{ '/' | relative_url  }}" class="link text-md gray-12">All collections</a></li>
-                <li class="s-mt-8 l-mt-16"><a class="link text-md gray-12" href="{{ '/bikepacking-bourges-agde.html' | relative_url }}">Bikepacking from Bourges to Agde</a></li>
+                {% for page in site.pages limit:4 %}
+                    <li class="s-mt-8 l-mt-16">
+                        <a class="link text-md gray-12" href="{{ page.permalink | relative_url }}">{{ page.title }}</a>
+                    </li>
+                {% endfor %}
             </ul>
         </li>
         <li class="s-col-span-6 m-col-span-4 l-col-span-4 s-mt-16 m-mt-0">
             <p class="s-mt-8 l-mt-0 text-md bold gray-12">Articles</p>
             <ul>
-                {% for post in site.posts %}
-                <li class="s-mt-8 l-mt-16"><a class="link text-md gray-12" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+                {% assign featured_articles = site.categories['travels']
+                    | where_exp: "post", "post.featured"
+                    | reverse
+                %}
+                {% for post in featured_articles limit:4  %}
+                    <li class="s-mt-8 l-mt-16">
+                        <a class="link text-md gray-12" href="{{ site.baseurl }}{{ post.url }}">
+                            {{ post.title }}
+                        </a>
+                    </li>
                 {% endfor %}
             </ul>
         </ul>

@@ -40,15 +40,15 @@
     </div>
   </section>
   <div class="carousel s-pt-16 m-pt-24 l-pt-32 s-pb-32 m-pb-48 l-pb-64 bg-tertiary-88" data-flickity='{ "freeScroll": true, "prevNextButtons": true, "cellAlign": "left", "pageDots": false }'> 
-    {% assign collection_pages = site.pages | where_exp: "page", "page.featured" %}
-    {% for page in collection_pages %}
+    {% assign featured_pages = site.pages | where_exp: "page", "page.featured" %}
+    {% for page in featured_pages %}
       <a href="{{ page.permalink | relative_url }}"
         class="carousel-cell flex flex-col s-mr-16 m-mr-24 l-mr-32 gray-12 border-1 rounded-8 shadow">
         <div id="{{ 'collection_' | append: page.collection_id }}" class="s-p-8 m-p-12 l-p-16 rounded-8-t">
         </div>
         <div class="s-px-8 m-px-12 l-px-16 s-py-16 m-py-24 l-py-32">
           <h4 class="text-2xl link">{{ page.title }}</h4>
-          <p class="s-mt-8 m-mt-12 l-mt-16 text-md">{{ page.article_total }} articles</p>
+          <p class="s-mt-8 m-mt-12 l-mt-16 text-md">{{ site.categories[page.collection_id] | size }} articles</p>
         </div>
       </a>
     {% endfor %}
@@ -63,14 +63,11 @@
   </section>
   <section class="flex justify-center s-pb-32 m-pb-48 l-pb-64 bg-secondary-88">
     <div class="container grid s-gap-16 m-gap-24 l-gap-32 s-px-16 m-px-24 l-px-0">
-      {% for page in collection_pages %}
-        {% assign featured_articles = site[page.collection_id]
-          | where_exp: "article", "article.featured"
-          | reverse
-        %}
-        {% for post in featured_articles %}
-          {% include article-card.html %}
-        {% endfor %}
+      {% assign featured_articles = site.categories['travels']
+        | where_exp: "post", "post.featured"
+      %}
+      {% for post in featured_articles %}
+        {% include article-card.html %}
       {% endfor %}
     </div>
   </section>
