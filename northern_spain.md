@@ -1,10 +1,10 @@
 ---
 layout: page
 title: "Bikepacking Northern Spain"
-tags: Europe
+tags: "new"
 permalink: "bikepacking-northern-spain.html"
 
-featured: false
+featured: true
 active_collection: "Bikepacking Northern Spain"
 collection_id: "northern_spain"
 
