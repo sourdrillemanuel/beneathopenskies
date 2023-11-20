@@ -1,46 +1,37 @@
-<section class="flex justify-center s-mt-64 m-mt-96 l-mt-128">
-    <div class="container grid s-px-16 m-px-24 l-px-0">
-        <div class="s-col-span-6 m-col-span-12 l-col-span-12 content-w justify-self-center">
-            <p class="text-md gray-72">After a fantastic evening with my awesome friends, the following day was all about route planning, getting the bike ready, and indulging in a game of Risk. I hit the road around 5 pm, marking the beginning of my journey, and arrived at my aunt's place just an hour and a half later.</p>
-            <p class="s-mt-16 m-mt-24 l-mt-32 text-md gray-72">Leaving the city wasn't fun, thanks to traffic, but the last stretch turned out to be pretty sweet. The view of the Acheneau river was picturesque, and the final unpaved bit was an absolute blast. Meeting my cousin was an unexpected treat. The evening at my aunt's was just as lovely – we devoured some goat-honey croque-monsieur and took a trip down memory lane with family photos before calling it a night.</p>
-        </div>
-    </div>
-</section>
+{% include post/post-intro.html %}
 <div class="flex justify-center">
     <img class="container s-mt-32 m-mt-64 l-mt-96" src="{{ '/assets/img/20210317-190722.jpg' | relative_url }}">
 </div>
 <section class="flex justify-center">
     <div class="container grid s-px-16 m-px-24 l-px-0">
-        <p class="s-col-span-6 m-col-span-12 l-col-1-3 s-mt-16 m-mt-24 l-mt-96 text-sm gray-72"><span class="font-semibold gray-96">Fig.1</span> The Acheneau River in Port-Saint-Père.</p>
-        <p class="s-col-span-6 m-col-span-12 l-col-3-11 s-mt-32 m-mt-64 l-mt-96 content-w justify-self-center text-md gray-72">I woke up at 9 am after a fantastic night at my aunt's place. As my cousin was already busy working, my aunt and I enjoyed breakfast together. Underneath the clear blue sky, I began preparing my belongings, briefly pondering whether I should wear shorts for the ride. Ultimately, I opted against it – a wise choice, considering the unexpectedly chilly wind. Nonetheless, it turned out to be ideal weather for cycling.</p>
+        <p class="s-col-span-6 m-col-span-12 l-col-1-3 s-mt-16 m-mt-24 l-mt-96 text-md gray-12"><span class="bold gray-12">Fig.1 </span>{{ splitted_content[2] | strip_html }}</p>
+        <p class="s-col-span-6 m-col-span-12 l-col-3-11 s-mt-32 m-mt-64 l-mt-96 content-w justify-self-center text-lg gray-12">{{ splitted_content[3] | strip_html }}</p>
+        <p class="s-col-span-6 m-col-span-12 l-col-3-11 s-mt-16 m-mt-24 l-mt-32 content-w justify-self-center text-lg gray-12">{{ splitted_content[4] | strip_html }}</p>
     </div>
 </section>
-<section class="grid s-px-16 m-px-24 l-px-0">
-    <p class="s-col-span-6 m-col-span-12 l-col-3-11 s-mt-16 content-w justify-self-center text-md gray-72">My ride was off to a pleasant start as I found myself pleasantly surprised by the charming pathways that led me to the sea. The area exceeded my expectations – the routes were diverse, traffic was practically non-existent, and the surroundings were peaceful. Alongside a stunning manor and its garden, I encountered a variety of bird species, adding to the picturesque atmosphere.</p>
-</section>
 {% include imgcomp-4-land-port.html %}
-<section class="grid s-px-16 m-px-24 l-px-0">
-    <p class="s-col-span-6 m-col-span-12 l-col-3-11 s-mt-32 m-mt-64 l-mt-96 content-w justify-self-center text-md gray-72">Reaching the shoreline, I followed the EV1, relishing the sight of quaint houses with orange roofs and blue storefronts. The farms and small harbors added to the allure of the scenery. It felt alive with maritime activity, and the absence of crowds seemed to offer the whole experience exclusively to me.</p>
+<section class="grid s-px-16 m-px-24 l-px-0 s-mt-32 m-mt-64 l-mt-96">
+    <p class="s-col-span-6 m-col-span-12 l-col-3-11 content-w justify-self-center text-lg gray-12">{{ splitted_content[5] | strip_html }}</p>
 </section>
 {% include imgcomp-2-land-n1.html %}
-<section class="grid s-px-16 m-px-24 l-px-0">
-    <p class="s-col-span-6 m-col-span-12 l-col-3-11 s-mt-32 m-mt-64 l-mt-96 content-w justify-self-center text-md gray-72">After traversing the Passage du Gois, the landscape's character began to shift. Verdant pines of various kinds took the place of deciduous trees, lending a change of scenery. Upon returning to the mainland, I found myself less fond of the touristy towns I encountered. However, the paths remained excellent, and the sections through the forest were nothing short of breathtaking. I pedaled on even as the curfew approached, and soon enough, I stumbled upon a fantastic spot – nestled by the sea, under the shelter of a pine tree. It was a splendid end to the day, characterized by diverse landscapes, a favorable tailwind, and mostly cooperative weather. It's hard not to enjoy such a journey, especially under these favorable conditions.</p>
+<section class="grid s-px-16 m-px-24 l-px-0 s-mt-32 m-mt-64 l-mt-96">
+    <p class="s-col-span-6 m-col-span-12 l-col-3-11 content-w justify-self-center text-lg gray-12">{{ splitted_content[6] | strip_html }}</p>
 </section>
 <div class="flex justify-center">
     <img class="container s-mt-32 m-mt-64 l-mt-96" src="{{ '/assets/img/20210318-194905.jpg' | relative_url }}">
 </div>
-<section class="grid s-px-16 m-px-24 l-px-0">
-    <p class="s-col-span-6 m-col-span-12 l-col-3-11 s-mt-32 m-mt-64 l-mt-96 content-w justify-self-center text-md gray-72">I woke up just before 5 am, feeling surprisingly refreshed. However, I decided to catch a bit more sleep since daylight was still quite a while away. Eventually, I got up around 8 am. There were light showers, and the sky bore a strikingly dramatic appearance. With my gear all packed up, I set out on my way. During the morning, I made a stop at a supermarket to grab some food. It was there that I encountered another touring cyclist – quite the humble type. Despite his less-than-ideal gear (including a kid's trailer loaded with heavy stuff), he had already covered over two thousand kilometers in France. His enthusiasm was contagious, and after a friendly exchange, we went our separate paths.</p>
+<section class="grid s-px-16 m-px-24 l-px-0 s-mt-32 m-mt-64 l-mt-96">
+    <p class="s-col-span-6 m-col-span-12 l-col-3-11 content-w justify-self-center text-lg gray-12">{{ splitted_content[7] | strip_html }}</p>
 </section>
 {% include imgcomp-2-land-n2.html %}
-<section class="grid s-px-16 m-px-24 l-px-0">
-    <p class="s-col-span-6 m-col-span-12 l-col-3-11 s-mt-32 m-mt-64 l-mt-96 content-w justify-self-center text-md gray-72">Throughout the day, the ride presented itself as somewhat less captivating and diverse, but it remained enjoyable nonetheless. The route alternated between coastlines and swamps, with the persistent wind adding an extra challenge. Fortunately, the weather progressively improved. I decided to mix things up a bit by occasionally switching from the voie verte to hiking trails, adding a touch of extra enjoyment to the journey. I found an incredible spot beneath the pines, right by the sea. Just like yesterday, the sunset over the sea was a sight to behold. Even past the curfew, surfers continued to revel in the waves.</p>
+<section class="grid s-px-16 m-px-24 l-px-0 s-mt-32 m-mt-64 l-mt-96">
+    <p class="s-col-span-6 m-col-span-12 l-col-3-11 content-w justify-self-center text-lg gray-12">{{ splitted_content[8] | strip_html }}</p>
 </section>
 <section class="flex justify-center">
-    <img class="container s-mt-32 m-mt-64 l-mt-96" src="{{ '/assets/img/20210319-203157.jpg }}">
+    <img class="container s-mt-32 m-mt-64 l-mt-96" src="{{ '/assets/img/20210319-203157.jpg' | relative_url }}">
 </section>
-<section class="grid s-px-16 m-px-24 l-px-0">
-    <p class="s-col-span-6 m-col-span-12 l-col-3-11 s-mt-32 m-mt-64 l-mt-96 content-w justify-self-center text-md gray-72">The morning had a chill in the air. My fingers felt a bit painful as I gathered my gear, but the sight of the clear sky and the rising sun more than made up for it. I decided to skip breakfast this time around. Once I ventured beyond the coastal forest, things took a less exciting turn. The landscape shifted from vibrant pines to rather dull swamps and fields. However, I had a nice encounter with two fascinating tourers while making my way to La Rochelle. We exchanged stories and tips before parting ways for our respective lunch breaks. Rolling onto the Pertuis Breton brought a smile to my face – a strong tailwind turned the ride into a fun adventure. As I arrived in the city, a wave of nostalgia washed over me. I had spent a year studying here, and it felt surreal to be back. The streets were bustling with people, and I couldn't contain my excitement to reunite with my friend Nicolas. I pedaled as fast as I could, eager to see him. Our reunion was awesome, and the evening was filled with laughter and good times. I got introduced to Rocket League – a new discovery that added an extra dose of fun to the day.</p>
+<section class="grid s-px-16 m-px-24 l-px-0 s-mt-32 m-mt-64 l-mt-96">
+    <p class="s-col-span-6 m-col-span-12 l-col-3-11 content-w justify-self-center text-lg gray-12">{{ splitted_content[9] | strip_html }}</p>
 </section>
 <section class="flex justify-center">
     <div class="container grid gap-8">
@@ -49,7 +40,7 @@
     </div>
 </section>
 <section class="flex justify-center">
-    <div class="container grid s-px-16 m-px-24 l-px-0">
-        <p class="s-col-span-6 m-col-span-12 l-col-3-11 s-mt-32 m-mt-64 l-mt-96 content-w justify-self-center text-md gray-72">My time with Nicolas was absolutely fantastic, and as I looked back at La Rochelle later along the route, a hint of sadness tugged at me. I would've really enjoyed extending my stay there a bit longer. The morning started off chilly, but the temperature quickly warmed up, and the sky stretched out in a flawless expanse of blue. Honestly, this day might have been the least eventful of the trip. The scenery was a bit on the dull side, except for the beautiful coastal path at the beginning and the charming canal and villages towards the end of the day. Along the way, I tackled my first ascents of the journey – a little milestone to remember. I reached Laurent's place just before the curfew. Isabelle had just arrived too. I charged my electronics, did laundry, and took a much-needed shower. What really struck me was how overwhelmed and time-crunched they seemed to be. Though our interactions were brief due to their busy schedules, I was really happy to spend time with them, especially since it had been years since we last connected. While they savored moussaka for dinner, I cooked up something for myself. Honestly, I could go on writing about this for ages, but I couldn't help but feel sympathy for the amount of stress they're juggling, especially when it comes to their kids. It makes me wonder – how long can they keep up with this lifestyle?</p>
+    <div class="container grid s-px-16 m-px-24 l-px-0 s-mt-32 m-mt-64 l-mt-96">
+        <p class="s-col-span-6 m-col-span-12 l-col-3-11 content-w justify-self-center text-lg gray-12">{{ splitted_content[10] | strip_html }}</p>
     </div>
 </section>

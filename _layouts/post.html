@@ -3,16 +3,10 @@
     {% include head.html %}
     <body class="bg-gray-96">
         {% include article-header.html %}
-        {% if page.title == "Along the Atlantic Coast" %}
-            {% include article-story-2021-03-22.html %}
-        {% elsif page.title == "From the Atlantic to the Mediterranean" %}
-            {% include article-story-2021-03-31.html %}
-        {% else %}
             {% assign splitted_content = page.content | split: '</p>'%}
             {% assign date = page.date | date: "%Y-%m-%d" %}
             {% assign filename = "article-story-" | append: date | append: ".html" %}
             {% include {{ filename }} %}
-        {% endif %}
         {% include article-bits.html %}
         {% include footer.html %}
     </body>
