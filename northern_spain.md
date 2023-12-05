@@ -7,6 +7,8 @@ permalink: "bikepacking-northern-spain.html"
 featured: true
 active_collection: "Bikepacking Northern Spain"
 collection_id: "northern_spain"
+link_komoot: "https://www.komoot.com/fr-fr/collection/1895685/-bikepacking-northern-spain"
+link_umap: "https://umap.openstreetmap.fr/en/map/mighty-travels_640943"
 
 statistics_duration: "89 days"
 statistics_distance: "4,757 km"

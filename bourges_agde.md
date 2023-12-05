@@ -7,6 +7,8 @@ permalink: "bikepacking-bourges-agde.html"
 featured: true
 active_collection: "Bikepacking from Bourges to Agde"
 collection_id: "bourges_agde"
+link_komoot: "https://www.komoot.com/fr-fr/collection/2333829/-bikepacking-from-bourges-to-agde"
+link_umap: "https://umap.openstreetmap.fr/en/map/mighty-travels_640943"
 
 statistics_duration: "15 days"
 statistics_distance: "924 km"
