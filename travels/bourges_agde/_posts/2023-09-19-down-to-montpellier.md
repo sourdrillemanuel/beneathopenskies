@@ -5,7 +5,7 @@ date: 2023-09-19 12:00:00 +0200
 permalink: "down-to-montpellier.html"
 
 featured: true
-tags: "new"
+tags:
 author: "Manuel Sourdrille"
 displayed_date: "September 19, 2023"
 article_id: "article_2023-09-19"

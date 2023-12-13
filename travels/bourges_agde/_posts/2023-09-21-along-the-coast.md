@@ -5,7 +5,7 @@ date: 2023-09-21 12:00:00 +0200
 permalink: "along-the-coast.html"
 
 featured: true
-tags: "new"
+tags:
 author: "Manuel Sourdrille"
 displayed_date: "September 21, 2023"
 article_id: "article_2023-09-21"

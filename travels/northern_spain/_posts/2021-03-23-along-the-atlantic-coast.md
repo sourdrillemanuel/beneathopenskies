@@ -5,7 +5,7 @@ date: 2021-03-22 12:00:00 +0200
 permalink: ":title.html"
 
 featured: false
-tags: "new"
+tags:
 author: "Manuel Sourdrille"
 displayed_date: "March 23, 2021"
 article_id: "article_2021-03-23"

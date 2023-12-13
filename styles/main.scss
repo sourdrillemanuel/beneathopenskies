@@ -50,8 +50,8 @@ FONT-FACE
 
 @font-face {
   font-family: "P22 Mackinac";
-  src:
-    url("/beneathopenskies/assets/fonts/P22Mackinac-Bold.woff2") format("woff2"),
+  src: url("/beneathopenskies/assets/fonts/P22Mackinac-Bold.woff2")
+      format("woff2"),
     ("/beneathopenskies/assets/fonts/P22Mackinac-Bold.woff") format("woff");
   font-weight: 700;
   font-style: normal;
@@ -59,8 +59,7 @@ FONT-FACE
 }
 @font-face {
   font-family: "P22 Mackinac";
-  src:
-    url("/beneathopenskies/assets/fonts/P22Mackinac-Medium.woff2")
+  src: url("/beneathopenskies/assets/fonts/P22Mackinac-Medium.woff2")
       format("woff2"),
     url("/beneathopenskies/assets/fonts/P22Mackinac-Medium.woff") format("woff");
   font-weight: 500;
@@ -69,8 +68,7 @@ FONT-FACE
 }
 @font-face {
   font-family: "P22 Mackinac";
-  src:
-    url("/beneathopenskies/assets/fonts/P22Mackinac-MediumItalic.woff2")
+  src: url("/beneathopenskies/assets/fonts/P22Mackinac-MediumItalic.woff2")
       format("woff2"),
     url("/beneathopenskies/assets/fonts/P22Mackinac-MediumItalic.woff")
       format("woff");
@@ -80,8 +78,7 @@ FONT-FACE
 }
 @font-face {
   font-family: "P22 Mackinac";
-  src:
-    url("/beneathopenskies/assets/fonts/P22Mackinac-BoldItalic.woff2")
+  src: url("/beneathopenskies/assets/fonts/P22Mackinac-BoldItalic.woff2")
       format("woff2"),
     url("/beneathopenskies/assets/fonts/P22Mackinac-BoldItalic.woff")
       format("woff");
@@ -1217,6 +1214,11 @@ UNIQUE STYLING
 #article_2023-09-09 {
   background: center center
     url({{"/assets/img/20230907-193622.jpg"|relative_url}}) rgba(0, 0, 0, 0.4);
+  background-size: cover;
+}
+#article_2021-04-07 {
+  background: center center
+    url({{"/assets/img/20210401-175237.jpg"|relative_url}}) rgba(0, 0, 0, 0.4);
   background-size: cover;
 }
 #article_2023-09-12 {

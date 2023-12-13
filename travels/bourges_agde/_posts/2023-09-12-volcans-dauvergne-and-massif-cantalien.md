@@ -5,7 +5,7 @@ date: 2023-09-12 12:00:00 +0200
 permalink: "volcans-dauvergne-and-massif-cantalien.html"
 
 featured: false
-tags: "new"
+tags:
 author: "Manuel Sourdrille"
 displayed_date: "September 12, 2023"
 article_id: "article_2023-09-12"

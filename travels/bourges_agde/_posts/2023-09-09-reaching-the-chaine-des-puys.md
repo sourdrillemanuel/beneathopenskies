@@ -5,7 +5,7 @@ date: 2023-09-09 12:00:00 +0200
 permalink: "reaching-the-chaine-des-puys.html"
 
 featured: false
-tags: "new"
+tags:
 author: "Manuel Sourdrille"
 displayed_date: "September 9, 2023"
 article_id: "article_2023-09-09"
