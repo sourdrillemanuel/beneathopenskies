@@ -99,26 +99,28 @@ DESIGN TOKENS
 .text-3xl,
 .text-2xl,
 .text-xl,
-.text-lg {
+.text-lg,
+.text-md {
   font-family: "P22 Mackinac", serif;
 }
-.text-md,
 .text-sm,
 .text-xs {
   font-family: "Inter", sans-serif;
 }
-.text-4xl {
-  line-height: 100%;
-}
+.text-4xl,
 .text-3xl,
-.text-2xl,
+.text-2xl {
+  line-height: 100%;
+  font-weight: 500;
+}
 .text-xl {
   line-height: 125%;
+  font-weight: 500;
 }
-.text-lg {
+.text-lg,
+.text-md {
   line-height: 175%;
 }
-.text-md,
 .text-sm,
 .text-xs {
   line-height: 150%;
@@ -138,8 +140,11 @@ DESIGN TOKENS
 .italic {
   font-style: italic;
 }
-.bold {
-  font-weight: 700;
+.font-normal {
+  font-weight: 500;
+}
+.font-bold {
+  font-weight: 600;
 }
 
 /* Text transform */
@@ -195,27 +200,23 @@ SMALL DEVICES
 
 /* Typescale */
 
-.text-4xl {
-  font-size: 2.5rem; /* 40px */
-}
 .text-3xl {
-  font-size: 2rem; /* 32px */
-  letter-spacing: 0.25rem;
+  font-size: 3rem; /* 48px */
 }
 .text-2xl {
-  font-size: 1.5rem; /* 24px */
+  font-size: 2rem; /* 32px */
 }
 .text-xl {
-  font-size: 1.25rem; /* 20px */
+  font-size: 1.5rem; /* 24px */
 }
 .text-lg {
-  font-size: 1rem; /* 16px */
+  font-size: 1.25rem; /* 20px */
 }
 .text-md {
-  font-size: 0.875rem; /* 14px */
+  font-size: 1rem; /* 16px */
 }
 .text-sm {
-  font-size: 0.75rem; /* 12px */
+  font-size: 0.875rem; /* 14px */
 }
 .text-xs {
   font-size: 0.75rem; /* 12px */
@@ -351,9 +352,15 @@ SMALL DEVICES
 .s-pt-32 {
   padding-top: 2rem;
 } /* 32px */
+.s-pt-48 {
+  padding-top: 3rem;
+} /* 48px */
 .s-pt-64 {
   padding-top: 4rem;
 } /* 64px */
+.s-pt-96 {
+  padding-top: 6rem;
+} /* 96px */
 
 .s-pb-4 {
   padding-bottom: 0.25rem;
@@ -419,24 +426,20 @@ MEDIUM DEVICES
 @media (min-width: 48rem) {
   /* Typescale */
 
-  .text-4xl {
+  .text-3xl {
     font-size: 4rem; /* 64px */
   }
-  .text-3xl {
-    font-size: 2.5rem; /* 40px */
-    letter-spacing: 0.5rem;
-  }
   .text-2xl {
-    font-size: 2rem; /* 32px */
+    font-size: 2.5rem; /* 40px */
   }
   .text-xl {
-    font-size: 1.5rem; /* 24px */
+    font-size: 1.75rem; /* 28px */
   }
   .text-lg {
-    font-size: 1.25rem; /* 20px */
+    font-size: 1.375rem; /* 22px */
   }
   .text-md {
-    font-size: 1rem; /* 16px */
+    font-size: 1.125rem; /* 18px */
   }
   .text-sm {
     font-size: 0.875rem; /* 14px */
@@ -627,27 +630,23 @@ LARGE DEVICES
 @media (min-width: 80rem) {
   /* Typescale */
 
-  .text-4xl {
+  .text-3xl {
     font-size: 6rem; /* 96px */
   }
-  .text-3xl {
-    font-size: 3rem; /* 48px */
-    letter-spacing: 0.75rem;
-  }
   .text-2xl {
-    font-size: 2rem; /* 32px */
+    font-size: 4rem; /* 64px */
   }
   .text-xl {
-    font-size: 1.5rem; /* 24px */
+    font-size: 2rem; /* 32px */
   }
   .text-lg {
-    font-size: 1.25rem; /* 20px */
+    font-size: 1.5rem; /* 24px */
   }
   .text-md {
-    font-size: 1rem; /* 16px */
+    font-size: 1.25rem; /* 20px */
   }
   .text-sm {
-    font-size: 0.875rem; /* 14px */
+    font-size: 1rem; /* 16px */
   }
   .text-xs {
     font-size: 0.75rem; /* 12px */
@@ -656,7 +655,7 @@ LARGE DEVICES
   /* Container */
 
   .container {
-    width: 1216px;
+    width: 1280px;
   }
 
   /* Grid */
@@ -724,11 +723,17 @@ LARGE DEVICES
   .l-col-2-8 {
     grid-column: 2 / 8;
   }
+  .l-col-2-10 {
+    grid-column: 2 / 10;
+  }
   .l-col-2-16 {
     grid-column: 2 / 16;
   }
   .l-col-3-7 {
     grid-column: 3 / 7;
+  }
+  .l-col-3-9 {
+    grid-column: 3 / 9;
   }
   .l-col-3-11 {
     grid-column: 3 / 11;
@@ -793,6 +798,9 @@ LARGE DEVICES
   .l-mt-0 {
     margin-top: 0rem;
   } /* 0px */
+  .l-mt-4 {
+    margin-top: 0.25rem;
+  } /* 4px */
   .l-mt-8 {
     margin-top: 0.5rem;
   } /* 8px */
@@ -877,6 +885,9 @@ LARGE DEVICES
   .l-pt-96 {
     padding-top: 6rem;
   } /* 96px */
+  .l-pt-192 {
+    padding-top: 12rem;
+  } /* 192px */
 
   .l-pb-8 {
     padding-bottom: 0.5rem;
@@ -890,6 +901,9 @@ LARGE DEVICES
   .l-pb-128 {
     padding-bottom: 8rem;
   } /* 64px */
+  .l-pb-192 {
+    padding-bottom: 12rem;
+  } /* 192px */
 
   .l-p-16 {
     padding: 1rem;
@@ -925,6 +939,12 @@ LARGE DEVICES
   }
   .l-border-none-b {
     border-bottom: 1px none;
+  }
+
+  /* Grid-breaking articles listing */
+
+  section > div > a:nth-child(even) {
+    margin-top: 12rem; /*192px*/
   }
 }
 
@@ -974,6 +994,9 @@ img {
 }
 .h-inherit {
   height: inherit;
+}
+.min-h-280 {
+  min-height: 280px;
 }
 
 .top-0 {
@@ -1051,6 +1074,9 @@ img {
 .border-1-y {
   border-top: 1px solid;
   border-bottom: 1px solid;
+}
+.rounded-4 {
+  border-radius: 0.5rem;
 }
 .rounded-8 {
   border-radius: 0.5rem;
@@ -1163,8 +1189,9 @@ UNIQUE STYLING
 }
 #collection_bourges_agde_map {
   background: center center
-    url({{"/assets/img/collection_bourges-agde_map.jpg"|relative_url}});
-  background-size: cover;
+    url({{"/assets/img/collection_bourges_agde_map.png"|relative_url}});
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 #collection_northern_spain {
   background: center center

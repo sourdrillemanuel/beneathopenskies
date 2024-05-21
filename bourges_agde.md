@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Bikepacking from Bourges to Agde"
+title: "Along the Volcanoes — Bikepacking from Bourges to Agde"
 tags: "new"
 permalink: "bikepacking-bourges-agde.html"
 
@@ -24,4 +24,4 @@ must-knows_nutrition: "Access to water and food hasn't posed an issue in any of 
 img_header: /beneathopenskies/assets/img/20230909-184927.jpg
 ---
 
-In September 2023, at the end of summer, I embarked on a journey towards the Mediterranean Sea. I witnessed the changing landscapes, from lush valleys to arid plateaus, and eventually the unfamiliar scenery of Southern France. Along the way, I reflected on the joys of bikepacking and wild camping, all while inching closer to my destination and a heartwarming reunion with loved ones.
+In September 2023, I embarked on a journey towards the Mediterranean Sea, spanning across the Massif Central, a region containing a large concentration of around 450 extinct volcanoes. I witnessed the changing landscapes, from lush valleys to arid plateaus, and eventually the unfamiliar scenery of Southern France. Along the way, I reflected on the joys of bikepacking and wild camping, all while inching closer to my destination and a heart-warming reunion with loved ones.

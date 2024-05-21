@@ -9,6 +9,7 @@ tags:
 author: "Manuel Sourdrille"
 displayed_date: "September 17, 2023"
 article_id: "article_2023-09-17"
+article_no: "04"
 collection_id: "collection_bourges-agde"
 
 link_collection: bikepacking-bourges-agde.html
@@ -26,7 +27,7 @@ highlights_1_description: "The D20, from the Finiels pass to the Tarn River, is 
 highlights_2_title: "Causse Méjean"
 highlights_2_description: "Causse Méjean is a limestone plateau located in the Lozère department of southern France. It is a part of The Causses and the Cévennes, designated as a UNESCO World Heritage Site. An enjoyable mountain bike track encircles the entire plateau, offering occasional views of the deep gorge below. The eastern part presents a different landscape from its western counterpart, with a greater prevalence of forests. As you approach the Perjuret pass, you can catch a glimpse of Mont Aigoual."
 
-img_thumbnail: assets/img/collection_bourges-agde_article_2023-09-17_thumbnail.jpg
+img_thumbnail: assets/img/20230916-100819.jpg
 img_bg: "article_2023-09-17"
 img_map: "collection_bourges-agde_map"
 

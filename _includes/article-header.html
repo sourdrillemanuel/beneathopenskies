@@ -2,19 +2,17 @@
     <div id="{{ page.img_bg }}" class="s-hidden l-block s-col-span-2 l-col-span-1"></div>
     <div class="flex flex-col s-col-span-2 l-col-span-1 l-border-1-l">
         <nav class="flex s-p-8 m-p-12 l-p-16 justify-between s-border-1-b">
-            <p class="text-md bold gray-12">{{ site.title }}</p>
+            <p class="text-sm font-bold gray-12">{{ site.title }}</p>
             <ul class="flex gap-8 items-center">
-                <li class="s-hidden m-block"><a href="{{ page.link_collection }}" class="tag text-sm bold gray-12">{{ page.active_collection }}</a></li>
-                <li class="text-md italic gray-12">in</li>
-                <li><a href="{{ '/' | relative_url }}" class="tag text-sm bold gray-12">All collections</a></li>
+                <li class="s-hidden m-block"><a href="{{ page.link_collection }}" class="tag text-sm font-bold gray-12">{{ page.active_collection }}</a></li>
+                <li class="text-sm italic gray-12">in</li>
+                <li><a href="{{ '/' | relative_url }}" class="tag text-sm font-bold gray-12">All collections</a></li>
             </ul>
         </nav>
         <div class="flex flex-col h-100 s-p-16 m-p-24 l-p-32 justify-center">
-            <p class="text-center text-md italic gray-12">Post</p>
-            <div class="s-mt-16 m-mt-24 l-mt-32 self-center w-32 s-border-1-b"></div>
-            <h1 class="s-mt-16 m-mt-24 l-mt-32 text-center text-3xl uppercase primary-12">{{ page.title }}</h1>
-            <div class="s-mt-16 m-mt-24 l-mt-32 self-center w-32 s-border-1-b"></div>
-            <p class="s-mt-16 m-mt-24 l-mt-32 text-center text-md gray-12"><span class="italic">by </span><span class="bold">{{ page.author }}</span><br>{{ page.displayed_date }}</p>
+            <p class="text-center text-xs font-bold">{{ page.article_no }}</p>
+            <h1 class="s-mt-16 m-mt-24 l-mt-32 text-center text-2xl italic uppercase primary-12">{{ page.title }}</h1>
+            <p class="s-mt-16 m-mt-24 l-mt-32 text-center text-sm gray-12"><span class="italic">by </span><span class="font-bold">{{ page.author }}</span><br>{{ page.displayed_date }}</p>
         </div>
     </div>
 </header>

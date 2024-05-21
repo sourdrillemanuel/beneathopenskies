@@ -9,6 +9,7 @@ tags:
 author: "Manuel Sourdrille"
 displayed_date: "September 19, 2023"
 article_id: "article_2023-09-19"
+article_no: "05"
 collection_id: "collection_bourges-agde"
 
 link_collection: bikepacking-bourges-agde.html
@@ -26,7 +27,7 @@ highlights_1_description: "The D18 road, stretching from La Parade to the Perjur
 highlights_2_title: "The D907, from Col Salidès to Saint-André-de-Valborgne"
 highlights_2_description: "Riding down the valley where the river Gardon flows is one of the highlights of the entire trip. The scenery is fantastic and unfamiliar. As you descend, the temperature rises, along with the humidity. The wind subsides, and both the vegetation and architecture undergo drastic changes."
 
-img_thumbnail: assets/img/collection_bourges-agde_article_2023-09-19_thumbnail.jpg
+img_thumbnail: assets/img/20230917-113037.jpg
 img_bg: "article_2023-09-19"
 img_map: "collection_bourges-agde_map"
 
