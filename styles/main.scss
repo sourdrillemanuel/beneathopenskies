@@ -200,6 +200,9 @@ SMALL DEVICES
 
 /* Typescale */
 
+.text-4xl {
+  font-size: 3rem; /* 48px */
+}
 .text-3xl {
   font-size: 3rem; /* 48px */
 }
@@ -238,6 +241,9 @@ SMALL DEVICES
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
+.s-gap-0 {
+  column-gap: 0rem; /* 0px */
+}
 .s-gap-16 {
   column-gap: 1rem; /* 16px */
 }
@@ -262,9 +268,9 @@ SMALL DEVICES
 
 /* Position */
 
-.s-top--16 {
-  top: -1rem;
-} /* -16px */
+.s-top-24 {
+  top: 1.5rem;
+} /* 24px */
 .s-top--12 {
   top: -0.75rem;
 } /* -12px */
@@ -426,6 +432,9 @@ MEDIUM DEVICES
 @media (min-width: 48rem) {
   /* Typescale */
 
+  .text-4xl {
+    font-size: 6rem; /* 96px */
+  }
   .text-3xl {
     font-size: 4rem; /* 64px */
   }
@@ -500,9 +509,9 @@ MEDIUM DEVICES
 
   /* Position */
 
-  .m-top--24 {
-    top: -1.5rem;
-  } /* -24px */
+  .m-top-48 {
+    top: 3rem;
+  } /* 48px */
 
   /* Margins */
 
@@ -600,9 +609,9 @@ MEDIUM DEVICES
   .m-pb-48 {
     padding-bottom: 3rem;
   } /* 48px */
-  .m-pb-48 {
-    padding-bottom: 6rem;
-  } /* 96px */
+  .m-pb-64 {
+    padding-bottom: 4rem;
+  } /* 64px */
 
   .m-block {
     display: block;
@@ -619,6 +628,12 @@ MEDIUM DEVICES
   .m-border-1-b {
     border-bottom: 1px solid;
   }
+
+  /* Grid-breaking articles listing */
+
+  section > div > a:nth-child(even) {
+    margin-top: 8rem; /*128px*/
+  }
 }
 
 /*
@@ -630,6 +645,9 @@ LARGE DEVICES
 @media (min-width: 80rem) {
   /* Typescale */
 
+  .text-4xl {
+    font-size: 8rem; /* 128px */
+  }
   .text-3xl {
     font-size: 6rem; /* 96px */
   }
@@ -783,6 +801,9 @@ LARGE DEVICES
 
   /* Position */
 
+  .l-top-64 {
+    top: 4rem;
+  } /* 64px */
   .l-top--32 {
     top: -2rem;
   } /* -32px */
@@ -863,6 +884,10 @@ LARGE DEVICES
     padding-top: 8rem;
     padding-bottom: 8rem;
   } /* 128px */
+  .l-py-192 {
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+  } /* 192px */
 
   .l-px-0 {
     padding-left: 0rem;
@@ -898,6 +923,9 @@ LARGE DEVICES
   .l-pb-64 {
     padding-bottom: 4rem;
   } /* 64px */
+  .l-pb-96 {
+    padding-bottom: 6rem;
+  } /* 96px */
   .l-pb-128 {
     padding-bottom: 8rem;
   } /* 64px */
@@ -1106,11 +1134,11 @@ img {
   padding: 0.25rem 0.75rem;
 }
 .button {
-  border: 1px solid;
+  display: inline-block;
+  border: 2px solid;
   background-color: var(--gray-96);
   border-radius: 2rem;
-  padding: 0.5rem 1rem;
-  box-shadow: 4px 4px 0px 0px var(--gray-12);
+  padding: 0.5rem 1.5rem;
 }
 
 /* Modifiers */

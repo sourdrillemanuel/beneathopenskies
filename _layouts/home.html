@@ -1,206 +1,58 @@
 <!doctype html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>{{ site.title }}</title>
-  <link rel="stylesheet" href="{{ site.baseurl }}/styles/main.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600&display=swap"
-    rel="stylesheet">
-  <link href="{{ '/styles/flickity.css' | relative_url }}" rel="stylesheet">
-  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
-</head>
+	<head>
+		<meta charset="utf-8">
+		<title>{{ site.title }}</title>
+		<link rel="stylesheet" href="{{ site.baseurl }}/styles/main.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600&display=swap" rel="stylesheet">
+	</head>
+	<body class="bg-gray-96">
 
-<body class="bg-primary-88">
-  <nav class="flex s-p-8 m-p-12 l-p-16 justify-between border-1-b">
-    <p class="text-md bold gray-12">{{ site.title }}</p>
-  </nav>
+	<!-- NAV -->
 
-  <!-- HEADER -->
+	<nav class="s-p-8 m-p-12 l-p-16">
+		<p class="text-sm font-bold gray-12">{{ site.title }}</p>
+	</nav>
 
-  <header class="flex justify-center s-py-32 m-py-64 l-py-128">
-    <div class="container grid s-px-16 m-px-24 l-px-0">
-      <div class="flex flex-col s-col-span-6 m-col-span-12 l-col-span-12">
-        <img class="self-center w-8rem border-2 rounded-64" src="{{ 'assets/img/portrait.png' | relative_url }}">
-        <h1 class="s-mt-8 m-mt-12 l-mt-16 text-4xl text-center gray-12">I write stories about <span
-            class="italic">bikepacking</span> trips to lesser-known regions since<sup class="text-xl italic">‘19</sup>
-        </h1>
-      </div>
-    </div>
-  </header>
+	<!-- HEADER -->
 
-  <!-- COLLECTIONS -->
+	<header class="relative flex justify-center s-mt-96 m-mt-96 l-mt-192 s-top-24 m-top-48 l-top-64">
+		<div class="container grid s-px-16 m-px-24 l-px-0">
+		<div class="s-col-span-6 m-col-span-12 l-col-span-12">
+			<h1 class="text-4xl italic uppercase text-center gray-12">Marvelling at outdoors since<sup class="text-xl italic">‘15</sup>
+			</h1>
+		</div>
+		</div>
+	</header>
 
-  <section class="flex justify-center s-pt-32 m-pt-48 l-pt-64 bg-tertiary-88 s-border-1-t">
-    <div class="container s-px-16 m-px-24 l-px-32">
-      <p class="text-2xl gray-12">Collections <span class="badge relative s-top--16 text-xs font-700 bg-gray-12 gray-96">6</span></p>
-    </div>
-  </section>
-  <div class="carousel s-pt-16 m-pt-24 l-pt-32 s-pb-32 m-pb-48 l-pb-64 bg-tertiary-88" data-flickity='{ "freeScroll": true, "prevNextButtons": true, "cellAlign": "left", "pageDots": false }'> 
-    {% assign featured_pages = site.pages | where_exp: "page", "page.featured" %}
-    {% for page in featured_pages %}
-      <a href="{{ page.permalink | relative_url }}"
-        class="carousel-cell flex flex-col s-mr-16 m-mr-24 l-mr-32 gray-12 border-1 rounded-8 shadow">
-        <div id="{{ 'collection_' | append: page.collection_id }}" class="s-p-8 m-p-12 l-p-16 rounded-8-t">
-        </div>
-        <div class="s-px-8 m-px-12 l-px-16 s-py-16 m-py-24 l-py-32">
-          <h4 class="text-2xl link">{{ page.title }}</h4>
-          <p class="s-mt-8 m-mt-12 l-mt-16 text-md">{{ site.categories[page.collection_id] | size }} articles</p>
-        </div>
-      </a>
-    {% endfor %}
-  </div>
+	<!-- COLLECTIONS -->
 
-  <!-- ARTICLES -->
+	<section class="grid s-gap-0 m-gap-24 l-gap-32 m-px-24 l-px-32">
+		<img class="s-col-span-6 m-col-span-12 l-col-span-12" src="{{ '/assets/img/col_bourges-to-agde.jpg' | relative_url }}">
+	</section>
+	<section class="flex justify-center s-px-16 m-px-24 l-px-0 s-py-16 m-py-24 l-py-32 s-pb-32 m-pb-64 l-pb-96">
+		<div class="container">
+			<p class="text-xs font-bold">Collection</p>
+			<h4 class="s-mt-4 l-mt-8 text-xl">Along Volcanoes — Bikepacking from Bourges to Agde</h4>
+			<a href="{{ 'bikepacking-bourges-agde.html' | relative_url }}" class="s-mt-8 m-mt-12 l-mt-16 button text-sm font-bold gray-12">Explore</a>
+		</div>
+	</section>
+	<section class="grid s-gap-0 m-gap-24 l-gap-32 m-px-24 l-px-32">
+		<img class="s-col-span-6 m-col-span-12 l-col-span-12" src="{{ '/assets/img/col_northern-spain.jpg' | relative_url }}">
+	</section>
+	<section class="flex justify-center s-px-16 m-px-24 l-px-0 s-py-16 m-py-24 l-py-32 s-pb-32 m-pb-64 l-pb-96">
+		<div class="container">
+			<p class="text-xs font-bold">Collection</p>
+			<h4 class="s-mt-4 l-mt-8 text-xl">Infinite Climbs — Exploring Northern Spain by bike</h4>
+			<a href="{{ 'bikepacking-northern-spain.html' | relative_url }}" class="s-mt-8 m-mt-12 l-mt-16 button text-sm font-bold gray-12">Explore</a>
+		</div>
+	</section>
 
-  <section class="flex justify-center s-pt-32 m-pt-48 l-pt-64 bg-secondary-88 s-border-1-t">
-    <div class="container s-px-16 m-px-24 l-px-32">
-      <p class="text-2xl gray-12">Latest articles</p>
-    </div>
-  </section>
-  <section class="flex justify-center s-pb-32 m-pb-48 l-pb-64 bg-secondary-88">
-    <div class="container grid s-gap-16 m-gap-24 l-gap-32 s-px-16 m-px-24 l-px-0">
-      {% assign featured_articles = site.categories['travels']
-        | where_exp: "post", "post.featured"
-      %}
-      {% for post in featured_articles %}
-        {% include article-card.html %}
-      {% endfor %}
-    </div>
-  </section>
-
-  <!-- FOOTER -->
-  
-  {% include footer.html %}
-</body>
+	<!-- FOOTER -->
+	
+	{% include footer.html %}
+	</body>
 </html>
-<script>
-
-  var $imagesCarousel = jQuery('.carouselOfImages').flickity({
-    /* options, defaults listed */
-
-    accessibility: false,
-    /* enable keyboard navigation, pressing left & right keys */
-
-    autoPlay: false,
-    pauseAutoPlayOnHover: false,
-    /* advances to the next cell
-    if true, default is 3 seconds
-    or set time between advances in milliseconds
-    i.e. `autoPlay: 1000` will advance every 1 second */
-
-    cellAlign: 'center',
-    /* alignment of cells, 'center', 'left', or 'right'
-    or a decimal 0-1, 0 is beginning (left) of container, 1 is end (right) */
-
-    // cellSelector: '.topic-switcher__item',
-    /* specify selector for cell elements */
-
-    contain: false,
-    /* will contain cells to container
-    so no excess scroll at beginning or end
-    has no effect if wrapAround is enabled */
-
-    draggable: true,
-    /* enables dragging & flickin
-    freeScroll: false,
-    enables content to be freely scrolled and flicked
-    without aligning cells */
-
-    friction: 0.2,
-    /* smaller number = easier to flick farther */
-
-    initialIndex: 0,
-    /* zero-based index of the initial selected cell */
-
-    lazyLoad: false,
-    /* enable lazy-loading images
-    set img data-flickity-lazyload="src.jpg"
-    set to number to load images adjacent cells */
-
-    percentPosition: true,
-    /* sets positioning in percent values, rather than pixels
-    Enable if items have percent widths
-    Disable if items have pixel widths, like images */
-
-    prevNextButtons: false,
-    /* creates and enables buttons to click to previous & next cells */
-
-    pageDots: false,
-    /* create and enable page dots */
-
-    resize: true,
-    /* listens to window resize events to adjust size & positions */
-
-    rightToLeft: false,
-    /* enables right-to-left layout */
-
-    setGallerySize: true,
-    /* sets the height of gallery
-    disable if gallery already has height set with CSS */
-
-    watchCSS: false,
-    /* watches the content of :after of the element
-    activates if #element:after { content: 'flickity' }
-    IE8 and Android 2.3 do not support watching :after
-    set watch: 'fallbackOn' to enable for these browsers */
-
-    wrapAround: true
-    /* at end of cells, wraps-around to first for infinite scrolling */
-  });
-
-  function resizeCells() {
-    var flkty = $imagesCarousel.data('flickity');
-    var $current = flkty.selectedIndex;
-    var $length = flkty.cells.length;
-    var $imageNumLimit = 5;
-    if ($length < $imageNumLimit) {
-      $imagesCarousel.flickity('destroy');
-    }
-    jQuery('.carouselOfImages .carouselImage').removeClass("nextToSelectedLeft");
-    jQuery('.carouselOfImages .carouselImage').removeClass("nextToSelectedRight");
-    jQuery('.carouselOfImages .carouselImage').removeClass("nextToSelectedLeft2");
-    jQuery('.carouselOfImages .carouselImage').removeClass("nextToSelectedRight2");
-    jQuery('.carouselOfImages .carouselImage').eq($current - 1).addClass("nextToSelectedLeft");
-    jQuery('.carouselOfImages .carouselImage').eq($current - 2).addClass("nextToSelectedLeft2");
-    var $endCell;
-    if ($current + 1 == $length) {
-      $endCell = "0";
-    } else {
-      $endCell = $current + 1;
-    }
-    jQuery('.carouselOfImages .carouselImage').eq($endCell).addClass("nextToSelectedRight");
-    if ($endCell + 1 < $imageNumLimit) {
-      jQuery('.carouselOfImages .carouselImage').eq($endCell + 1).addClass("nextToSelectedRight2");
-    } else {
-      jQuery('.carouselOfImages .carouselImage').eq(0).addClass("nextToSelectedRight2");
-    }
-  }
-  resizeCells();
-
-  $imagesCarousel.on('scroll.flickity', function () {
-    resizeCells();
-  });
-
-
-  //HOVER FUNCTIONS
-  $('.carouselImage').bind("mouseover", function () {
-    if (this.className === 'carouselImage nextToSelectedLeft') {
-      $imagesCarousel.flickity('playLeftSlowPlayer');
-    } else if (this.className === 'carouselImage nextToSelectedLeft2') {
-      $imagesCarousel.flickity('playLeftFastPlayer');
-    } else if (this.className === 'carouselImage nextToSelectedRight') {
-      $imagesCarousel.flickity('playRightSlowPlayer');
-    } else if (this.className === 'carouselImage nextToSelectedRight2') {
-      $imagesCarousel.flickity('playRightFastPlayer');
-    }
-  });
-
-  $('.carouselImage').bind("mouseout", function () {
-    $imagesCarousel.flickity('pausePlayer');
-  });
-
-</script>
