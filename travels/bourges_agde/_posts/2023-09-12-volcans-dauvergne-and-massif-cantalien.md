@@ -9,6 +9,7 @@ tags:
 author: "Manuel Sourdrille"
 displayed_date: "September 12, 2023"
 article_id: "article_2023-09-12"
+article_no: "02"
 collection_id: "collection_bourges-agde"
 
 link_collection: bikepacking-bourges-agde.html
@@ -26,9 +27,9 @@ highlights_1_description: "It's a volcanic plateau located in the Massif Central
 highlights_2_title: "The last camp spot, overlooking the Gorges de la Truyère."
 highlights_2_description: "South of the Monts du Cantal, between Gourdièges and Sainte-Marie, you'll find beautiful dirt paths leading to an open area overlooking the gorges below and the Aubrac further south. It's a perfect place to camp."
 
-img_thumbnail: assets/img/collection_bourges-agde_article_2023-09-12_thumbnail.jpg
+img_thumbnail: assets/img/20230910-072751.jpg
 img_bg: "article_2023-09-12"
-img_map: "collection_bourges-agde_map"
+img_map: "/beneathopenskies/assets/img/article_volcansdauvergne_map.png"
 
 link_umap: "https://umap.openstreetmap.fr/en/map/mighty-travels_640943"
 link_komoot: "https://www.komoot.com/fr-fr/collection/2333829/-from-bourges-to-agde"

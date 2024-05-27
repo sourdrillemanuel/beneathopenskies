@@ -1,8 +1,9 @@
-<a href="{{ site.baseurl }}{{ post.url }}" class="relative s-col-span-3 m-col-span-4 l-col-span-3 s-mt-16 m-mt-24 l-mt-32 border-1 rounded-8 shadow gray-12">
-    <img class="rounded-8-t" src="{{ post.img_thumbnail }}">
-    <p class="badge absolute top-8 left-8 w-fit text-xs bg-gray-12 gray-96">{{ post.tags }}</p>
-    <div class="s-px-8 m-px-12 l-px-16 s-py-16 m-py-24 l-py-32">
-        <h4 class="text-xl link">{{ post.title }}</h4>
-        <p class="s-mt-8 m-mt-12 l-mt-16 text-md">{{ post.displayed_date }}</p>
+<a href="{{ site.baseurl }}{{ post.url }}" class="s-col-span-6 l-col-span-6 s-mt-16 m-mt-24 l-mt-32 gray-12">
+    <img class="rounded-4" src="{{ post.img_thumbnail }}">
+    <!-- <p class="badge absolute top-8 left-8 w-fit text-xs bg-gray-12 gray-96">{{ post.tags }}</p> -->
+    <div class="s-px-8 m-px-12 l-px-16 s-py-8 m-py-12 l-py-16">
+        <p class="text-xs font-bold">{{ post.article_no }}</p>
+        <h4 class="s-mt-4 l-mt-8 text-xl link">{{ post.title }}</h4>
+        <p class="s-mt-8 m-mt-12 l-mt-16 text-sm">{{ post.displayed_date }}</p>
     </div>
 </a>

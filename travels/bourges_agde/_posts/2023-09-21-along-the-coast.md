@@ -9,6 +9,7 @@ tags:
 author: "Manuel Sourdrille"
 displayed_date: "September 21, 2023"
 article_id: "article_2023-09-21"
+article_no: "06"
 collection_id: "collection_bourges-agde"
 
 link_collection: bikepacking-bourges-agde.html
@@ -26,12 +27,13 @@ highlights_1_description: "Nestled between Montpellier and Sète, the massif ove
 highlights_2_title: "From the Abbaye Sainte-Marie de Valmagne to Castelnau-de-Guers"
 highlights_2_description: "I couldn't find a name for this area, but between the two locations, you'll discover fantastic dirt paths, mountain bike tracks, and winding paved roads set amidst a picturesque landscape of vineyards, pine trees, and meadows."
 
-img_thumbnail: assets/img/collection_bourges-agde_article_2023-09-21_thumbnail.jpg
+img_thumbnail: assets/img/20230918-200532.jpg
 img_bg: "article_2023-09-21"
 img_map: "collection_bourges-agde_map"
 
 link_umap: "https://umap.openstreetmap.fr/en/map/mighty-travels_640943"
 link_komoot: "https://www.komoot.com/fr-fr/collection/2333829/-from-bourges-to-agde"
+img_map: "/beneathopenskies/assets/img/article_alongthecoast_map.png"
 ---
 
 Leaving Montpellier behind and heading inland, my journey took me through forested paths and sometimes challenging roads. Yet, the promise of a pristine natural area and the allure of the golden hour kept me going. As I settled for the day under pine trees, the excitement for the final leg of my adventure loomed.

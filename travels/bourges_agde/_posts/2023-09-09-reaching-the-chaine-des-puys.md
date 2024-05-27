@@ -9,6 +9,7 @@ tags:
 author: "Manuel Sourdrille"
 displayed_date: "September 9, 2023"
 article_id: "article_2023-09-09"
+article_no: "01"
 collection_id: "collection_bourges-agde"
 
 link_collection: bikepacking-bourges-agde.html
@@ -26,9 +27,9 @@ highlights_1_description: "Between Saint-Florent-sur-Cher and Saint-Amand-Montro
 highlights_2_title: "The view of the Chaîne des Puys"
 highlights_2_description: "At Echassières, the route ascends, revealing the striking Chaîne des Puys for the first time. Furthermore, the D50 between Sauterre and Pulvérières provides a beautiful view of the extinct volcanoes."
 
-img_thumbnail: "assets/img/collection_bourges-agde_article_2023-09-09_thumbnail.jpg"
+img_thumbnail: "assets/img/20230908-091646.jpg"
 img_bg: "article_2023-09-09"
-img_map: "collection_bourges-agde_map"
+img_map: /beneathopenskies/assets/img/article_reachingthechainedespuys_map.png
 
 link_umap: "https://umap.openstreetmap.fr/en/map/mighty-travels_640943"
 link_komoot: "https://www.komoot.com/fr-fr/collection/2333829/-from-bourges-to-agde"
