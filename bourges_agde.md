@@ -21,7 +21,7 @@ must-knows_climate: "Around the Mediterranean basin, summer is generally too hot
 must-knows_camping: "I'm not familiar with the specific regulations in each country, but generally, wild camping is quite feasible, except in Sicily where preserved natural areas are scarce, and cultivated lands numerous. In Tunisia, you can explore the various mountain ranges for camping, steering clear of cultivated lands. Camping in Southern Tunisia is particularly enchanting, offering expansive open spaces, solitude, and a captivating night sky."
 must-knows_nutrition: "Access to water and food hasn't posed an issue in any of the locations I've visited. In Tunisia, you'll find grocery stores and fast-food options in even the smallest villages, along with bustling markets with fruits and vegetables in larger ones. However, it's important to note that relying on rivers may not be viable during autumn, as they tend to run dry."
 
-img_header: /beneathopenskies/assets/img/20230909-184927.jpg
+img_map: /beneathopenskies/assets/img/collection_bourges-agde_map.png
 ---
 
 In September 2023, I embarked on a journey towards the Mediterranean Sea, spanning across the Massif Central, a region containing a large concentration of around 450 extinct volcanoes. I witnessed the changing landscapes, from lush valleys to arid plateaus, and eventually the unfamiliar scenery of Southern France. Along the way, I reflected on the joys of bikepacking and wild camping, all while inching closer to my destination and a heart-warming reunion with loved ones.

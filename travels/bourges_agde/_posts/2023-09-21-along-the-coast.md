@@ -33,6 +33,7 @@ img_map: "collection_bourges-agde_map"
 
 link_umap: "https://umap.openstreetmap.fr/en/map/mighty-travels_640943"
 link_komoot: "https://www.komoot.com/fr-fr/collection/2333829/-from-bourges-to-agde"
+img_map: "/beneathopenskies/assets/img/article_alongthecoast_map.png"
 ---
 
 Leaving Montpellier behind and heading inland, my journey took me through forested paths and sometimes challenging roads. Yet, the promise of a pristine natural area and the allure of the golden hour kept me going. As I settled for the day under pine trees, the excitement for the final leg of my adventure loomed.

@@ -29,7 +29,7 @@ highlights_2_description: "At Echassières, the route ascends, revealing the str
 
 img_thumbnail: "assets/img/20230908-091646.jpg"
 img_bg: "article_2023-09-09"
-img_map: "collection_bourges-agde_map"
+img_map: /beneathopenskies/assets/img/article_reachingthechainedespuys_map.png
 
 link_umap: "https://umap.openstreetmap.fr/en/map/mighty-travels_640943"
 link_komoot: "https://www.komoot.com/fr-fr/collection/2333829/-from-bourges-to-agde"

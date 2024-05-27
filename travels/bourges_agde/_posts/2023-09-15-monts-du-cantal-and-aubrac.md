@@ -29,7 +29,7 @@ highlights_2_description: "From Sainte-Eulalie to the Charpal lake, the trails a
 
 img_thumbnail: assets/img/20230914-121223.jpg
 img_bg: "article_2023-09-15"
-img_map: "collection_bourges-agde_map"
+img_map: "/beneathopenskies/assets/img/article_montsducantal_map.png"
 
 link_umap: "https://umap.openstreetmap.fr/en/map/mighty-travels_640943"
 link_komoot: "https://www.komoot.com/fr-fr/collection/2333829/-from-bourges-to-agde"

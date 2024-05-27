@@ -29,7 +29,7 @@ highlights_2_description: "South of the Monts du Cantal, between Gourdièges and
 
 img_thumbnail: assets/img/20230910-072751.jpg
 img_bg: "article_2023-09-12"
-img_map: "collection_bourges-agde_map"
+img_map: "/beneathopenskies/assets/img/article_volcansdauvergne_map.png"
 
 link_umap: "https://umap.openstreetmap.fr/en/map/mighty-travels_640943"
 link_komoot: "https://www.komoot.com/fr-fr/collection/2333829/-from-bourges-to-agde"

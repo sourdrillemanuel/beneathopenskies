@@ -2,11 +2,11 @@
     <div id="{{ page.img_bg }}" class="s-hidden l-block s-col-span-2 l-col-span-1"></div>
     <div class="flex flex-col s-col-span-2 l-col-span-1 l-border-1-l">
         <nav class="flex s-p-8 m-p-12 l-p-16 justify-between s-border-1-b">
-            <p class="text-sm font-bold gray-12">{{ site.title }}</p>
+            <p class="self-center text-sm font-bold gray-12">{{ site.title }}</p>
             <ul class="flex gap-8 items-center">
-                <li class="s-hidden m-block"><a href="{{ page.link_collection }}" class="tag text-sm font-bold gray-12">{{ page.active_collection }}</a></li>
+                <li class="s-hidden m-block"><a href="{{ page.link_collection }}" class="btn-secondary">{{ page.active_collection }}</a></li>
                 <li class="text-sm italic gray-12">in</li>
-                <li><a href="{{ '/' | relative_url }}" class="tag text-sm font-bold gray-12">All collections</a></li>
+                <li><a href="{{ '/' | relative_url }}" class="btn-secondary">All collections</a></li>
             </ul>
         </nav>
         <div class="flex flex-col h-100 s-p-16 m-p-24 l-p-32 justify-center">

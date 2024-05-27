@@ -33,6 +33,7 @@ img_map: "collection_bourges-agde_map"
 
 link_umap: "https://umap.openstreetmap.fr/en/map/mighty-travels_640943"
 link_komoot: "https://www.komoot.com/fr-fr/collection/2333829/-from-bourges-to-agde"
+img_map: "/beneathopenskies/assets/img/article_downtomontpellier_map.png"
 ---
 
 In this two-day journey, I encountered ever-changing landscapes, from the dramatic Causse Méjean plateau to the lush valleys where the river Gardon flows . These remote regions provided solitude and striking vistas. The weather played tricks on me, yet the experiences were unforgettable, and I finally arrived in Montpellier, greeted by modern architecture and a warm welcome from Brune.

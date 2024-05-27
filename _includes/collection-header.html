@@ -1,13 +1,14 @@
 <header class="grid s-gap-16 m-gap-24 l-gap-32 s-px-16 l-px-32 s-pt-96 l-pt-192">
-    <h1 class="s-col-span-6 m-col-span-9 l-col-2-10 text-3xl italic uppercase gray-12">{{ page.title }}</h2>
+	<h1 class="s-col-span-6 m-col-span-9 l-col-2-10 text-3xl italic uppercase gray-12">{{ page.title }}</h2>
 </header>
 <section class="flex justify-center s-pt-48 l-pt-96 s-pb-96 l-pb-192">
-    <div class="container grid s-gap-16 m-gap-24 l-gap-32 s-px-16 m-px-24 l-px-32">
-        <div class="s-col-span-6 l-col-3-9">
-            <p class="text-md gray-12">{{ page.content }}</p>
-        </div>
-        <div id="collection_bourges_agde_map" class="flex items-center justify-center s-col-span-6 l-col-9-13 min-h-280 s-mt-32 m-mt-0">
-            <a target="_blank" href="{{ page.link_komoot }}" class="button text-sm gray-12 font-bold">Full route on Komoot</a>
-        </div>
-    </div>
+	<div class="container grid s-gap-16 m-gap-24 l-gap-32 s-px-16 m-px-24 l-px-32">
+		<div class="s-col-span-6 l-col-3-9">
+			<p class="text-md gray-12">{{ page.content }}</p>
+		</div>
+		<div class="relative flex items-center justify-center s-col-span-6 l-col-9-13 min-h-280 s-mt-32 m-mt-0">
+			<img class="absolute z--1 max-h-280" src="{{ page.img_map }}">
+			<a target="_blank" href="{{ page.link_komoot }}" class="btn-primary">Full route on Komoot<span><img class="s-pl-4 l-pl-8" src="{{ '/assets/img/icon-external-link.svg' | relative_url }}"></span></a>
+		</div>
+	</div>
 </section>

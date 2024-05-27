@@ -4,7 +4,7 @@ title: "Bikepacking Northern Spain"
 tags: "new"
 permalink: "bikepacking-northern-spain.html"
 
-featured: true
+featured: false
 active_collection: "Bikepacking Northern Spain"
 collection_id: "northern_spain"
 link_komoot: "https://www.komoot.com/fr-fr/collection/1895685/-bikepacking-northern-spain"
