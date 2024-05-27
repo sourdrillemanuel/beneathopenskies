@@ -9,6 +9,7 @@ tags:
 author: "Manuel Sourdrille"
 displayed_date: "September 19, 2023"
 article_id: "article_2023-09-19"
+article_no: "05"
 collection_id: "collection_bourges-agde"
 
 link_collection: bikepacking-bourges-agde.html
@@ -26,12 +27,13 @@ highlights_1_description: "The D18 road, stretching from La Parade to the Perjur
 highlights_2_title: "The D907, from Col Salidès to Saint-André-de-Valborgne"
 highlights_2_description: "Riding down the valley where the river Gardon flows is one of the highlights of the entire trip. The scenery is fantastic and unfamiliar. As you descend, the temperature rises, along with the humidity. The wind subsides, and both the vegetation and architecture undergo drastic changes."
 
-img_thumbnail: assets/img/collection_bourges-agde_article_2023-09-19_thumbnail.jpg
+img_thumbnail: assets/img/20230917-113037.jpg
 img_bg: "article_2023-09-19"
 img_map: "collection_bourges-agde_map"
 
 link_umap: "https://umap.openstreetmap.fr/en/map/mighty-travels_640943"
 link_komoot: "https://www.komoot.com/fr-fr/collection/2333829/-from-bourges-to-agde"
+img_map: "/beneathopenskies/assets/img/article_downtomontpellier_map.png"
 ---
 
 In this two-day journey, I encountered ever-changing landscapes, from the dramatic Causse Méjean plateau to the lush valleys where the river Gardon flows . These remote regions provided solitude and striking vistas. The weather played tricks on me, yet the experiences were unforgettable, and I finally arrived in Montpellier, greeted by modern architecture and a warm welcome from Brune.

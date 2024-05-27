@@ -9,6 +9,7 @@ tags:
 author: "Manuel Sourdrille"
 displayed_date: "September 15, 2023"
 article_id: "article_2023-09-15"
+article_no: "03"
 collection_id: "collection_bourges-agde"
 
 link_collection: bikepacking-bourges-agde.html
@@ -26,9 +27,9 @@ highlights_1_description: "From Saint-Urcize to Malbouzon, the scenery feels oth
 highlights_2_title: "The fast-flowing tracks around Charpal lake"
 highlights_2_description: "From Sainte-Eulalie to the Charpal lake, the trails are fast-flowing, often winding through coniferous forests. The lake itself offers a pleasant setting, creating a sense of seclusion despite its actual accessibility."
 
-img_thumbnail: assets/img/collection_bourges-agde_article_2023-09-15_thumbnail.jpg
+img_thumbnail: assets/img/20230914-121223.jpg
 img_bg: "article_2023-09-15"
-img_map: "collection_bourges-agde_map"
+img_map: "/beneathopenskies/assets/img/article_montsducantal_map.png"
 
 link_umap: "https://umap.openstreetmap.fr/en/map/mighty-travels_640943"
 link_komoot: "https://www.komoot.com/fr-fr/collection/2333829/-from-bourges-to-agde"
