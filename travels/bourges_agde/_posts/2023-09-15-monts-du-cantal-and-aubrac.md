@@ -3,6 +3,7 @@ layout: post
 title: "Monts d'Aubrac and Beyond"
 date: 2023-09-15 12:00:00 +0200
 permalink: "monts-du-cantal-and-aubrac.html"
+tag: "en"
 
 featured: false
 tags:

@@ -271,6 +271,12 @@ SMALL DEVICES
 .s-top-24 {
   top: 1.5rem;
 } /* 24px */
+.s-top--1 {
+  top: -1px;
+} /* -2px */
+.s-top--8 {
+  top: -0.5rem;
+} /* -8px */
 .s-top--12 {
   top: -0.75rem;
 } /* -12px */
@@ -1327,39 +1333,44 @@ UNIQUE STYLING
     url({{"/assets/img/20210318-194905.jpg"|relative_url}}) rgba(0, 0, 0, 0.4);
   background-size: cover;
 }
-#article_2023-09-09 {
-  background: center center
-    url({{"/assets/img/20230907-193622.jpg"|relative_url}}) rgba(0, 0, 0, 0.4);
-  background-size: cover;
-}
 #article_2021-04-07 {
   background: center center
     url({{"/assets/img/20210401-175237.jpg"|relative_url}}) rgba(0, 0, 0, 0.4);
   background-size: cover;
 }
+#article_2023-09-09 {
+  background: bottom center
+    url({{"/assets/img/20230908-091646.jpg"|relative_url}}) rgba(0, 0, 0, 0.4);
+  background-size: cover;
+}
 #article_2023-09-12 {
-  background: center center
-    url({{"/assets/img/20230910-155134.jpg"|relative_url}}) rgba(0, 0, 0, 0.4);
+  background: bottom center
+    url({{"/assets/img/20230910-072751.jpg"|relative_url}}) rgba(0, 0, 0, 0.4);
   background-size: cover;
 }
 #article_2023-09-15 {
   background: center center
-    url({{"/assets/img/20230912-092040.jpg"|relative_url}}) rgba(0, 0, 0, 0.4);
+    url({{"/assets/img/20230914-121223.jpg"|relative_url}}) rgba(0, 0, 0, 0.4);
   background-size: cover;
 }
 #article_2023-09-17 {
   background: center center
-    url({{"/assets/img/20230916-100755.jpg"|relative_url}}) rgba(0, 0, 0, 0.4);
+    url({{"/assets/img/20230916-100819.jpg"|relative_url}}) rgba(0, 0, 0, 0.4);
   background-size: cover;
 }
 #article_2023-09-19 {
-  background: center center
+  background: bottom center
     url({{"/assets/img/20230917-113037.jpg"|relative_url}}) rgba(0, 0, 0, 0.4);
   background-size: cover;
 }
 #article_2023-09-21 {
-  background: center center
-    url({{"/assets/img/20230919-164204.jpg"|relative_url}}) rgba(0, 0, 0, 0.4);
+  background: bottom center
+    url({{"/assets/img/20230918-200532.jpg"|relative_url}}) rgba(0, 0, 0, 0.4);
+  background-size: cover;
+}
+#article_2024-06-02 {
+  background: bottom center
+    url({{"/assets/img/20240601-180436.jpg"|relative_url}}) rgba(0, 0, 0, 0.4);
   background-size: cover;
 }
 

@@ -3,6 +3,7 @@ layout: post
 title: "Down to Montpellier"
 date: 2023-09-19 12:00:00 +0200
 permalink: "down-to-montpellier.html"
+tag: "en"
 
 featured: true
 tags:

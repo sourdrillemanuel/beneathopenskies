@@ -9,10 +9,11 @@
                 <li><a href="{{ '/' | relative_url }}" class="btn-secondary">All collections</a></li>
             </ul>
         </nav>
-        <div class="flex flex-col h-100 s-p-16 m-p-24 l-p-32 justify-center">
+        <div class="flex flex-col h-100 s-p-16 m-p-24 l-p-32 justify-center items-center">
             <p class="text-center text-xs font-bold">{{ page.article_no }}</p>
             <h1 class="s-mt-16 m-mt-24 l-mt-32 text-center text-2xl italic uppercase primary-12">{{ page.title }}</h1>
             <p class="s-mt-16 m-mt-24 l-mt-32 text-center text-sm gray-12"><span class="italic">by </span><span class="font-bold">{{ page.author }}</span><br>{{ page.displayed_date }}</p>
+            <p class="s-mt-8 w-fit badge bg-gray-12 text-xs font-bold gray-96">{{ page.tag }}</p>
         </div>
     </div>
 </header>

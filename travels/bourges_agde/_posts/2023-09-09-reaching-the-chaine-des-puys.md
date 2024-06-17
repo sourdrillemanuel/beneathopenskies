@@ -3,6 +3,7 @@ layout: post
 title: "Reaching the Chaîne des Puys"
 date: 2023-09-09 12:00:00 +0200
 permalink: "reaching-the-chaine-des-puys.html"
+tag: "en"
 
 featured: false
 tags:

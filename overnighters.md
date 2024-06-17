@@ -3,22 +3,22 @@ layout: page
 
 featured: true
 
-title: "Along the Volcanoes — Bikepacking from Bourges to Agde"
-permalink: "bikepacking-bourges-agde.html"
-active_collection: "Bikepacking from Bourges to Agde"
-collection_id: "bourges_agde"
-articles_sum: "6"
+title: "Overnighters — Micro-adventures from a single night to a few days"
+permalink: "overnighters.html"
+active_collection: "Overnighters"
+collection_id: "overnighters"
+articles_sum: "1"
 
-statistics_duration: "15 days"
-statistics_distance: "924 km"
-statistics_ascent: "12,920 m"
-statistics_surface: "29% unpaved"
-statistics_highest_elevation: "1,560 m"
-statistics_lowest_elevation: "0 m"
+statistics_duration: "2 days"
+statistics_distance: "237 km"
+statistics_ascent: "2,020 m"
+statistics_surface: "50% unpaved"
+statistics_highest_elevation: "410 m"
+statistics_lowest_elevation: "50 m"
 
-img_map: /beneathopenskies/assets/img/collection_bourges-agde_map.png
+img_map: /beneathopenskies/assets/img/article_cyclingnormandiemaine_map.png
 
-link_komoot: "https://www.komoot.com/fr-fr/collection/2333829/-bikepacking-from-bourges-to-agde"
+link_komoot: "https://www.komoot.com/collection/2780286/-overnighters"
 link_umap: "https://umap.openstreetmap.fr/en/map/mighty-travels_640943"
 ---
 

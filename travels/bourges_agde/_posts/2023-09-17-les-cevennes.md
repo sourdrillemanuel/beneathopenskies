@@ -3,6 +3,7 @@ layout: post
 title: "Les Cévennes"
 date: 2023-09-17 12:00:00 +0200
 permalink: "les-cévennes.html"
+tag: "en"
 
 featured: true
 tags:

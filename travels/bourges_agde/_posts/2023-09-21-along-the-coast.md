@@ -3,6 +3,7 @@ layout: post
 title: "Along the Coast"
 date: 2023-09-21 12:00:00 +0200
 permalink: "along-the-coast.html"
+tag: "en"
 
 featured: true
 tags:
