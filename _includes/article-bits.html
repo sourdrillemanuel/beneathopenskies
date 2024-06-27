@@ -5,8 +5,8 @@
 		<div class="flex flex-col justify-center">
 			<h3 class="text-center text-xl font-normal gray-12">Itinerary</h3>
 			<ul class="flex s-gap-16 s-mt-8 m-mt-12 l-mt-16">
-				<li><a href="{{ page.link_komoot }}" class="btn-primary">Komoot<span><img class="l-pl-8" src="{{ '/assets/img/icon-external-link.svg' | relative_url }}"></span></a></li>
-				<li><a href="{{ page.link_umap }}" class="btn-primary">uMap<span><img class="l-pl-8" src="{{ '/assets/img/icon-external-link.svg' | relative_url }}"></span></a></li>
+				<li><a target="_blank" href="{{ page.link_komoot }}" class="btn-primary">Komoot<span><img class="l-pl-8" src="{{ '/assets/img/icon-external-link.svg' | relative_url }}"></span></a></li>
+				<li><a target="_blank" href="{{ page.link_umap }}" class="btn-primary">uMap<span><img class="l-pl-8" src="{{ '/assets/img/icon-external-link.svg' | relative_url }}"></span></a></li>
 			</ul>
 		</div>
 	</div>
@@ -69,14 +69,14 @@
 		<ul class="grid-cols-2 s-gap-16 m-gap-24 l-gap-32 s-mt-16 l-mt-24">
 			<li class="s-col-span-2">
 				<ul>
-					<li class="text-sm"><span class="badge font-bold bg-primary-88 gray-12">1</span></li>
+					<li class="text-xs"><span class="badge font-bold bg-primary-88 gray-12">1</span></li>
 					<li class="s-mt-8 text-sm font-bold gray-12">{{ page.highlights_1_title }}</li>
 					<li class="s-mt-8 text-sm gray-12">{{ page.highlights_1_description }}</li>
 				</ul>
 			</li>
 			<li class="s-col-span-2 s-mt-16 m-mt-24 l-mt-32">
 				<ul>
-					<li class="text-sm"><span class="badge font-bold bg-primary-88 gray-12">2</span></li>
+					<li class="text-xs"><span class="badge font-bold bg-primary-88 gray-12">2</span></li>
 					<li class="s-mt-8 text-sm font-bold gray-12">{{ page.highlights_2_title }}</li>
 					<li class="s-mt-8 text-sm gray-12">{{ page.highlights_2_description }}</li>
 				</ul>
