@@ -1318,6 +1318,11 @@ UNIQUE STYLING
     url({{"/assets/img/20230909-184927.jpg"|relative_url}}) rgba(0, 0, 0, 0.4);
   background-size: cover;
 }
+#collection_swedish-lapland {
+  background: center center
+    url({{"/assets/img/20230725-202335.jpg"|relative_url}}) rgba(0, 0, 0, 0.4);
+  background-size: cover;
+}
 #collection_silk-road {
   background: center center
     url({{"/assets/img/20160629-040648.jpg"|relative_url}}) rgba(0, 0, 0, 0.4);
@@ -1376,6 +1381,21 @@ UNIQUE STYLING
 #article_2024-06-23 {
   background: bottom center
     url({{"/assets/img/20240622-190828.jpg"|relative_url}}) rgba(0, 0, 0, 0.4);
+  background-size: cover;
+}
+#article_2019-09-11 {
+  background: center center
+    url({{"/assets/img/20190908-134742.jpg"|relative_url}}) rgba(0, 0, 0, 0.4);
+  background-size: cover;
+}
+#article_2019-09-14 {
+  background: center center
+    url({{"/assets/img/20190913-105446.jpg"|relative_url}}) rgba(0, 0, 0, 0.4);
+  background-size: cover;
+}
+#article_2019-09-20 {
+  background: bottom center
+    url({{"/assets/img/20190918-125737.jpg"|relative_url}}) rgba(0, 0, 0, 0.4);
   background-size: cover;
 }
 

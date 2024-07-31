@@ -35,7 +35,7 @@ img_map: /beneathopenskies/assets/img/article_cyclingnormandiemaine_map.png
 link_komoot: "https://www.komoot.com/tour/1669285851"
 ---
 
-La boucle en partant de Nort-sur-Erdre est un tracé que j'avais déjà effectué il y a un an avec Laure, mais c'est tellement sympa que j'ai proposé à mes collocs d'y aller à nouveau. Les sentiers longeant la rigole d'alimentation, et notamment ceux longeant le lac de Vioreau et celui de la Provostière peuvent être techniques, recouverts de plantes et boeux en fonction de la saison, mais ça reste praticable. Le retour se fait par les petites routes entre les champs.
+La boucle en partant de Nort-sur-Erdre est un tracé que j'avais déjà effectué il y a un an avec Laure, mais c'est tellement sympa que j'ai proposé à mes collocs d'y aller à nouveau. Les sentiers longeant la rigole d'alimentation, et notamment ceux longeant le lac de Vioreau et celui de la Provostière peuvent être techniques, recouverts de plantes et boueux en fonction de la saison, mais ça reste praticable. Le retour se fait par les petites routes entre les champs.
 
 Samedi en fin d'après-midi, Célia, Julia, Justine et moi nous préparons pour notre boucle en direction du lac de Vioreau. Nous devons prendre le train à la gare Nantes pour rejoindre Nort-sur-Erdre. C'est un peu la panique à la maison, on s'y prend au dernier moment mais nous parvenons quand même à la gare à temps. Enfin, nous quittons le brouhaha constant de la ville et nous enfonçons dans la campagne. On se détend. Trente minutes plus tard, nous arrivons au terminus.
 
@@ -47,7 +47,7 @@ Julia commence à en avoir marre mais l'arrivée au lac de Vioreau, baignant dan
 
 Nous décidons de prendre des petites routes de campagne pour rejoindre le plan d'eau de la Provostière plutôt de continuer le long de la rigole d'alimentation. C'est une bonne décision, puisque sur les hauteurs, la lumière est très belle et l'horizon dégagé.
 
-Après deux kilomètres sur un sentier boueux et perdu dans les roseaux et les ronces, nous parvenons enfin à l'endroit ou je souhaitais camper peu après le lever du soleil. C'est beau. On se pose autour d'un bon repas, qu'on finit à la frontale. Malheureusement, il y a de la musique au loin et le vent vient de cette direction. C'est mon deuxième campement de suite où c'est le cas.
+Après deux kilomètres sur un sentier boueux et perdu dans les roseaux et les ronces, nous parvenons enfin à l'endroit ou je souhaitais camper peu après le coucher du soleil. C'est beau. On se pose autour d'un bon repas, qu'on finit à la frontale. Malheureusement, il y a de la musique au loin et le vent vient de cette direction. C'est mon deuxième campement de suite où c'est le cas.
 
 J'ai mal dormi. Il y avait beaucoup de bruit, entre la musique et les grenouilles. J'avais trop chaud aussi. Puis trop froid une fois sorti de mon sac de couchage.
 

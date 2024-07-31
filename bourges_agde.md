@@ -3,7 +3,7 @@ layout: page
 
 featured: true
 
-title: "Along the Volcanoes — Bikepacking from Bourges to Agde"
+title: "Heat, Sun, and Ascents — Bikepacking from Bourges to Agde"
 permalink: "bikepacking-bourges-agde.html"
 active_collection: "Bikepacking from Bourges to Agde"
 collection_id: "bourges_agde"
