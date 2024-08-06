@@ -41,6 +41,8 @@ The beginning of the ride was a bit uncomfortable as I couldn't find a good posi
 
 Once I reached the lake, the waves and wind made it trickier, and I wasn't comfortable at first, even less confident to take pictures despite the stunning view. I reached the end of the lake and packed up my gear while discussing with a lovely mother who left Stockholm for Kiruna, seeking to be closer to dramatic nature. She even offered to leave my bike at her place if I wanted to go to Narvik by train.
 
+In the clouds, the Kebnekaise stands at 2,096 metres, making it the highest peak in Sweden.
+
 I reached Nikkaluokta around 13:30, where I paid for the campsite and access to showers and toilets. I met four Czech hikers who had come all the way from Abisko, along the King's Trail. They were as interested in my setup as I was in their route and experiences. I ate two desserts (without a main course) while deciding that I would make my way to Kiruna the next day and Narvik a couple of days after, despite the bad weather forecast.
 
 I set up the tent in the birch forest, took a hot shower, and came back to relax for the first time in seven days. I intend to eat and go to sleep early so that I can leave early in the morning and get to Kiruna before the end of the day. Snow is forecasted for tomorrow morning, so let's see how it plays out.
